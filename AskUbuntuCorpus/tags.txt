@@ -1,0 +1,113 @@
+O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O 
+O O O O O O O 
+O O O O O O O 
+O O O O O O 
+O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O 
+O O O O O O O B-SoftwareName O O O 
+O O O O O O 
+O O O O O O O O O O O O 
+O O O B-SoftwareName O O O O 
+O O O O O O O 
+O O O O O O 
+O O O O O O O 
+O O O O O O O O O O B-SoftwareName O 
+O O O O O O O O O 
+O O O O O O O 
+O O O O O O O O O O O O 
+O O O O O O O O O O O O O O 
+O O O O O O O 
+O O O O O 
+O O O O O O O O O 
+O O O O O 
+O O O O O 
+O O O O O O 
+O O O O O O O O O O O O 
+O O O O 
+O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O 
+O O O O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O O O 
+O O O O O O O O O 
+O O O O 
+O O B-UbuntuVersion O B-UbuntuVersion 
+O O O O O O O O O B-UbuntuVersion O O O O O O 
+O O O B-UbuntuVersion O O O O O O O 
+O O O O O B-UbuntuVersion O B-UbuntuVersion O O 
+O O O B-UbuntuVersion O B-UbuntuVersion 
+O O O 
+O O B-UbuntuVersion O B-UbuntuVersion O O O O 
+O O O B-UbuntuVersion O O B-UbuntuVersion 
+O O O O O O B-UbuntuVersion I-UbuntuVersion O 
+O O B-UbuntuVersion O B-UbuntuVersion 
+O O O O O B-UbuntuVersion O O B-UbuntuVersion O 
+O O B-UbuntuVersion I-UbuntuVersion 
+O O O O O O B-UbuntuVersion O B-UbuntuVersion O 
+O O O O B-UbuntuVersion I-UbuntuVersion O O O O O 
+O O O O O B-UbuntuVersion O B-UbuntuVersion O O O O 
+O O O B-UbuntuVersion O B-UbuntuVersion 
+O O O B-UbuntuVersion O B-UbuntuVersion 
+O O B-UbuntuVersion O B-UbuntuVersion O O O O 
+O O O O B-UbuntuVersion O O O O 
+O O O O O B-UbuntuVersion O O O B-UbuntuVersion O 
+O O O O O O O O O B-UbuntuVersion O B-UbuntuVersion O 
+O O O B-UbuntuVersion O O B-UbuntuVersion 
+O B-UbuntuVersion O B-UbuntuVersion.1 
+O O O B-UbuntuVersion O B-UbuntuVersion 
+O O O O O B-UbuntuVersion O O O O 
+O O O O B-UbuntuVersion O B-UbuntuVersion 
+O O B-UbuntuVersion O B-UbuntuVersion O O O O O O 
+O O O O O O B-UbuntuVersion O O O O B-UbuntuVersion.1 O 
+O O O B-UbuntuVersion O B-UbuntuVersion 
+O B-UbuntuVersion O B-UbuntuVersion 
+O O O O B-UbuntuVersion I-UbuntuVersion O B-UbuntuVersion O B-UbuntuVersion O O 
+O O O O B-UbuntuVersion I-UbuntuVersion O B-UbuntuVersion I-UbuntuVersion 
+O O B-UbuntuVersion O B-UbuntuVersion 
+O O O O O O B-UbuntuVersion O O B-UbuntuVersion O O O 
+O O O O O O B-UbuntuVersion I-UbuntuVersion O B-UbuntuVersion I-UbuntuVersion 
+O O B-UbuntuVersion O B-UbuntuVersion 
+O O O O B-UbuntuVersion O B-UbuntuVersion O O O O O O O O O 
+O O O O O O O O O O 
+O B-UbuntuVersion O O O O O O O B-UbuntuVersion O 
+O O O O O B-UbuntuVersion 
+O O B-UbuntuVersion I-UbuntuVersion O B-UbuntuVersion I-UbuntuVersion 
+O O O O O O O O O O 
+O B-SoftwareName O O O O O O O O O O O 
+O O O O O O O O O O O O O O O O O 
+O O O O O 
+O O O O O O O O O O 
+O O O O B-Printer I-Printer O O O 
+O O B-Printer I-Printer I-Printer I-Printer I-Printer 
+O O O O O O O O B-UbuntuVersion O 
+O O O O B-Printer I-Printer 
+O O O O B-Printer I-Printer O 
+O B-Printer I-Printer O O 
+O B-Printer I-Printer O O B-UbuntuVersion 
+O O O O O B-Printer I-Printer O O 
+O O O B-Printer I-Printer O O O O O 
+O O O O B-Printer I-Printer O O O B-UbuntuVersion 
+O O O O B-Printer I-Printer O O O B-UbuntuVersion O 
+O O O B-Printer I-Printer O B-UbuntuVersion I-UbuntuVersion 
+O O B-Printer I-Printer O B-UbuntuVersion) 
+O O O O O O 
+O O O O O O O O 
+O O O O O B-UbuntuVersion I-UbuntuVersion O B-UbuntuVersion 
+O O B-UbuntuVersion I-UbuntuVersion I-UbuntuVersion 

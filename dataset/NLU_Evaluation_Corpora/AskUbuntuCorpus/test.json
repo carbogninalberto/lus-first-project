@@ -1,0 +1,805 @@
+{
+  "sentences": [
+    {
+      "author": "Steve Lloyd",
+      "url": "http://askubuntu.com/questions/683103/how-to-upgrade-ubuntu-14-04-1-to-14-04-2",
+      "text": "How to upgrade Ubuntu 14.04.1 to 14.04.2?",
+      "entities": [
+        {
+          "text": "14.04.1",
+          "entity": "UbuntuVersion",
+          "stop": 29,
+          "start": 22
+        },
+        {
+          "text": "14.04.2",
+          "entity": "UbuntuVersion",
+          "stop": 40,
+          "start": 33
+        }
+      ],
+      "intent": "Make Update",
+      "answer": {
+        "text": "<p>14.04.2 and 14.04.3 are not \"releases\" in terms of \"do-release-upgrade\".</p>\n\n<p>\"Point\" releases accumulate security updates and bug fixes that are added to Ubuntu repositories.</p>\n\n<p>If you install ordinary updates on Ubuntu 14.04, 14.04.1 or 14.04.2, you will get 14.04.3.</p>\n\n<p>So your goal makes no sense.</p>\n\n<p>The only difference of the ISO of the point releases is <a href=\"https://wiki.ubuntu.com/Kernel/LTSEnablementStack\" rel=\"nofollow\">HWE Stack</a>. Kernels are updated to another major version and xserver.</p>\n\n<p>If this is your question you can install 3.16 kernel and graphical stack of 14.04.2 by running</p>\n\n<pre><code>sudo apt-get install linux-generic-lts-utopic xserver-xorg-lts-utopic libqt5gui5 libgles1-mesa-lts-utopic libgles2-mesa-lts-utopic libgl1-mesa-glx-lts-utopic libgl1-mesa-glx-lts-utopic:i386 libglapi-mesa-lts-utopic:i386 libegl1-mesa-drivers-lts-utopic\n</code></pre>\n\n<p>The command given in the official wiki <a href=\"https://xpressubuntu.wordpress.com/2015/02/12/how-to-upgrade-to-the-3-16-lts-utopic-kernel-and-graphics-for-ubuntu-14-04/\" rel=\"nofollow\">can brake your system</a> in some cases.</p>\n",
+        "author": "Pilot6"
+      },
+      "training": true
+    },
+    {
+      "author": "Professor Haseeb",
+      "url": "http://askubuntu.com/questions/690725/upgrading-from-ubuntu-14-04-to-15-04",
+      "text": "Upgrading from Ubuntu 14.04 to 15.04",
+      "entities": [
+        {
+          "text": "14.04",
+          "entity": "UbuntuVersion",
+          "stop": 27,
+          "start": 22
+        },
+        {
+          "text": "15.04",
+          "entity": "UbuntuVersion",
+          "stop": 36,
+          "start": 31
+        }
+      ],
+      "intent": "Make Update",
+      "answer": {
+        "text": "<ol>\n<li>Please don't upgrade to 15.04 - it will be out of support soon!<br>\n<a href=\"https://releases.ubuntu.com/15.10/\" rel=\"nofollow\">Use this link to 15.10 instead</a>.</li>\n<li>For more information read the release notes for 15.10 <a href=\"https://wiki.ubuntu.com/WilyWerewolf/ReleaseNotes\" rel=\"nofollow\">here</a>.<br>\nThere you'll get all original information!</li>\n</ol>\n",
+        "author": "Fabby"
+      },
+      "training": true
+    },
+    {
+      "author": "dinesh agarwal",
+      "url": "http://askubuntu.com/questions/653357/how-to-upgrade-from-ubuntu-15-04-to-15-10",
+      "text": "how to upgrade from ubuntu 15.04 to 15.10?",
+      "entities": [
+        {
+          "text": "15.04",
+          "entity": "UbuntuVersion",
+          "stop": 32,
+          "start": 27
+        },
+        {
+          "text": "15.10",
+          "entity": "UbuntuVersion",
+          "stop": 41,
+          "start": 36
+        }
+      ],
+      "intent": "Make Update",
+      "answer": {
+        "text": "<p>Please be aware that 15.10 is still in development. Development releases are unstable, and not suited for people who do not want to fix/report/triage bugs. If you want a stable Ubuntu version, stick to the official released versions. For added stability, choose a Ubuntu LTS release.</p>\n\n<p>That said, to upgrade to a development release open your terminal by pressing <kbd>Alt</kbd> + <kbd>F2</kbd> and type <code>update-manager -d</code>.</p>\n\n<p><a href=\"https://i.stack.imgur.com/nNZMU.png\" rel=\"noreferrer\"><img src=\"https://i.stack.imgur.com/nNZMU.png\" alt=\"enter image description here\"></a></p>\n\n<p>You can choose to upgrade from this window.</p>\n\n<p>Or, If you prefer to do this from the command-line, </p>\n\n<pre><code>sudo do-release-upgrade -d\n</code></pre>\n",
+        "author": "Ron"
+      },
+      "training": true
+    },
+    {
+      "author": "Mohamed",
+      "url": "http://askubuntu.com/questions/203201/upgrade-12-04-to-12-10-using-startup-disk",
+      "text": "Upgrade 12.04 to 12.10 using startup disk",
+      "entities": [
+        {
+          "text": "12.04",
+          "entity": "UbuntuVersion",
+          "stop": 13,
+          "start": 8
+        },
+        {
+          "text": "12.10",
+          "entity": "UbuntuVersion",
+          "stop": 22,
+          "start": 17
+        }
+      ],
+      "intent": "Make Update",
+      "answer": {
+        "text": "<p>I solved this by choosing \"Test Ubuntu\" instead of \"Install Ubuntu\", connecting it to the internet then opening \"Install Ubuntu 12.10\". The upgrade option is now working.</p>\n",
+        "author": "Mohamed"
+      },
+      "training": true
+    },
+    {
+      "author": "Selby Collins",
+      "url": "http://askubuntu.com/questions/153669/how-to-upgrade-from-11-10-to-12-04-when-youve-got-a-problem",
+      "text": "How to Upgrade from 11.10 to 12.04 when you've got a problem?",
+      "entities": [
+        {
+          "text": "11.10",
+          "entity": "UbuntuVersion",
+          "stop": 25,
+          "start": 20
+        },
+        {
+          "text": "12.04",
+          "entity": "UbuntuVersion",
+          "stop": 34,
+          "start": 29
+        }
+      ],
+      "intent": "Make Update",
+      "answer": {
+        "text": "<p>It sounds like you aren't using a PAE kernel and your 11.10 is 32-bit.  Is this right?  In order to address all 8GB of RAM you should consider starting over with a 64-bit operating system.</p>\n\n<p>As for the upgrade, you should disable all 3rd party sources, then try to update your system.  Then upgrade.</p>\n",
+        "author": "Dean Howell"
+      },
+      "training": true
+    },
+    {
+      "author": "gbl08ma",
+      "url": "http://askubuntu.com/questions/125600/update-11-04-to-12-04-with-livecd",
+      "text": "Update 11.04 to 12.04 with LiveCD",
+      "entities": [
+        {
+          "text": "11.04",
+          "entity": "UbuntuVersion",
+          "stop": 12,
+          "start": 7
+        },
+        {
+          "text": "12.04",
+          "entity": "UbuntuVersion",
+          "stop": 21,
+          "start": 16
+        }
+      ],
+      "intent": "Make Update",
+      "answer": {
+        "text": "<p>The transition between 11.04 to 11.10 was quite dramatic since it involved moving from GTK+2/gnome libraries to GTK+3/gnome libraries.  This is the support route that was well tested.</p>\n\n<p>Similarly well tested is the similar 10.04LTS to 12.04 LTS upgrade.</p>\n\n<p>Moving from 11.04 to 12.04 in one step is not supported and I urge you not to go down this route since you are more likely to break your desktop &amp; installation.</p>\n\n<p>Since you have downloaded 12.04 - I would go for a fresh install.</p>\n\n<p>If you have any files &amp; folders from your 11.04 install, back these up - you can reinstall these later.</p>\n",
+        "author": "fossfreedom"
+      },
+      "training": true
+    },
+    {
+      "author": "Marc-Antoine Th&#233;berge",
+      "url": "http://askubuntu.com/questions/245238/how-to-upgrade-ubuntu-9-10-to-12-10-via-terminal",
+      "text": "How to upgrade Ubuntu 9.10 to 12.10 via terminal?",
+      "entities": [
+        {
+          "text": "9.10",
+          "entity": "UbuntuVersion",
+          "stop": 26,
+          "start": 22
+        },
+        {
+          "text": "12.10",
+          "entity": "UbuntuVersion",
+          "stop": 35,
+          "start": 30
+        }
+      ],
+      "intent": "Make Update",
+      "answer": {
+        "text": "<p>An upgrade from Ubuntu 9.10 to 12.10 is too much of an effort. Most of the packages will have been updated/upgraded. Chances of breakage are too much. Please save all the important files/documents and install a fresh copy of Ubuntu 12.10. It would be better to install 12.04 because it has a long term support.</p>\n\n<p>As to the problem of not being able to boot from USB, press ESC or F12 or some such button to get into BIOS. It is shown while booting how to get into BIOS.</p>\n\n<p>Regards</p>\n\n<p>\"Here's how you boot from the stick: after pressing the power button, the F2 key should be pushed a couple of times to get into the eeePC's BIOS menus. The \"quick boot\" under the Boot tab should be disabled. Use F10 to save the setting and then as the Netbook reboots hold down the ESC key.\"</p>\n",
+        "author": "shrinivas"
+      },
+      "training": true
+    },
+    {
+      "author": "jsterr",
+      "url": "http://askubuntu.com/questions/22747/how-to-upgrade-from-ubuntu-10-10-to-11-04",
+      "text": "How to upgrade from Ubuntu 10.10 to 11.04?",
+      "entities": [
+        {
+          "text": "10.10",
+          "entity": "UbuntuVersion",
+          "stop": 32,
+          "start": 27
+        },
+        {
+          "text": "11.04",
+          "entity": "UbuntuVersion",
+          "stop": 41,
+          "start": 36
+        }
+      ],
+      "intent": "Make Update",
+      "answer": {
+        "text": "<p>Press <code>Alt+F2</code> and type <code>update-manager</code>, this should show the option to upgrade to 11.04.</p>\n\n<p>Through the terminal this can be done using the same command but I am guessing you need use <strong>sudo</strong> to do this.</p>\n",
+        "author": "nik90"
+      },
+      "training": true
+    },
+    {
+      "author": "ubuntico",
+      "url": "http://askubuntu.com/questions/674081/no-matter-what-i-do-ubuntu-15-04-does-not-recognize-hp-laserjet-1020",
+      "text": "No matter what I do Ubuntu 15.04 does not recognize HP LaserJet 1020",
+      "entities": [
+        {
+          "text": "15.04",
+          "entity": "UbuntuVersion",
+          "stop": 32,
+          "start": 27
+        },
+        {
+          "text": "HP LaserJet 1020",
+          "entity": "Printer",
+          "stop": 68,
+          "start": 52
+        }
+      ],
+      "intent": "Setup Printer",
+      "answer": {
+        "text": "<p>It seems that this URL (<a href=\"https://mark911.wordpress.com/2014/10/31/how-to-install-printer-drivers-for-hp-laserjet-1020-in-ubuntu-14-04-lts-without-needing-access-to-openprinting-org-website/\" rel=\"nofollow\">https://mark911.wordpress.com/2014/10/31/how-to-install-printer-drivers-for-hp-laserjet-1020-in-ubuntu-14-04-lts-without-needing-access-to-openprinting-org-website/</a>) solves the issue. The printer return to life and I was able to print test page. </p>\n\n<p>Namely, HPLIP is buggy and we should not use it. Instead we should use CUPS via foo2zjs. </p>\n\n<p>I will give this a good test over the next few days and weeks and will update the answer if this solution is not long term. </p>\n",
+        "author": "ubuntico"
+      },
+      "training": true
+    },
+    {
+      "author": "v010dya",
+      "url": "http://askubuntu.com/questions/805139/how-to-setup-hp-printer-scanner-on-ubuntu-16-04",
+      "text": "How to setup HP printer/scanner on ubuntu?",
+      "entities": [],
+      "intent": "Setup Printer",
+      "answer": {
+        "text": "<p>Ok, i have found an answer for my question. So i'm posting it here, in hopes that it will be useful for another person:</p>\n\n<p>For whatever bizaar reason the graphical interface of <code>hp-setup</code> is busted. So one needs to start:</p>\n\n<p>sudo hp-setup -i</p>\n\n<p>The <code>-i</code> key is essential, because without it the setup doesn't proceed either. At this time i still haven't gotten the test page out, but the scanner is working properly, which is what i was needing originally.</p>\n",
+        "author": "v010dya"
+      },
+      "training": true
+    },
+    {
+      "author": "BJsgoodlife",
+      "url": "http://askubuntu.com/questions/354621/how-do-i-setup-my-hp-c4140-printer-wirelessly",
+      "text": "How do I setup my HP C4140 printer wirelessly?",
+      "entities": [
+        {
+          "text": "HP C4140",
+          "entity": "Printer",
+          "stop": 26,
+          "start": 18
+        }
+      ],
+      "intent": "Setup Printer",
+      "answer": {
+        "text": "<p>To upgrade hplib run <code>sudo hp-upgrade</code>.</p>\n\n<p>You can also use <code>sudo hp-setup</code> to install the drivers for a HP printer and to set it up -  this approach is easier when you need to install drivers for a HP printer again in the future.</p>\n",
+        "author": "chesedo"
+      },
+      "training": true
+    },
+    {
+      "author": "Trevor Zucker",
+      "url": "http://askubuntu.com/questions/328125/how-to-setup-wireless-printing-from-a-printer-connected-via-usb-on-ubuntu-server",
+      "text": "How to setup wireless printing from a printer connected via usb on Ubuntu Server 12.10?",
+      "entities": [
+        {
+          "text": "12.10",
+          "entity": "UbuntuVersion",
+          "stop": 86,
+          "start": 81
+        }
+      ],
+      "intent": "Setup Printer",
+      "answer": {
+        "text": "<p>Yes, there are (at least) two possible ways. </p>\n\n<p>The easiest is to simply share your printer via CUPS. To do this, open the printer dialogue (system menu -> printers) and right click on the printer. Make sure that the checkbox \"Share this printer\" is checked. Now you are done on your Linux box. </p>\n\n<p>On how to set up printing to IPP using Windows 7, read this guide:\n<a href=\"https://superuser.com/questions/300986/ipp-printing-from-windows-7-ultimate\">https://superuser.com/questions/300986/ipp-printing-from-windows-7-ultimate</a></p>\n\n<p>Use the generic postscript driver for the printer in Windows, conversion from postscript to the printers native format is done by the printer driver installed on ubuntu.</p>\n\n<p>The second, much more complicated way is to set up <a href=\"https://help.ubuntu.com/community/NetworkPrintingWithUbuntu\" rel=\"nofollow noreferrer\">SAMBA</a> sharing.</p>\n",
+        "author": "soulsource"
+      },
+      "training": true
+    },
+    {
+      "author": "Elder Geek",
+      "url": "http://askubuntu.com/questions/573839/how-can-i-install-a-pantum-2502w-laser-printer-on-ubuntu",
+      "text": "How can I install a Pantum 2502W laser printer on Ubuntu",
+      "entities": [
+        {
+          "text": "Pantum 2502W",
+          "entity": "Printer",
+          "stop": 32,
+          "start": 20
+        }
+      ],
+      "intent": "Setup Printer",
+      "answer": {
+        "text": "<p>I found the driver \"Pantum P2200-P2500 Series Linux Driver  ZIP     2014-5-20   1.10\" on the manufacturers page <a href=\"http://global.pantum.com/global/index.php?option=com_virtuemart&amp;view=supportdetails&amp;pid=33&amp;Itemid=108\" rel=\"nofollow noreferrer\">here</a></p>\n\n<p>Downloaded and extracted the contents to my desktop with Archive manager (aka file-roller)</p>\n\n<p>While the archive includes an installation script it fails even after adjusting permissions to make it executable so we navigate to the Resources folder, select the appropriate deb file (in my case i386) </p>\n\n<p><img src=\"https://i.stack.imgur.com/kJec4.png\" alt=\"driver\"></p>\n\n<p>and install it with Software Center acknowledging the warning and continuing to install.</p>\n\n<p><img src=\"https://i.stack.imgur.com/DSGWh.png\" alt=\"SoftCent\"> </p>\n\n<p>Now open the printers application and choose Add. You should see an option like this: <img src=\"https://i.stack.imgur.com/Hd1sM.png\" alt=\"addingpantum\"></p>\n\n<p>Choose Forward, edit details if necessary, then click print test page</p>\n\n<p><img src=\"https://i.stack.imgur.com/eVKhN.png\" alt=\"finishing\"></p>\n\n<p>Congratulations! You've just installed the P2502W laser printer under Ubuntu 14.04</p>\n",
+        "author": "Elder Geek"
+      },
+      "training": true
+    },
+    {
+      "author": "BryanR",
+      "url": "http://askubuntu.com/questions/675209/install-canon-mp560-ubuntu-15-04",
+      "text": "Install Canon MP560 Ubuntu 15.04",
+      "entities": [
+        {
+          "text": "Canon MP560",
+          "entity": "Printer",
+          "stop": 19,
+          "start": 8
+        },
+        {
+          "text": "15.04",
+          "entity": "UbuntuVersion",
+          "stop": 32,
+          "start": 27
+        }
+      ],
+      "intent": "Setup Printer",
+      "answer": {
+        "text": "<p>Ubuntu 15.04 seems to be not supported by this PPA \u2013 the latest change  was from 2014-06-23.  </p>\n\n<p>But you can download the matching packages from launchpad and try to install them manually.  </p>\n\n<p>As there seems to be no native 64 bit drivers support, you need to add the 32 bit architecture :  </p>\n\n<pre><code>sudo dpkg --add-architecture i386  \nsudo apt-get update\n</code></pre>\n\n<p>Download and install the driver for <strong>Canon PIXMA MP560 printer - printing functionality</strong> :  </p>\n\n<pre><code>wget https://launchpad.net/~michael-gruz/+archive/ubuntu/canon-trunk/+files/cnijfilter-common-32_3.90-76~ubuntu14.04.1_amd64.deb\nsudo dpkg -i cnijfilter-common-32_3.90-76~ubuntu14.04.1_amd64.deb  \n\nwget https://launchpad.net/~michael-gruz/+archive/ubuntu/canon-trunk/+files/cnijfilter-mp560series-32_3.90-76~ubuntu14.04.1_amd64.deb\nsudo dpkg -i cnijfilter-mp560series-32_3.90-76~ubuntu14.04.1_amd64.deb\n</code></pre>\n\n<p>Download and install the driver for <strong>Canon PIXMA MP560 printer - scanning functionality</strong> :</p>\n\n<pre><code>wget https://launchpad.net/~michael-gruz/+archive/ubuntu/canon-trunk/+files/scangearmp-common-32_2.10-33~precise1_amd64.deb  \nsudo dpkg -i scangearmp-common-32_2.10-33~precise1_amd64.deb\n\nwget  https://launchpad.net/~michael-gruz/+archive/ubuntu/canon-trunk/+files/scangearmp-mp560series-32_2.10-33~precise1_amd64.deb\nsudo dpkg -i scangearmp-mp560series-32_2.10-33~precise1_amd64.deb  \n</code></pre>\n\n<p>Alternatively download the original drivers from Canon Asia website and install them manually :  </p>\n\n<p><strong>Canon MP560 series IJ Printer Driver Version 3.20 for Linux (debian package archive)</strong></p>\n\n<p>Download location : <a href=\"http://support-asia.canon-asia.com/contents/ASIA/EN/0100236502.html\" rel=\"nofollow\">http://support-asia.canon-asia.com/contents/ASIA/EN/0100236502.html</a>  </p>\n\n<p>Extract the archive and install the packages by executing :  </p>\n\n<pre><code>sudo dpkg -i cnijfilter-common_3.20-1_i386.deb  \nsudo dpkg -i cnijfilter-mp560series_3.20-1_i386.deb  \n</code></pre>\n\n<p><strong>Canon MP560 series ScanGear MP Version 1.40 for Linux (debian package archive)</strong>  </p>\n\n<p>Download location : <a href=\"http://support-asia.canon-asia.com/contents/ASIA/EN/0100237802.html\" rel=\"nofollow\">http://support-asia.canon-asia.com/contents/ASIA/EN/0100237802.html</a>  </p>\n\n<p>Extract the archive and install the packages by executing :  </p>\n\n<pre><code>sudo dpkg -i scangearmp-common_1.40-1_i386.deb   \nsudo dpkg -i scangearmp-mp560series_1.40-1_i386.deb  \n</code></pre>\n\n<p>Sometimes it even works to select another printer from <strong>Printers</strong> setup in <strong>System Settings</strong>.</p>\n",
+        "author": "cl-netbox"
+      },
+      "training": true
+    },
+    {
+      "author": "jim",
+      "url": "http://askubuntu.com/questions/87593/how-to-install-a-brother-mfc-5890cn-network-printer",
+      "text": "How to install a Brother MFC-5890CN network printer?",
+      "entities": [
+        {
+          "text": "Brother MFC-5890CN",
+          "entity": "Printer",
+          "stop": 35,
+          "start": 17
+        }
+      ],
+      "intent": "Setup Printer",
+      "answer": {
+        "text": "<p><a href=\"http://welcome.solutions.brother.com/bsc/public_s/id/linux/en/index.html\" rel=\"nofollow\">Brother</a> have a fantastic compatibility linux drivers:</p>\n\n<p>you have three ways to install a printer :</p>\n\n<ol>\n<li><strong>Local Printer</strong></li>\n</ol>\n\n<p>in the principal page you can see a how to :</p>\n\n<p>Instruction</p>\n\n<p>Printer (CUPS) :   <a href=\"http://welcome.solutions.brother.com/bsc/public_s/id/linux/en/instruction_prn1.html\" rel=\"nofollow\">Driver Install</a>  |  <a href=\"http://welcome.solutions.brother.com/bsc/public_s/id/linux/en/instruction_prn2.html\" rel=\"nofollow\">Print Command</a>  |  <a href=\"http://welcome.solutions.brother.com/bsc/public_s/id/linux/en/instruction_prn5.html\" rel=\"nofollow\">More Information</a>  | </p>\n\n<p>Printer (LPR) :    <a href=\"http://welcome.solutions.brother.com/bsc/public_s/id/linux/en/instruction_prn3.html\" rel=\"nofollow\">Driver Install</a>  |  <a href=\"http://welcome.solutions.brother.com/bsc/public_s/id/linux/en/instruction_prn4.html\" rel=\"nofollow\">Print Command</a>  |  <a href=\"http://welcome.solutions.brother.com/bsc/public_s/id/linux/en/instruction_prn6.html\" rel=\"nofollow\">More Information</a>  | </p>\n\n<p>go to this page :</p>\n\n<p><a href=\"http://welcome.solutions.brother.com/bsc/public_s/id/linux/en/download_prn.html#MFC-5890CN\" rel=\"nofollow\">http://welcome.solutions.brother.com/bsc/public_s/id/linux/en/download_prn.html#MFC-5890CN</a></p>\n\n<p>download LPR and cupswrapper driver all available in .DEB format and install it, follow the brother instruction..</p>\n\n<ol>\n<li><strong>Setup a Standalone Network Printer or\nSetup a Shared Windows Printer</strong></li>\n</ol>\n\n<p>Follow this <a href=\"http://www.liberiangeek.net/2011/10/first-30-days-with-ubuntu-11-10-oneiric-ocelotday-four/\" rel=\"nofollow\">guide</a></p>\n",
+        "author": "hhlp"
+      },
+      "training": true
+    },
+    {
+      "author": "th3pr0ph3t",
+      "url": "http://askubuntu.com/questions/154737/how-do-i-install-drivers-for-a-konica-minolta-200",
+      "text": "How do I install drivers for a Konica Minolta 200?",
+      "entities": [
+        {
+          "text": "Konica Minolta 200",
+          "entity": "Printer",
+          "stop": 49,
+          "start": 31
+        }
+      ],
+      "intent": "Setup Printer",
+      "answer": {
+        "text": "<p>I asked Konica Minolta Tech support (in spanish) about this and they answered me with this:</p>\n\n<p><a href=\"https://www.dropbox.com/s/fticrycjyxlp8n2/423_Series_Linux_v10000.zip\" rel=\"nofollow\">https://www.dropbox.com/s/fticrycjyxlp8n2/423_Series_Linux_v10000.zip</a></p>\n\n<p>The ppd file I must specify is KO423SX.ppd</p>\n\n<p>To install, add a printer the specify an uri such as lpd://192.168.1.40/print (replacing 192.168.1.40 with your printer's ip address).\nThen specify the KO423SX.ppd file as the ppd file.</p>\n\n<p>Adjust settings and print. In my case it claims there's no paper in the printer but still prints correctly.</p>\n",
+        "author": "th3pr0ph3t"
+      },
+      "training": true
+    },
+    {
+      "author": "Milad Sobhkhiz",
+      "url": "http://askubuntu.com/questions/173206/how-do-i-install-drivers-for-the-panasonic-mb1900cx-all-in-one-printer-scanner",
+      "text": "How do I install drivers for the Panasonic MB1900CX All-in-One Printer/Scanner?",
+      "entities": [
+        {
+          "text": "Panasonic MB1900CX",
+          "entity": "Printer",
+          "stop": 51,
+          "start": 33
+        }
+      ],
+      "intent": "Setup Printer",
+      "answer": {
+        "text": "<h3>1. Installing the 64-bit printer driver:</h3>\n\n<p>You can download it from <a href=\"http://panasonic.net/pcc/support/fax/common/table/linuxdriver.html\" rel=\"nofollow\">the Panasonic webpage</a> you linked. Here's how to install the 64-bit driver:</p>\n\n<ul>\n<li><p>Open a terminal with <code>Ctrl+Alt+T</code>, and type/paste the following line-by-line:</p>\n\n<pre>\nwget -O- http://cs.psn-web.net/support/fax/common/file/Linux_PrnDriver/Driver_Install_files/mccgdi-2.0.3-x86_64.tar.gz | tar -xz\ncd mccgdi-2.0.3-x86_64\nsudo ./install-driver\n</pre></li>\n<li><p>You should see output like the below, after which the driver will be installed. Once it's working, you can renmove the <code>mccgdi...</code> folder from Nautilus.</p>\n\n<pre>\nstart  install......\nstart install files......\nrestart spooler - CUPS<br>\nRather than invoking init scripts through /etc/init.d, use the service(8)\nutility, e.g. service cups restart<br>\nSince the script you are attempting to invoke has been converted to an\nUpstart job, you may also use the stop(8) and then start(8) utilities,\ne.g. stop cups ; start cups. The restart(8) utility is also available.\ncups stop/waiting\ncups start/running, process 2824<br>\ninstall driver completed<br>\nplease use \"system-config-printer\" or \"lpadmin\" to add printer\n</pre></li>\n</ul>\n\n<h3>2. Installing the 32-bit scanner driver on 64-bit Ubuntu</h3>\n\n<ul>\n<li>There is no guarantee this will actually work, since I don't have a MB1900CX to test it...</li>\n<li><p>You have already installed <code>ia32-libs</code> so you shouldn't need the following, but if <code>dpkg</code> complains trying to install the scanner drivers, you should do the following in a terminal:</p>\n\n<pre>sudo apt-get install gcc-4.6-base:i386 libc6:i386 libgcc1:i386 libusb-0.1-4:i386</pre></li>\n<li><p>Download the 32-bit Panasonic <em>libsane</em> driver with:</p>\n\n<pre>wget http://cs.psn-web.net/support/fax/common/file/Linux_ScanDriver/libsane-panamfs-1.0.0-i386.deb</pre></li>\n<li><p>And install it with:</p>\n\n<pre>sudo dpkg -i libsane-panamfs-1.0.0-i386.deb</pre></li>\n<li><p>If all goes well, you will see output like the below, and your scanner functions should also work:</p>\n\n<pre>Selecting previously unselected package libsane-panamfs:i386.\n(Reading database ... 150731 files and directories currently installed.)\nUnpacking libsane-panamfs:i386 (from libsane-panamfs-1.0.0-i386.deb) ...\nSetting up libsane-panamfs:i386 (1.0.0-2) ...\n</pre></li>\n</ul>\n",
+        "author": "izx"
+      },
+      "training": true
+    },
+    {
+      "author": "Andy_519",
+      "url": "http://askubuntu.com/questions/487627/how-to-install-canon-lbp2900b-printer-in-14-04-lts-i-tried-the-method-for-lbp2",
+      "text": "How To Install Canon LBP2900B printer in 14.04 LTS ? I tried the method for LBP2900 but it didnt work",
+      "entities": [
+        {
+          "text": "Canon LBP2900B",
+          "entity": "Printer",
+          "stop": 29,
+          "start": 15
+        },
+        {
+          "text": "14.04 LTS",
+          "entity": "UbuntuVersion",
+          "stop": 50,
+          "start": 41
+        }
+      ],
+      "intent": "Setup Printer",
+      "answer": {
+        "text": "<p>Open printers:</p>\n\n<p><img src=\"https://i.stack.imgur.com/AbtzI.png\" alt=\"Openprinters\"></p>\n\n<p>Click Add</p>\n\n<p><img src=\"https://i.stack.imgur.com/xPov6.png\" alt=\"Add printer\"></p>\n\n<p>Choose your printer from the list or enter the URI (the list should populate with detected printers  provided you've followed the instructions in the community wiki about setting up CUPS </p>\n\n<p><img src=\"https://i.stack.imgur.com/0IUAA.png\" alt=\"New printer\"></p>\n\n<p>This is what I get as I print over the network:</p>\n\n<p><img src=\"https://i.stack.imgur.com/32ZtF.png\" alt=\"pop-printers\"></p>\n\n<p>Next you'll choose the driver to use for me Brother is recommended, yours will be Canon.</p>\n\n<p>If you have a PPD file you can choose it here, if not, try to choose your printer from the database by selecting Canon here</p>\n\n<p><img src=\"https://i.stack.imgur.com/baqjv.png\" alt=\"driver\"></p>\n\n<p>If you don't find your model listed here hit the back button and try searching for a driver to download above.</p>\n\n<p><img src=\"https://i.stack.imgur.com/xoaYP.png\" alt=\"Canon\"></p>\n\n<p>Once you've found your model listed, select it and move forward</p>\n\n<p>You'll be asked to identify your printer here:</p>\n\n<p><img src=\"https://i.stack.imgur.com/OYphS.png\" alt=\"identify\"></p>\n\n<p>do so and then click apply. Now print a test page to insure everything is working properly:</p>\n\n<p><img src=\"https://i.stack.imgur.com/Ce8rq.png\" alt=\"test page\"></p>\n\n<p>If it prints congratulations, your done! If not, right click on the printer and insure that Enabled is checked (it should be)</p>\n\n<p><img src=\"https://i.stack.imgur.com/frng0.png\" alt=\"enabled\"></p>\n\n<p>If you right click on the printer and choose properties you'll get something like this (your URI and driver will be different):\n<img src=\"https://i.stack.imgur.com/zn09K.png\" alt=\"props\"></p>\n\n<p>You should insure that these settings make sense if you can't print. If you have the wrong driver and everything else is correct you'll usually get something from the printer (garbled output, page feed, etc.)</p>\n",
+        "author": "Elder Geek"
+      },
+      "training": true
+    },
+    {
+      "author": "Ten-Coin",
+      "url": "http://askubuntu.com/questions/378661/any-command-line-calculator-for-ubuntu",
+      "text": "Any command line calculator for Ubuntu?",
+      "entities": [],
+      "intent": "Software Recommendation",
+      "answer": {
+        "text": "<h2>Bash Arithmetic</h2>\n\n<p>Another possible solution is to add a simple function for Bash's builtin arithmetic. Put this in your <code>.bashrc</code> file to try:</p>\n\n\n\n<pre class=\"lang-bsh prettyprint-override\"><code>=() {\n    echo \"$(($@))\"\n}\n</code></pre>\n\n<p>So now, you don't even need <code>$((...))</code> anymore, just <code>=</code> which seems natural enough.</p>\n\n<h3>Replacement</h3>\n\n<p>Another thing if you want to be even faster: you can make it replace <code>p</code> with <code>+</code> and <code>x</code> with <code>*</code>. This will work for that:</p>\n\n<pre class=\"lang-bsh prettyprint-override\"><code>=() {\n    calc=\"${@//p/+}\"\n    calc=\"${calc//x/*}\"\n    echo \"$(($calc))\"\n}\n\n= 5 x 5  # Returns 25\n= 50p25  # Returns 75\n</code></pre>\n\n<p>Now you don't even need <kbd>Shift</kbd> anymore, the only thing is <code>=&nbsp;</code> in front of arithmetic.</p>\n\n<h3>Hexadecimal output</h3>\n\n<p>Output can be displayed in both decimal and hexadecimal, if so desired. (<strong>Note</strong>: using <code>x</code> substitution will conflict with the <code>0x...</code> hex syntax)</p>\n\n<pre class=\"lang-bsh prettyprint-override\"><code>=() {\n    answer=\"$(($@))\"\n    printf '%s' \"$answer\"\n    bc -l &lt;&lt;&lt; \"obase=16;ans=$answer;print \\\" (0x\\\",ans,\\\")\\\\n\\\"\"\n}\n</code></pre>\n\n<p>(uses Bash for arithmetic, but bc for final decimal to hex conversion)</p>\n\n<p>Example: </p>\n\n<pre class=\"lang-bsh prettyprint-override\"><code>$ = 16 + 0x10\n272 (0x110)\n\n$ = 16**3 + 16**4\n69632 (0x11000)\n</code></pre>\n\n<h2>Using bc</h2>\n\n<p>If you want slightly more advanced calculations, you can pipe it to <code>bc</code> like so:</p>\n\n<pre class=\"lang-bsh prettyprint-override\"><code>=() {\n    calc=\"${@//p/+}\"\n    calc=\"${calc//x/*}\"\n    bc -l &lt;&lt;&lt;\"scale=10;$calc\"\n}\n\n= 'sqrt(2)' # Returns 1.4142135623\n= '4*a(1)'  # Returns pi (3.1415926532)\n</code></pre>\n\n<p>The functions provided by <code>bc</code> are as follows (and can be found from <code>man bc</code>):</p>\n\n<pre class=\"lang-none prettyprint-override\"><code>sqrt ( expression )\n       The value of the sqrt function is the square root of the expression.  \n       If the expression is negative, a run time error is generated.\n\ns (x)  The sine of x, x is in radians.\n\nc (x)  The cosine of x, x is in radians.\n\na (x)  The arctangent of x, arctangent returns radians.\n\nl (x)  The natural logarithm of x.\n\ne (x)  The exponential function of raising e to the value x.\n\nj (n,x)\n       The Bessel function of integer order n of x.\n</code></pre>\n\n<p>It also supports <code>if</code>, <code>for</code>, <code>while</code> and variables like a programming language though if it may be better to write to a file if you wanted that.</p>\n\n<p>Keep in mind that it will substitute <code>p</code> and <code>x</code> in function/variable names. It may be better to just remove the replacements.</p>\n\n<h2>Using gcalccmd</h2>\n\n<p>You can also make the function call <code>gcalccmd</code> (from <code>gnome-calculator</code>) like so:</p>\n\n<pre class=\"lang-bsh prettyprint-override\"><code>=() {\n    calc=\"$@\"\n    # Uncomment the below for (p \u2192 +) and (x \u2192 *)\n    #calc=\"${calc//p/+}\"\n    #calc=\"${calc//x/*}\"\n    echo -ne \"$calc\\n quit\" | gcalccmd | sed 's:^&gt; ::g'\n}\n\n= 'sqrt(2)' # Returns 1.4142135623\n= '4^4'     # Returns 256\n</code></pre>\n\n<p>The available functions seem to be (taken straight from <a href=\"http://sourcecodebrowser.com/gcalctool/5.29.2/mp-equation_8c.html#a2c1b83394ed2fe6da08e1538b65fd29b\">the source code</a>), <code>==</code> denotes equivalent functions:</p>\n\n<pre class=\"lang-py prettyprint-override\"><code>ln()\nsqrt()\nabs()\nint()\nfrac()\nsin()\ncos()\ntan()\nsin\u207b\u00b9() == asin()\ncos\u207b\u00b9() == acos()\ntan\u207b\u00b9() == atan()\nsinh()\ncosh()\ntanh()\nsinh\u207b\u00b9() == asinh()\ncosh\u207b\u00b9() == acosh()\ntanh\u207b\u00b9() == atanh()\nones()\ntwos()\n</code></pre>\n",
+        "author": "minerz029"
+      },
+      "training": true
+    },
+    {
+      "author": "1kb",
+      "url": "http://askubuntu.com/questions/150100/extracting-embedded-images-from-a-pdf",
+      "text": "Extracting embedded images from a PDF",
+      "entities": [],
+      "intent": "Software Recommendation",
+      "answer": {
+        "text": "<h3>Use <code>pdfimages</code></h3>\n\n<p><code>pdfimages</code> is a PDF image extractor tool which saves the images in a PDF file to PPM, PBM, JPEG or JPEG 2000 file(s) format.</p>\n\n<p>It's a part of the <code>poppler-utils</code> package, which you'll need to install.</p>\n\n<p><strong>Usage:</strong> <code>pdfimages [options] &lt;PDF-file&gt; &lt;image-root&gt;</code></p>\n\n<p><strong>Example:</strong> The following extracts all images from a PDF file, saving them in JPEG format.</p>\n\n<pre><code>pdfimages -j in.pdf /tmp/out\n</code></pre>\n\n<p>Will save images from PDF file <code>in.pdf</code> in files <code>/tmp/out-000.jpg</code> (or <code>/tmp/out-000.pbm</code>; see below), <code>/tmp/out-001.jpg</code>, etc.</p>\n\n<hr>\n\n<p>The pdfimages <a href=\"http://linux.die.net/man/1/pdfimages\" rel=\"nofollow noreferrer\">man page</a> explains:</p>\n\n<pre><code>-j:  Normally, all images are written as PBM (for monochrome images) or PPM for\n     non-monochrome images) files. With this option,  images in DCT format are\n     saved as JPEG files. All non-DCT images are saved in PBM/PPM format as usual.\n</code></pre>\n",
+        "author": "pl1nk"
+      },
+      "training": true
+    },
+    {
+      "author": "Jiew Meng",
+      "url": "http://askubuntu.com/questions/56022/what-to-use-to-quickly-cut-audio-video",
+      "text": "What to use to quickly cut Audio/Video",
+      "entities": [],
+      "intent": "Software Recommendation",
+      "answer": {
+        "text": "<ul>\n<li>Avidemux (From PPA) - <a href=\"http://avidemux.sourceforge.net/\">http://avidemux.sourceforge.net/</a></li>\n<li>OpenShot (From PPA) - <a href=\"https://launchpad.net/openshot/\">https://launchpad.net/openshot/</a> <a href=\"http://www.openshot.org/ppa/\">http://www.openshot.org/ppa/</a></li>\n<li>Pitivi (From PPA) - <a href=\"http://www.pitivi.org/?go=download\">http://www.pitivi.org/?go=download</a></li>\n</ul>\n\n<p>I was going to mention commands like ffmpeg or avconv (The new one) which can OBVIOUSLY split files into groups. For example:</p>\n\n<p><strong>FFMPEG</strong></p>\n\n<pre><code>ffmpeg -i input.avi -vcodec copy -acodec copy -ss 00:00:00 -t 00:30:00 output1.avi\nffmpeg -i input.avi -vcodec copy -acodec copy -ss 00:30:00 -t 00:30:00 output2.avi  \nffmpeg -i input.avi -vcodec copy -acodec copy -ss 01:00:00 -t 00:30:00 output3.avi\n</code></pre>\n\n<p>Or</p>\n\n<pre><code>ffmpeg -ss 0 -t 100 -i source.m4v -vcodec copy -acodec copy part1.m4v\nffmpeg -ss 100 -t 100 -i source.m4v -vcodec copy -acodec copy part2.m4v  \nffmpeg -ss 200 -t 100 -i source.m4v -vcodec copy -acodec copy part3.m4v  \nffmpeg -ss 300 -t 100 -i source.m4v -vcodec copy -acodec copy part4.m4v\n</code></pre>\n\n<p><strong>AVCONV</strong></p>\n\n<pre><code>avconv -i input.avi -vcodec copy -acodec copy -ss 00:00:00 -t 00:30:00 output1.avi\navconv -i input.avi -vcodec copy -acodec copy -ss 00:30:00 -t 00:30:00 output2.avi  \navconv -i input.avi -vcodec copy -acodec copy -ss 01:00:00 -t 00:30:00 output3.avi\n</code></pre>\n\n<p>Or</p>\n\n<pre><code>avconv -ss 0 -i source.m4v -t 100 -vcodec copy -acodec copy part1.m4v\navconv -ss 100 -i source.m4v -t 100 -vcodec copy -acodec copy part2.m4v\navconv -ss 200 -i source.m4v -t 100 -vcodec copy -acodec copy part3.m4v  \navconv -ss 300 -i source.m4v -t 100 -vcodec copy -acodec copy part4.m4v\n</code></pre>\n\n<p>Or do some script like here: <a href=\"http://icephoenix.us/notes-for-myself/auto-splitting-video-file-in-equal-chunks-with-ffmpeg-and-python/\">http://icephoenix.us/notes-for-myself/auto-splitting-video-file-in-equal-chunks-with-ffmpeg-and-python/</a></p>\n",
+        "author": "Luis Alvarado"
+      },
+      "training": true
+    },
+    {
+      "author": "Wolfy",
+      "url": "http://askubuntu.com/questions/29872/torrent-client-for-the-command-line",
+      "text": "Torrent client for the command-line?",
+      "entities": [],
+      "intent": "None",
+      "answer": {
+        "text": "<p><a href=\"http://deluge-torrent.org\">Deluge</a> is controllable by gui, web, and console.</p>\n\n<p>To setup remote access to a deluge server see the <a href=\"http://dev.deluge-torrent.org/wiki/UserGuide/ThinClient\">thinclient guide</a>.</p>\n\n<p><a href=\"http://apt.ubuntu.com/p/deluge-console\"><code>deluge-console</code></a></p>\n\n<p><img src=\"https://i.stack.imgur.com/eDXZh.png\" alt=\"deluge-console\"></p>\n\n<p><a href=\"http://apt.ubuntu.com/p/deluge-gtk\"><code>deluge-gtk</code></a></p>\n\n<p><img src=\"https://i.stack.imgur.com/MzHR8.png\" alt=\"standard deluge gtk ui\"></p>\n\n<p><a href=\"http://apt.ubuntu.com/p/deluge-web\"><code>deluge-web</code></a></p>\n\n<p><img src=\"https://i.stack.imgur.com/JkGAQ.png\" alt=\"deluge web ui\"></p>\n",
+        "author": "djeikyb"
+      },
+      "training": true
+    },
+    {
+      "author": "richzilla",
+      "url": "http://askubuntu.com/questions/8155/mysql-gui-tools",
+      "text": "MySQL GUI Tools",
+      "entities": [
+        {
+          "text": "MySQL",
+          "entity": "SoftwareName",
+          "stop": 5,
+          "start": 0
+        }
+      ],
+      "intent": "Software Recommendation",
+      "answer": {
+        "text": "<p><a href=\"https://apps.ubuntu.com/cat/applications/mysql-workbench\" rel=\"nofollow noreferrer\">MySQL Workbench <img src=\"https://hostmar.co/software-small\" alt=\"Install mysql-workbench\"></a> is probably the most complete tool, but a bit sluggish according to me.</p>\n\n<p>I prefer \"MySQL Query browser\" and \"MySQL Administrator\". These two can do all basic stuff, and are very user friendly. Sadly, you can't find them in the Ubuntu Software Centre in later versions of Ubuntu any more. This is because <a href=\"http://dev.mysql.com/support/eol-notice.html\" rel=\"nofollow noreferrer\">these two pieces of software have reached their end-of-life</a>, and are no longer supported.</p>\n\n<p><img src=\"https://i.stack.imgur.com/ssWdU.png\" alt=\"Screeshot\"></p>\n",
+        "author": "W. Goeman"
+      },
+      "training": true
+    },
+    {
+      "author": "TheXed",
+      "url": "http://askubuntu.com/questions/10998/what-developer-text-editors-are-available-for-ubuntu",
+      "text": "What developer text editors are available for Ubuntu?",
+      "entities": [],
+      "intent": "Software Recommendation",
+      "answer": {
+        "text": "<h1><a href=\"http://www.geany.org/\" rel=\"nofollow noreferrer\">Geany</a> <a href=\"http://apt.ubuntu.com/p/geany\" rel=\"nofollow noreferrer\"><img src=\"https://hostmar.co/software-large\" alt=\"alt text\"></a></h1>\n\n<p>Geany is a lightweight IDE that supports python.</p>\n\n<p>Some features that I have found particularly useful include:</p>\n\n<ul>\n<li>Syntax highlighting</li>\n<li>Automatic indenting - especially useful for python</li>\n<li>Code folding, allowing you to hide parts of your code</li>\n<li>Inbuilt syntax checking and execution</li>\n<li>Symbol browser</li>\n<li>Embedded terminal</li>\n<li>Find and replace with regexp support</li>\n</ul>\n\n<p><img src=\"https://i.stack.imgur.com/p0Dc5.png\" alt=\"alt text\"></p>\n",
+        "author": "dv3500ea"
+      },
+      "training": true
+    },
+    {
+      "author": "RunningUtes",
+      "url": "http://askubuntu.com/questions/6558/what-screenshot-tools-are-available",
+      "text": "What screenshot tools are available?",
+      "entities": [],
+      "intent": "Software Recommendation",
+      "answer": {
+        "text": "<p>I am using <a href=\"http://shutter-project.org/\"><strong>Shutter</strong></a> <a href=\"http://apt.ubuntu.com/p/shutter\"><img src=\"https://i.stack.imgur.com/oRhB2.png\" alt=\"Download Shutter\"></a>.</p>\n\n<p>If you don't find it, you can check the <a href=\"http://shutter-project.org/faq-help/ppa-installation-guide/\">detailed installation instructions</a> which will give you a PPA for it.</p>\n\n<p>It's a really handy screen capture application with easy to use plug-ins to give a nice touch to your screenshot and as many other to easily share the files.</p>\n\n<p>It offers in-house image editing and special effects (via plug-ins) to enhance the quality of your screenshot. You can access this options via the menu (1), or the toolbar (2).</p>\n\n<p><img src=\"https://i.stack.imgur.com/KEoWl.png\" alt=\"alt text\"><br>\n<em>The effects here are all done with Shutter (Plug-in <code>Reflexion</code> and Edit <code>auto-increment shape</code>).</em></p>\n\n<p>And then to publish them, I just right click in Shutter and choose Export (3). Then I publish it via Ubuntu One. I go to the directory where I published the file, right click on it and select <code>Copy Ubuntu One public URL</code>.</p>\n\n<p>Finally here when I comment, I click on <code>img</code> in the small tool bar and select <code>From the web</code> and paste the link that was copied in the previous step.</p>\n\n<p>It's easy and fully integrated.</p>\n\n<p>For those on 10.04, check that you have <a href=\"http://shutter-project.org/downloads/dependencies/\">all shutter dependencies</a>. As you might miss some of the plug-ins. For user on Ubuntu 10.10, this should be fixed.</p>\n",
+        "author": "Huygens"
+      },
+      "training": true
+    },
+    {
+      "author": "alxlenc",
+      "url": "http://askubuntu.com/questions/16652/which-programs-can-i-use-to-edit-pdf-files",
+      "text": "Which programs can I use to edit PDF files?",
+      "entities": [],
+      "intent": "Software Recommendation",
+      "answer": {
+        "text": "<p>For PDF editing I have used a PDF Annotator <a href=\"https://launchpad.net/ubuntu/+source/flpsed\" rel=\"nofollow noreferrer\">flpsed</a> <a href=\"http://apt.ubuntu.com/p/flpsed\" rel=\"nofollow noreferrer\"><img src=\"https://hostmar.co/software-small\" alt=\"Install flpsed\"></a>\n. You are able to save edited files in postscript format or in PDF.</p>\n",
+        "author": "Vincenzo"
+      },
+      "training": true
+    },
+    {
+      "author": "Justinas D\u016bd\u0117nas",
+      "url": "http://askubuntu.com/questions/97695/is-there-a-lightweight-tool-to-crop-images-quickly",
+      "text": "Is there a lightweight tool to crop images quickly?",
+      "entities": [],
+      "intent": "Software Recommendation",
+      "answer": {
+        "text": "<p><a href=\"https://apps.ubuntu.com/cat/applications/oneiric/gthumb/\" rel=\"noreferrer\">Gthumb</a> is a nice image viewing/editing tool with simple editing tools like cropping.</p>\n\n<p><strong>Instructions for cropping in gThumb 3.2.8</strong></p>\n\n<ol>\n<li>Open your image in gThumb</li>\n</ol>\n\n<p><img src=\"https://i.stack.imgur.com/vHLG6.jpg\" alt=\"enter image description here\"></p>\n\n<ol start=\"2\">\n<li>Open the Edit sidebar by pressing e or clicking on the easel in the top-right corner of the window</li>\n</ol>\n\n<p><img src=\"https://i.stack.imgur.com/vIerO.png\" alt=\"enter image description here\"></p>\n\n<ol start=\"3\">\n<li>In the sidebar click on Crop and then crop the image as you desire</li>\n</ol>\n\n<p><img src=\"https://i.stack.imgur.com/cMWVM.png\" alt=\"enter image description here\"></p>\n\n<ol start=\"4\">\n<li>Once finished press Enter or Crop. Then, in the Edit sidebar press Save to overwrite the original file or Save As to save to a new image file.</li>\n</ol>\n",
+        "author": "duffydack"
+      },
+      "training": true
+    },
+    {
+      "author": "myusuf3",
+      "url": "http://askubuntu.com/questions/8015/what-irc-clients-are-available",
+      "text": "What IRC clients are available?",
+      "entities": [
+        {
+          "text": "IRC",
+          "entity": "SoftwareName",
+          "stop": 8,
+          "start": 5
+        }
+      ],
+      "intent": "Software Recommendation",
+      "answer": {
+        "text": "<h1><a href=\"http://xchat.org/\" rel=\"nofollow noreferrer\">XChat</a> <a href=\"http://apt.ubuntu.com/p/xchat\" rel=\"nofollow noreferrer\"><img src=\"https://i.stack.imgur.com/v8Hw5.png\" alt=\"Install Xchat\"></a></h1>\n\n<blockquote>\n  <p>XChat is a graphical IRC Client with a\n  GTK+ GUI. It has a look and feel\n  similar to AmIRC for the Amiga.\n  Special features include the mIRC\n  extension DCC RESUME and mIRC color,\n  multiple server/channel windows,\n  dialog windows, and a plugin API.</p>\n</blockquote>\n\n<p>It does pretty much everything you could want an IRC client to do.</p>\n\n<p><img src=\"https://i.stack.imgur.com/e5msZ.png\" alt=\"xchat\"></p>\n",
+        "author": "dv3500ea"
+      },
+      "training": true
+    },
+    {
+      "author": "Oli",
+      "url": "http://askubuntu.com/questions/28738/what-new-games-are-available-for-ubuntu-in-2011",
+      "text": "What new games are available for Ubuntu in 2011?",
+      "entities": [],
+      "intent": "Software Recommendation",
+      "answer": {
+        "text": "<h1><a href=\"http://oilrush-game.com/\" rel=\"nofollow noreferrer\">Oil Rush</a> <a href=\"http://apt.ubuntu.com/p/oilrush\" rel=\"nofollow noreferrer\"><img src=\"https://i.stack.imgur.com/vyWhw.png\" alt=\"(Software Center)\"></a> <a href=\"http://www.desura.com/games/oil-rush/play\" rel=\"nofollow noreferrer\"><img src=\"https://i.stack.imgur.com/G1WjO.png\" alt=\"(Desura)\"></a></h1>\n\n<h3>Proprietary, beta preorder for $19.95</h3>\n\n<blockquote>\n  <p>OilRush is a real-time strategy game based on group control. It offers mechanics of a classical RTS combined with a Tower Wars genre: control the upgrade of production platforms as well as their defence forces, and send battle groups of naval and air units to capture enemy platforms and oil rigs.</p>\n</blockquote>\n\n<p><img src=\"https://i.stack.imgur.com/OjR9E.jpg\" alt=\"Oil Rush\"></p>\n\n<p>Phoronix have been harking on about this for months like they're getting a dollar every time they mention it (they probably are), but it does look like a genuinely pretty game. It's made by Unigine, a company that sells a closed source graphics engine and hardware benchmarks based around the tech-demos they've made with it.</p>\n\n<p>This could be good.</p>\n",
+        "author": "Oli"
+      },
+      "training": true
+    },
+    {
+      "author": "imbaer",
+      "url": "http://askubuntu.com/questions/88754/upnp-dlna-client-player-recommendations",
+      "text": "UPNP / DLNA (client) player recommendations?",
+      "entities": [],
+      "intent": "Software Recommendation",
+      "answer": {
+        "text": "<p>Recently VLC Version 2.0 was released. This Release features a fully functional UPNP / DLNA Player that works without bugs. I'm using it on Ubuntu and Archlinux and it works just fine with my minidlna player.</p>\n\n<p>To use VLC start the Playlist (<code>View</code> -> <code>Playlist</code>; <code>Ctrl + L</code>) and then select <code>Local Network</code> -> <code>Universal Plug 'n' Play</code>. However, be advised that VLCs implementation first downloads all the library information before you can select anything. Depending on the size of the library that actually might take several minutes and longer.</p>\n",
+        "author": "imbaer"
+      },
+      "training": true
+    },
+    {
+      "author": "Helix",
+      "url": "http://askubuntu.com/questions/642/what-scientific-plotting-software-is-available",
+      "text": "What scientific plotting software is available?",
+      "entities": [],
+      "intent": "Software Recommendation",
+      "answer": {
+        "text": "<p>I am a Physics student and found that the best scientific plotting software for Ubuntu is QtiPlot. It is very similar to Origin, and works really well.</p>\n",
+        "author": "nicocarbone"
+      },
+      "training": true
+    },
+    {
+      "author": "myusuf3",
+      "url": "http://askubuntu.com/questions/25090/can-you-recommend-a-password-generator",
+      "text": "Can you recommend a password generator?",
+      "entities": [],
+      "intent": "Software Recommendation",
+      "answer": {
+        "text": "<p><a href=\"https://apps.ubuntu.com/cat/applications/pwgen\" rel=\"nofollow noreferrer\">pwgen <img src=\"https://hostmar.co/software-small\" alt=\"Install pwgen\"></a>  generates random, meaningless but pronounceable passwords. These passwords contain either only lowercase letters, or upper and lower case mixed, or digits thrown in. Uppercase letters and digits are placed in a way that eases remembering their position when memorizing only the word. .</p>\n\n<p>Install <a href=\"https://apps.ubuntu.com/cat/applications/pwgen\" rel=\"nofollow noreferrer\">pwgen </a> with the button below:</p>\n\n<p><a href=\"https://apps.ubuntu.com/cat/applications/pwgen\" rel=\"nofollow noreferrer\"><img src=\"https://hostmar.co/software-banner\" alt=\"Install via the software center\"></a></p>\n\n<p>e.g.</p>\n\n<pre><code>sudo apt-get install pwgen\npwgen\n</code></pre>\n",
+        "author": "Mikel"
+      },
+      "training": true
+    },
+    {
+      "author": "Olivier Lalonde",
+      "url": "http://askubuntu.com/questions/9107/what-tools-do-you-use-to-monitor-a-web-server",
+      "text": "What tools do you use to monitor a web server?",
+      "entities": [],
+      "intent": "Software Recommendation",
+      "answer": {
+        "text": "<p><a href=\"http://www.nagios.org/\">Nagios</a> is my favorite tool for monitoring. It can monitor web servers,services,hosts and so on. It is highly customizable and there are lot plugins available for various purpose. </p>\n\n<p>Some features of nagios:</p>\n\n<ul>\n<li>Monitor network services (SMTP, POP3, HTTP, NNTP, PING, etc.)\n<li>Monitor host resources (processor load, disk usage, etc.)\n<li>Allow for simple plugin design\n<li>Do parallelized service checks\n<li>Define a network host hierarchy using\n<li>Contact administrators when service or host problems occur\n<li>Define event handlers to be run during service or host events for proactive problem resolution\n<li> Automated log file rotation\n<li>Support the implementation of redundant monitoring hosts\n<li>Offer an optional web interface for viewing current network status, notification and problem history, log file, etc\n</ul>\n\n<p>Here is an online demo: <a href=\"http://nagioscore.demos.nagios.com/\">http://nagioscore.demos.nagios.com/</a></p>\n",
+        "author": "aneeshep"
+      },
+      "training": true
+    },
+    {
+      "author": "Eyal",
+      "url": "http://askubuntu.com/questions/196136/what-is-a-good-mongodb-gui-client",
+      "text": "What is a good MongoDB GUI client?",
+      "entities": [
+        {
+          "text": "MongoDB",
+          "entity": "SoftwareName",
+          "stop": 22,
+          "start": 15
+        }
+      ],
+      "intent": "Software Recommendation",
+      "answer": {
+        "text": "<p>One thing I know of (but don't like the interface very much) is <a href=\"http://edgytech.com/umongo/\" rel=\"nofollow noreferrer\">UMongo</a>, which is a desktop, not browser-based application. Here's a screenshot:</p>\n\n<p><img src=\"https://i.stack.imgur.com/PbowF.png\" alt=\"a screenshot of UMongo\"></p>\n\n<p>So far I've been using <a href=\"http://www.jumperz.net/index.php?i=2&amp;a=0&amp;b=9\" rel=\"nofollow noreferrer\">MonjaDB</a> - it's an Eclipse plug-in, and Eclipse is my IDE anyway. I like it; it seems to have all the features I used to use in <a href=\"http://rockmongo.com/\" rel=\"nofollow noreferrer\">RockMongo</a>.</p>\n\n<p>Here's a screenshot from MonjaDB (there are more on his website, as well as some instructions):</p>\n\n<p><img src=\"https://i.stack.imgur.com/gA3fp.png\" alt=\"a screenshot of MonjaDB\"></p>\n\n<p>To install it, you obviously need Eclipse (which you can get from the Ubuntu repositories). Once you've done that you need to go to the Help-> Install New Software... and then add <a href=\"http://www.jumperz.net/update/\" rel=\"nofollow noreferrer\">this update site</a>. Although I like it, I don't think many people will switch IDE's just for a GUI for Mongo (although I could be mistaken).</p>\n\n<p>Both UMongo and MonjaDB have their source code is on GitHub. </p>\n",
+        "author": "Eyal"
+      },
+      "training": true
+    },
+    {
+      "author": "Achu",
+      "url": "http://askubuntu.com/questions/30907/password-management-applications",
+      "text": "Password Management Applications?",
+      "entities": [],
+      "intent": "Software Recommendation",
+      "answer": {
+        "text": "<h1><a href=\"http://www.keepassx.org/\" rel=\"nofollow noreferrer\"><strong>KeePassX</strong></a> <a href=\"http://apt.marcoceppi.com/p/keepassx\" rel=\"nofollow noreferrer\"><img src=\"https://i.stack.imgur.com/vyWhw.png\" alt=\"install\"></a></h1>\n\n<blockquote>\n  <p>KeePassX is a free/open-source password manager or safe which helps you to manage your passwords in a secure way. You can put all your passwords in one database, which is locked with one master key or a key-disk. So you only have to remember one single master password or insert the key-disk to unlock the whole database. The databases are encrypted using the algorithms AES or Twofish.</p>\n</blockquote>\n\n<p><img src=\"https://i.stack.imgur.com/8EiLZ.png\" alt=\"Screenshot\"></p>\n",
+        "author": "Alaukik"
+      },
+      "training": true
+    },
+    {
+      "author": "ksimon",
+      "url": "http://askubuntu.com/questions/26492/is-there-an-application-for-reading-mobi-files",
+      "text": "Is there an application for reading mobi files?",
+      "entities": [],
+      "intent": "Software Recommendation",
+      "answer": {
+        "text": "<h1><a href=\"http://packages.ubuntu.com/calibre\" rel=\"nofollow noreferrer\">calibre</a> <a href=\"http://apt.ubuntu.com/p/calibre\" rel=\"nofollow noreferrer\"><img src=\"https://hostmar.co/software-large\" alt=\"Install calibre\"></a><a href=\"https://apps.ubuntu.com/cat/applications/calibre\" rel=\"nofollow noreferrer\"><img src=\"https://hostmar.co/software-banner\" alt=\"Install via the software center\"></a></h1>\n\n<p><strong>Overview</strong></p>\n\n<p>calibre is a free and open source e-book library management application developed by users of e-books for users of e-books.</p>\n\n<p>Calibre is primarily a ebook cataloging program. It manages your ebook collection for you. It is designed around the concept of the logical book, i.e. a single entry in the database that may correspond to ebooks in several formats. It also upports conversion from a dozen different ebook formats to LRF and EPUB. A graphical interface to the conversion software can be accessed easily by just clicking the \"Convert E-books\" button.</p>\n\n<p>Supported input formats are: MOBI, AZW, LIT, PRC, EPUB, ODT, HTML, CBR, CBZ, RTF, TXT, PDF and LRS. </p>\n\n<hr>\n\n<p><strong>Starting calibre's ebook viewer as a standalone application</strong></p>\n\n<p>In certain cases you will not want to add an epub or mobi file to calibre's library before reading it. Luckily calibre's ebook viewer can be started independently via <code>ebook-viewer</code>. This makes it possible to create a standalone launcher:</p>\n\n<pre><code>#!/usr/bin/env xdg-open\n[Desktop Entry]\nVersion=1.0\nType=Application\nTerminal=false\nIcon=calibre\nExec=ebook-viewer %f\nName=Ebook Viewer\nComment=Display .epub files and other e-reader formats\nStartupWMClass=ebook-viewer\nMimeType=application/x-mobipocket-ebook;application/epub+zip;\n</code></pre>\n\n<p>See <a href=\"http://askubuntu.com/questions/13758/how-can-i-edit-create-new-launcher-items-in-unity-by-hand\">here</a> for more information on adding launchers to your system.</p>\n\n<hr>\n\n<p><strong>To click an ebook and open in ebook-viewer</strong>, make this application (<code>usr/bin/ebook-viewer</code>) the default for that type of file. </p>\n",
+        "author": "hhlp"
+      },
+      "training": true
+    },
+    {
+      "author": "rubo77",
+      "url": "http://askubuntu.com/questions/425813/shut-down-without-extra-question",
+      "text": "shut down without extra question",
+      "entities": [],
+      "intent": "Shutdown Computer",
+      "answer": {
+        "text": "<p>Open a terminal and run <code>gsettings set com.canonical.indicator.session suppress-logout-restart-shutdown true</code>. This will disable the dialog.</p>\n",
+        "author": "Donarsson"
+      },
+      "training": true
+    },
+    {
+      "author": "Joshua Fox",
+      "url": "http://askubuntu.com/questions/343733/how-to-shutdown-computer-when-users-are-logged-on",
+      "text": "How to shutdown computer when users are logged on?",
+      "entities": [],
+      "intent": "Shutdown Computer",
+      "answer": {
+        "text": "<p>Open a terminal (<kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>T</kbd>) or use a TTY (<kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>F1.</kbd>) Then you have to login using administrative account or root.</p>\n\n<pre><code>sudo shutdown -P now\n</code></pre>\n",
+        "author": "user80551"
+      },
+      "training": true
+    },
+    {
+      "author": "Richard Rodriguez",
+      "url": "http://askubuntu.com/questions/73696/what-is-the-proper-terminal-way-to-shutdown",
+      "text": "What is the proper terminal-way to shutdown?",
+      "entities": [],
+      "intent": "Shutdown Computer",
+      "answer": {
+        "text": "<p>From the MAN PAGES:</p>\n\n<p><strong>Shutdown</strong> - \"shutdown arranges for the system to be brought down in a safe way.  All\n       logged-in users are notified that the system is going down and,  within\n       the last five minutes of TIME, new logins are prevented.\" Time mentioned here is an amount specify by the user that is shutting down.</p>\n\n<p><strong>Halt</strong> - \"These programs allow a system administrator to reboot, halt or poweroff\n       the system.\"</p>\n\n<p>The difference is that Halt can be more \"aggressive\" when shutting down than Shutdown itself. It has parameters than can literally force the system to shutdown without regarding services or opened programs. If you run halt without any parameters it will simply execute the shutdown command. Something like an alias. If you run it for example with the parameter <code>--force</code> it will \"force\" the system into a reboot really fast.</p>\n\n<p>In the case of halt or shutdown, they will wait for all processes to finish correctly before turning the PC off or rebooting. If a service or app does not close or does not close properly you will see what you mention there (The ubuntu logo with the dots).</p>\n\n<p>The proper way in the terminal for a single user or multi user is shutdown. But if the shutdown is not working verify what services you have running and which one is causing the slowness or freezing of the shutdown.</p>\n\n<p>With that in mind, there are several ways to reboot or shutdown the system:</p>\n\n<p><strong>Rebooting</strong> - <code>shutdown -r</code>, <code>reboot</code></p>\n\n<p>In this case, reboot is simply calling <code>shutdown -r</code>.</p>\n\n<p><strong>Shutting Down</strong> - <code>halt</code>, <code>shutdown</code>, <code>sudo init 0</code>, <code>shutdown -h now</code>, <code>poweroff</code></p>\n\n<p>In this case, <code>poweroff</code> is the same as calling <code>shutdown -P</code></p>\n\n<p>As you have noticed, The <code>shutdown</code> command can do a lot of stuff, here is a small list of it:</p>\n\n<pre><code>-r  Requests that the system be rebooted after it has been brought down\n-h  Requests that the system be either halted or powered off after it has been brought down, with the choice as to which left up to the system\n-H  Requests that the system be halted after it has been brought down\n-P  Requests that the system be powered off after it has been brought down\n-c  Cancels a running shutdown. TIME is not specified with this option, the first argument is MESSAGE\n-k  Only send out the warning messages and disable logins, do not actually bring the system down\n</code></pre>\n\n<p>As does the <code>reboot</code> </p>\n\n<pre><code>-f, --force                 force reboot or halt, don't call shutdown(8)\n-p, --poweroff              switch off the power when called as halt\n</code></pre>\n\n<p>There is however a difference between shutdown down through the terminal and clicking on the Shutdown option in Unity. The latter will ask the user for interaction with any unsaved work (like libreoffice, inkscape...). the former will simply send a signal to all processes telling them to close. No user interaction will be needed so any unsaved work will be gone.</p>\n",
+        "author": "Luis Alvarado"
+      },
+      "training": true
+    },
+    {
+      "author": "NES",
+      "url": "http://askubuntu.com/questions/19774/how-can-i-automatically-shutdown-the-system-after-a-specific-time",
+      "text": "How can I automatically shutdown the system after a specific time?",
+      "entities": [],
+      "intent": "Shutdown Computer",
+      "answer": {
+        "text": "<p>Open a terminal window and type in:</p>\n\n<pre><code>sudo shutdown -h +60\n</code></pre>\n\n<p>and just replace 60 with whatever number of minutes you want to take.</p>\n\n<p>More info here:</p>\n\n<p><a href=\"http://ubuntuforums.org/archive/index.php/t-473173.html\">http://ubuntuforums.org/archive/index.php/t-473173.html</a>\n<a href=\"http://www.linux.org/lessons/beginner/l5/lesson5a.html\">http://www.linux.org/lessons/beginner/l5/lesson5a.html</a></p>\n",
+        "author": "Daniel"
+      },
+      "training": true
+    },
+    {
+      "author": "Skizz",
+      "url": "http://askubuntu.com/questions/22000/hotkey-to-shut-down-from-login-screen",
+      "text": "Hotkey to shut down from login screen?",
+      "entities": [],
+      "intent": "Shutdown Computer",
+      "answer": {
+        "text": "<p>It appears to be a missing feature. :-(</p>\n\n<p>There is a bug filed for this issue: <a href=\"https://bugs.launchpad.net/ubuntu/+source/gdm/+bug/505323\" rel=\"nofollow noreferrer\">#505323, GDM's settings bar inaccessible with keyboard</a></p>\n\n<p>See <a href=\"http://askubuntu.com/questions/20119/how-do-i-subscribe-to-a-bug\">How do I subscribe to a bug</a> for instruction on how to follow the progress of this bug. If you are already logged in to launchpad and ready to go, click \"This bug affects me\".</p>\n\n<p>If you really need it, you can use a different display manager, <a href=\"http://packages.ubuntu.com/kdm\" rel=\"nofollow noreferrer\">kdm</a> for the moment. Note that it has a big bundle of dependencies. You can also go ahead and ask a question here on how to set a keyboard shortcut that doesn't depend on gnome running. </p>\n\n<p>There <em>is</em> a keyboard shortcut to shut down your system that is available all of the time, but it's rather tedious and complicated:</p>\n\n<ul>\n<li><p><kbd>Alt</kbd>+<kbd>SysRq</kbd>+(<kbd>R</kbd>, <kbd>E</kbd>, <kbd>I</kbd>, <kbd>S</kbd>, <kbd>U</kbd>, <kbd>O</kbd>).</p>\n\n<p>That is, hold down alt and sysrq, then type <code>REISUO</code>, or <code>REISUB</code> to reboot. The SysRq key is the Print Screen key on most keyboards (on some laptops, it's Fn +Print, or Alt+Fn+Print)</p></li>\n</ul>\n\n<p>It's not a completely clean shutdown either (although it's good enough). I'm sorry to say I think that's as good as it gets at the moment.</p>\n",
+        "author": "Stefano Palazzo"
+      },
+      "training": true
+    },
+    {
+      "author": "ulrich",
+      "url": "http://askubuntu.com/questions/586625/how-to-shutdown-the-computer-after-xsession-ends",
+      "text": "How to shutdown the computer after Xsession ends?",
+      "entities": [],
+      "intent": "Shutdown Computer",
+      "answer": {
+        "text": "<p>The syntax for <a href=\"http://manpages.ubuntu.com/shutdown\" rel=\"nofollow\"><code>shutdown</code></a> from command line is</p>\n\n<pre><code>sudo shutdown -P now ## for system POWEROFF\nsudo shutdown -h now ## for system HALT or POWEROFF\n</code></pre>\n\n<p>If that did not work we can also perform a forced poweroff</p>\n\n<pre><code>sudo poweroff --force\n</code></pre>\n\n<p>In case we start the script from a user session (as was the case in a custom session) we can either allow users to shutdown without root privileges (don't use <code>sudo</code> in your script then!) or follow answers to below questions to shutdown without root privileges from a user session:</p>\n\n<ul>\n<li><a href=\"http://askubuntu.com/questions/168879/shutdown-from-terminal-without-entering-password\">Shutdown from terminal without entering password?</a></li>\n<li><a href=\"http://askubuntu.com/questions/1190/how-can-i-make-shutdown-not-require-admin-password\">How can I make shutdown not require admin password?</a></li>\n</ul>\n",
+        "author": "Takkat"
+      },
+      "training": true
+    },
+    {
+      "author": "Quantopic",
+      "url": "http://askubuntu.com/questions/563251/how-can-one-shutdown-a-pc-using-the-keyboard",
+      "text": "How can one shutdown a PC using the keyboard?",
+      "entities": [],
+      "intent": "Shutdown Computer",
+      "answer": {
+        "text": "<p>you can do </p>\n\n<pre><code>&gt; sudo init 0\n</code></pre>\n\n<p>to shutdown your computer from the terminal or </p>\n\n<pre><code>sudo shutdown -r now \n</code></pre>\n\n<p>to reboot it. Besides you can do <code>man shutdown</code> which will give you more detailed information about the shutdown command.</p>\n",
+        "author": "rulebreaker4"
+      },
+      "training": true
+    },
+    {
+      "author": "Araujo1914",
+      "url": "http://askubuntu.com/questions/752385/how-can-i-enable-shutdown-verbosity",
+      "text": "How can I enable shutdown verbosity?",
+      "entities": [],
+      "intent": "Shutdown Computer",
+      "answer": {
+        "text": "<p>Some boot-up and shutdown configurations were scrambled during one installation which was set to install recovery options on additional software among others installations tryouts.</p>\n\n<p>Those unwanted software part was installed on /lib/recovery-mode/recovery-menu directory at / (root partition). This was causing recovery booting option to open a pink/purple recovery menu, with some non-working functions.</p>\n\n<p>And, i think, it was somehow causing the non-verbosity on shutdown process despite enabling it on /etc/default/grub.</p>\n\n<p>Afterall, the additional software menu looks to have several non-working options and i think some of them should be removed or fixed.</p>\n",
+        "author": "Araujo1914"
+      },
+      "training": true
+    },
+    {
+      "author": "kernel_panic",
+      "url": "http://askubuntu.com/questions/91501/are-there-any-keyboard-shortcuts-to-shutdown",
+      "text": "Are there any Keyboard Shortcuts to Shutdown?",
+      "entities": [],
+      "intent": "Shutdown Computer",
+      "answer": {
+        "text": "<p>No, but assuming you're using 11.10, one can easily be added by going to:</p>\n\n<ol>\n<li>System Settings</li>\n<li>Keyboard</li>\n<li>Shortcuts tab</li>\n<li>Custom Shortcuts</li>\n<li>Then the little <kbd>+</kbd> icon.</li>\n</ol>\n\n<p>You can give it the name \"Shutdown\", and the command.  Try the command below:</p>\n\n<pre><code>gnome-session-quit --power-off --force\n</code></pre>\n\n<p>, then apply whatever keyboard shortcut you want to it.</p>\n",
+        "author": "Thomas Boxley"
+      },
+      "training": true
+    },
+    {
+      "author": "TechJhola",
+      "url": "http://askubuntu.com/questions/505929/shutdown-after-a-certain-time",
+      "text": "Shutdown after a certain time",
+      "entities": [],
+      "intent": "Shutdown Computer",
+      "answer": {
+        "text": "<h2>Scheduling a shutdown</h2>\n\n<p>To shutdown run the command:</p>\n\n<pre><code>sudo shutdown -P +60\n</code></pre>\n\n<p>That will wait 60 mins before starting the shutdown sequence.</p>\n\n<p>You could do:</p>\n\n<pre><code>sudo shutdown -P 1:00\n</code></pre>\n\n<p>to shutdown at 1 AM and</p>\n\n<pre><code>sudo shutdown -P now\n</code></pre>\n\n<p>to shutdown now.</p>\n\n<p>A message is broadcast to all terminals to warn about the shutdown.</p>\n\n<h2>Cancel a pending shutdown</h2>\n\n<p>After, starting a shutdown, if the time argument is <strong>not</strong> \"+0\" or \"now\", you can use:</p>\n\n<pre><code>sudo shutdown -c \n</code></pre>\n\n<p>to cancel the scheduled shutdown.</p>\n",
+        "author": "Tim"
+      },
+      "training": true
+    },
+    {
+      "author": "Mayank Sharma",
+      "url": "http://askubuntu.com/questions/890481/shutdown-problem-in-ubuntu-16-04",
+      "text": "Shutdown problem in Ubuntu 16.04",
+      "entities": [
+        {
+          "text": "Ubuntu 16.04",
+          "entity": "UbuntuVersion",
+          "stop": 32,
+          "start": 20
+        }
+      ],
+      "intent": "Shutdown Computer",
+      "answer": {
+        "text": "<p>Reason can be anything, but try running this command to shutdown:</p>\n\n<pre><code>sudo systemctl poweroff\n</code></pre>\n",
+        "author": "Arijit Chatterjee"
+      },
+      "training": true
+    },
+    {
+      "author": "H2ONaCl",
+      "url": "http://askubuntu.com/questions/61525/how-do-i-fix-a-shutdown-problem",
+      "text": "How do I fix a shutdown problem?",
+      "entities": [],
+      "intent": "Shutdown Computer",
+      "answer": {
+        "text": "<p>I reinstalled and that resolved the problem.</p>\n",
+        "author": "H2ONaCl"
+      },
+      "training": true
+    },
+    {
+      "author": "Madhav Nikam",
+      "url": "http://askubuntu.com/questions/640845/what-graphical-utility-can-i-use-for-ubuntu-auto-shutdown",
+      "text": "What graphical utility can I use for Ubuntu auto shutdown?",
+      "entities": [],
+      "intent": "Shutdown Computer",
+      "answer": {
+        "text": "<p><a href=\"https://apps.ubuntu.com/cat/applications/raring/gshutdown/\" rel=\"nofollow noreferrer\">GShutdown</a> is a utility which allows you to schedule the shutdown or restart of your computer. With it you can simply and quickly choose the turn off time at either a specific time or after a countdown.</p>\n\n<h3>Install Gshutdown:</h3>\n\n<pre><code>sudo apt-get install gshutdown\n</code></pre>\n\n<p><img src=\"https://i.stack.imgur.com/0nxD5.png\" alt=\"enter image description here\"></p>\n\n<p><a href=\"http://ubuntuguide.net/gshutdown-gui-tool-for-scheduled-shutdownrestart-in-ubuntu\" rel=\"nofollow noreferrer\">source.</a></p>\n",
+        "author": "Maythux"
+      },
+      "training": true
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+processed 386 tokens with 32 phrases; found: 26 phrases; correct: 19.
+accuracy:  94.04%; precision:  73.08%; recall:  59.38%; FB1:  65.52
+          Printer: precision:  57.14%; recall:  50.00%; FB1:  53.33  7
+     SoftwareName: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+    UbuntuVersion: precision:  83.33%; recall:  71.43%; FB1:  76.92  18
+  UbuntuVersion.1: precision:   0.00%; recall:   0.00%; FB1:   0.00  1

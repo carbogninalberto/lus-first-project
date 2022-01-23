@@ -1,0 +1,435 @@
+How O O
+to O O
+upgrade O O
+Ubuntu O B-UbuntuVersion
+14.04.1 B-UbuntuVersion I-UbuntuVersion
+to O O
+14.04.2 B-UbuntuVersion B-UbuntuVersion)
+
+Upgrading O O
+from O O
+Ubuntu O O
+14.04 B-UbuntuVersion B-UbuntuVersion
+to O O
+15.04 B-UbuntuVersion B-UbuntuVersion
+
+how O O
+to O O
+upgrade O O
+from O O
+ubuntu O O
+15.04 B-UbuntuVersion B-UbuntuVersion
+to O O
+15.10 B-UbuntuVersion B-UbuntuVersion.1
+
+Upgrade O O
+12.04 B-UbuntuVersion B-UbuntuVersion.1
+to O O
+12.10 B-UbuntuVersion B-UbuntuVersion
+using O O
+startup O B-UbuntuVersion
+disk O I-UbuntuVersion
+
+How O O
+to O O
+Upgrade O O
+from O O
+11.10 B-UbuntuVersion B-UbuntuVersion
+to O O
+12.04 B-UbuntuVersion B-UbuntuVersion.1
+when O O
+you've O B-UbuntuVersion
+got O I-UbuntuVersion
+a O O
+problem O B-UbuntuVersion)
+
+Update O O
+11.04 B-UbuntuVersion B-UbuntuVersion
+to O O
+12.04 B-UbuntuVersion B-UbuntuVersion.1
+with O O
+LiveCD O B-UbuntuVersion)
+
+How O O
+to O O
+upgrade O O
+Ubuntu O B-UbuntuVersion
+9.10 B-UbuntuVersion I-UbuntuVersion
+to O O
+12.10 B-UbuntuVersion B-UbuntuVersion
+via O I-UbuntuVersion
+terminal O O
+
+How O O
+to O O
+upgrade O O
+from O O
+Ubuntu O O
+10.10 B-UbuntuVersion B-UbuntuVersion
+to O O
+11.04 B-UbuntuVersion B-UbuntuVersion.1
+
+No O O
+matter O O
+what O O
+I O O
+do O O
+Ubuntu O B-UbuntuVersion
+15.04 B-UbuntuVersion I-UbuntuVersion
+does O O
+not O O
+recognize O O
+HP B-Printer B-Printer
+LaserJet I-Printer I-Printer
+1020 I-Printer O
+
+How O O
+to O O
+setup O O
+HP O B-Printer
+printer/scanner O I-Printer
+on O O
+ubuntu O B-UbuntuVersion)
+
+How O O
+do O O
+I O O
+setup O O
+my O O
+HP B-Printer B-Printer
+C4140 I-Printer I-Printer
+printer O O
+wirelessly O B-UbuntuVersion)
+
+How O O
+to O O
+setup O O
+wireless O O
+printing O O
+from O O
+a O O
+printer O O
+connected O O
+via O B-UbuntuVersion
+usb O I-UbuntuVersion
+on O O
+Ubuntu O O
+Server O O
+12.10 B-UbuntuVersion B-UbuntuVersion)
+
+How O O
+can O O
+I O O
+install O O
+a O O
+Pantum B-Printer B-UbuntuVersion
+2502W I-Printer I-UbuntuVersion
+laser O O
+printer O O
+on O O
+Ubuntu O O
+
+Install O O
+Canon B-Printer B-Printer
+MP560 I-Printer I-Printer
+Ubuntu O O
+15.04 B-UbuntuVersion B-UbuntuVersion
+
+How O O
+to O O
+install O O
+a O O
+Brother B-Printer B-Printer
+MFC-5890CN I-Printer I-Printer
+network O O
+printer O B-UbuntuVersion)
+
+How O O
+do O O
+I O O
+install O O
+drivers O O
+for O O
+a O O
+Konica B-Printer B-UbuntuVersion
+Minolta I-Printer I-UbuntuVersion
+200 I-Printer O
+
+How O O
+do O O
+I O O
+install O O
+drivers O O
+for O O
+the O O
+Panasonic B-Printer B-UbuntuVersion
+MB1900CX I-Printer I-UbuntuVersion
+All-in-One O O
+Printer/Scanner O B-UbuntuVersion)
+
+How O O
+To O O
+Install O O
+Canon B-Printer B-Printer
+LBP2900B I-Printer I-Printer
+printer O O
+in O O
+14.04 B-UbuntuVersion B-UbuntuVersion
+LTS I-UbuntuVersion I-UbuntuVersion
+ O O
+? O O
+I O O
+tried O O
+the O O
+method O O
+for O B-UbuntuVersion
+LBP2900 O I-UbuntuVersion
+but O O
+it O O
+didnt O B-UbuntuVersion)
+
+Any O O
+command O O
+line O O
+calculator O O
+for O O
+Ubuntu O B-UbuntuVersion)
+
+Extracting O O
+embedded O B-Printer
+images O I-Printer
+from O O
+a O O
+PDF O O
+
+What O O
+to O O
+use O O
+to O O
+quickly O B-UbuntuVersion
+cut O I-UbuntuVersion
+Audio/Video O O
+
+Torrent O O
+client O O
+for O O
+the O O
+command-line O B-UbuntuVersion)
+
+MySQL B-SoftwareName O
+GUI O O
+Tools O B-UbuntuVersion)
+
+What O O
+developer O B-Printer
+text O I-Printer
+editors O O
+are O O
+available O O
+for O O
+Ubuntu O B-UbuntuVersion)
+
+What O O
+screenshot O O
+tools O O
+are O O
+available O B-UbuntuVersion)
+
+Which O O
+programs O O
+can O O
+I O O
+use O O
+to O O
+edit O O
+PDF O O
+files O B-UbuntuVersion)
+
+Is O O
+there O O
+a O O
+lightweight O O
+tool O O
+to O O
+crop O B-UbuntuVersion
+images O I-UbuntuVersion
+quickly O O
+
+What O O
+IRC B-SoftwareName B-Printer
+clients O I-Printer
+are O O
+available O B-UbuntuVersion)
+
+What O O
+new O B-Printer
+games O I-Printer
+are O O
+available O O
+for O O
+Ubuntu O O
+in O O
+2011 O B-UbuntuVersion)
+
+UPNP O O
+/ O O
+DLNA O B-UbuntuVersion
+(client) O I-UbuntuVersion
+player O O
+recommendations O B-UbuntuVersion)
+
+What O O
+scientific O B-Printer
+plotting O I-Printer
+software O O
+is O O
+available O B-UbuntuVersion)
+
+Can O O
+you O O
+recommend O O
+a O O
+password O O
+generator O B-UbuntuVersion)
+
+What O O
+tools O O
+do O O
+you O O
+use O O
+to O O
+monitor O O
+a O O
+web O O
+server O B-UbuntuVersion)
+
+What O O
+is O O
+a O O
+good O O
+MongoDB B-SoftwareName O
+GUI O O
+client O B-UbuntuVersion)
+
+Password O O
+Management O O
+Applications O B-UbuntuVersion)
+
+Is O O
+there O O
+an O O
+application O O
+for O O
+reading O B-UbuntuVersion
+mobi O I-UbuntuVersion
+files O O
+
+shut O O
+down O O
+without O O
+extra O O
+question O B-UbuntuVersion)
+
+How O O
+to O O
+shutdown O O
+computer O O
+when O O
+users O O
+are O O
+logged O O
+on O B-UbuntuVersion)
+
+What O O
+is O O
+the O O
+proper O O
+terminal-way O O
+to O O
+shutdown O B-UbuntuVersion)
+
+How O O
+can O O
+I O O
+automatically O O
+shutdown O O
+the O O
+system O O
+after O O
+a O O
+specific O O
+time O B-UbuntuVersion)
+
+Hotkey O O
+to O O
+shut O O
+down O O
+from O O
+login O O
+screen O B-UbuntuVersion)
+
+How O O
+to O O
+shutdown O O
+the O O
+computer O O
+after O B-UbuntuVersion
+Xsession O I-UbuntuVersion
+ends O O
+
+How O O
+can O O
+one O I-Printer
+shutdown O O
+a O O
+PC O O
+using O O
+the O O
+keyboard O B-UbuntuVersion)
+
+How O O
+can O O
+I O O
+enable O O
+shutdown O O
+verbosity O B-UbuntuVersion)
+
+Are O O
+there O O
+any O O
+Keyboard O O
+Shortcuts O O
+to O O
+Shutdown O B-UbuntuVersion)
+
+Shutdown O O
+after O O
+a O O
+certain O O
+time O B-UbuntuVersion)
+
+Shutdown O O
+problem O B-Printer
+in O I-Printer
+Ubuntu B-UbuntuVersion O
+16.04 I-UbuntuVersion B-UbuntuVersion.1
+
+How O O
+do O O
+I O O
+fix O O
+a O O
+shutdown O O
+problem O B-UbuntuVersion)
+
+What O O
+graphical O O
+utility O O
+can O O
+I O O
+use O O
+for O O
+Ubuntu O O
+auto O O
+shutdown O B-UbuntuVersion)
+

@@ -1,0 +1,9 @@
+processed 479 tokens with 154 phrases; found: 146 phrases; correct: 123.
+accuracy:  92.07%; precision:  84.25%; recall:  79.87%; FB1:  82.00
+        Criterion: precision: 100.00%; recall:  87.50%; FB1:  93.33  28
+      StationDest: precision:  76.92%; recall:  68.97%; FB1:  72.73  26
+    StationDestto: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+     StationStart: precision:  71.19%; recall:  80.77%; FB1:  75.68  59
+    StationStart!: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+    StationStart.: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+          Vehicle: precision: 100.00%; recall:  86.84%; FB1:  92.96  33

@@ -1,0 +1,144 @@
+O O O O B-StationDest 
+O O O B-Criterion B-Vehicle O B-StationStart I-StationStart O 
+O O O B-Criterion B-Vehicle O O B-StationStart I-StationStart O 
+O B-StationStart I-StationStart O B-StationDest 
+O O O B-Criterion B-Vehicle O B-StationStart I-StationStart O B-StationDest 
+O O O B-Criterion B-Vehicle O B-StationStart I-StationStart O B-StationDest 
+O O O O O O B-StationStart O B-StationDest O 
+O O O O B-StationStart I-StationStart I-StationStart O B-StationDest 
+O O O O O B-StationStart O B-StationDest 
+O O B-StationStart O B-StationDest 
+O O O O B-StationStart I-StationStart O B-StationDest O 
+O O O B-Criterion B-Vehicle O O B-StationStart O 
+O O O O O B-StationStart O B-StationDest O 
+O O O O B-StationStart I-StationStart O B-StationDest 
+O O O O O B-StationStart I-StationStart O B-StationDest 
+B-StationStart O B-StationDest 
+O O O O O B-StationStart O B-StationDest I-StationDest O 
+O O O B-Criterion B-Vehicle O O B-StationStart O 
+O B-StationStart O B-StationDest O 
+O O O O O O B-StationStart O B-StationDest I-StationDest O 
+O O O O O O B-StationStart O B-StationDest I-StationDest O 
+O O O B-Criterion B-Vehicle O O B-StationStart O 
+O B-StationStart O B-StationDest O 
+O O O O O B-StationDest O B-StationStart I-StationStart O 
+O O O O O B-StationStart O B-StationDest 
+O O O O O B-StationDest O B-StationStart I-StationStart O 
+O O O B-Criterion B-Vehicle O O B-StationStart I-StationStart 
+O O O O O B-StationStart O B-StationDest O 
+O O O O O B-StationStart O B-StationDest O 
+O O O O O B-StationStart O B-StationDest I-StationDest O 
+O O O O O B-StationStart O B-StationDest O 
+O O O O O B-StationStart O B-StationDest O 
+O O O B-Criterion B-Vehicle O O B-StationStart O 
+O O B-Criterion O O B-StationStart O B-StationDest O 
+O O O B-Criterion B-Vehicle O B-StationStart 
+O O O O O B-StationStart O B-StationDest I-StationDest 
+O O O B-Criterion B-Vehicle O B-StationStart I-StationStart O 
+O O O O O B-StationStart O B-StationDest O 
+O O O O O B-StationStart O B-StationDest 
+O O O O B-StationDest O B-StationStart 
+O O O O O B-StationStart O B-StationDest O 
+O O O O O B-StationStart O B-StationDest 
+B-StationStart O B-StationDest 
+O O O O O B-StationDest O B-StationStart 
+B-Criterion B-Vehicle O B-StationStart 
+O B-StationStart O B-StationDest 
+O O O B-Criterion B-Vehicle O B-StationStart I-StationStart 
+O B-StationStart O B-StationDest 
+O B-StationStart I-StationStart O B-StationDest 
+B-Criterion B-Vehicle O B-StationStart 
+O O O B-Vehicle O O B-StationStart I-StationStart 
+B-Criterion B-Vehicle O B-StationStart I-StationStart 
+O O O B-Criterion B-Vehicle O B-StationStart 
+B-Criterion B-Vehicle O B-StationStart, O 
+B-Criterion B-Vehicle O B-StationStart 
+B-Criterion B-Vehicle O B-StationStart I-StationStart 
+O B-StationStart O B-StationDest 
+B-Criterion B-Vehicle O B-StationStart. 
+O O B-StationStart O B-StationDest O 
+O O O B-Criterion B-Vehicle O O B-StationStart O 
+O O O B-StationStart O B-StationDest 
+O O O B-Criterion B-Vehicle O O B-StationStart I-StationStart O 
+O O O B-Criterion B-Vehicle O O B-StationStart O 
+O O O B-Criterion B-Vehicle O O B-StationStart 
+O O O B-Criterion B-Vehicle O B-StationStart O 
+O O O O B-StationStart I-StationStart O B-StationDest O 
+B-StationStart O B-StationDest 
+O O O O O B-StationStart O B-StationDest O 
+O O O O O B-StationStart I-StationStart O B-StationDest 
+O O O O O B-StationStart O B-StationDest 
+O O O O O B-StationDest 
+B-StationStart O B-StationDest 
+O O O O O B-StationStart O B-StationDest I-StationDest O 
+O B-StationStart O B-StationDest 
+O O O B-Vehicle O B-StationStart O B-StationDest 
+B-StationStart O B-StationDest 
+O O O O O B-StationStart O B-StationDest 
+O O O O O B-StationDest 
+O O O B-Criterion B-Vehicle O B-StationStart I-StationStart 
+O O O O O B-StationStart O B-StationDest O 
+O O O O O B-StationStart I-StationStart O B-StationDest 
+O O O O O B-StationStart O B-StationDest O 
+O O O O B-StationStart I-StationStart O B-StationDest 
+B-Criterion B-Vehicle O B-StationStart I-StationStart 
+O O B-StationStart, O O 
+O O O B-Criterion B-Vehicle O O B-StationStart O 
+O B-Criterion B-Vehicle O B-StationStart I-StationStart 
+O O O B-Criterion B-Vehicle O B-StationStart I-StationStart O 
+O O O B-StationStart 
+O O O O O O O O O B-StationStart I-StationStart O B-StationDest O 
+O O O O O B-StationStart I-StationStart O B-StationDest 
+O O O O O B-StationStart O B-StationDest 
+O O O O B-StationDest 
+O O O B-Criterion B-Line O O B-StationStart I-StationStart 
+O O O O O B-StationStart I-StationStart O B-StationDest O 
+O B-StationStart O B-StationDest 
+O O O B-Vehicle O B-StationStart 
+O O O B-Criterion B-Vehicle O B-StationStart I-StationStart 
+O O O O O B-StationStart O B-StationDest I-StationDest 
+O O O O O B-StationStart I-StationStart O B-StationDest 
+O B-StationStart O B-StationDest 
+O O O O O B-StationStart O B-StationDest 
+O B-StationStart B-StationDest 
+O O O O O B-StationStart O B-StationDest 
+O O O B-Criterion B-Vehicle O B-StationStart 
+O O O B-StationStart O B-StationDest 
+O O B-Criterion O O B-StationStart O B-StationDest O 
+O O O B-Criterion O O B-StationStart O B-StationDest O 
+O O B-Criterion O O B-StationStart O B-StationDest O 
+O O O O O B-StationStart O B-StationDest I-StationDest O B-Criterion O O O 
+O O B-Criterion O O B-StationStart I-StationStart O B-StationDest O 
+O O O O O B-StationStart I-StationStart O B-StationDest O B-Criterion O O O 
+O O O O O B-Criterion O O B-StationStart O B-StationDest I-StationDest O 
+O O O O O B-StationStart I-StationStart O B-StationDest O B-TimeStartTime I-TimeStartTime O 
+O O O O O O B-StationStart O B-StationDest O B-TimeStartTime I-TimeStartTime O 
+O O O O O B-StationStart O B-StationDest O B-TimeStartTime I-TimeStartTime. 
+O O O O O B-StationDest O B-TimeEndTime I-TimeEndTime, O O O O O O B-StationStart I-StationStart O 
+O O O O O B-StationDest O B-TimeEndTime 
+O O O O B-Vehicle O B-StationStart O B-StationDest O 
+O O O O B-Criterion O O B-StationStart O B-StationDest O 
+O O O O O B-StationDest I-StationDest O B-StationStart I-StationStart O 
+O O O O B-Vehicle O B-StationStart O B-StationDest O 
+O O O B-Vehicle O B-StationStart O B-StationDest O 
+O O O B-Vehicle O B-StationStart O B-StationDest O O B-TimeStartTime O 
+O O O B-Vehicle O B-StationStart O B-StationDest O B-TimeStartTime I-TimeStartTime O 
+O O O O O B-Criterion O O B-StationStart I-StationStart O B-StationDest O 
+O O O O O B-StationDest O 
+O O O B-Criterion B-Vehicle O O B-StationStart O 
+O O O O O B-StationStart O B-StationDest O 
+O O O O O B-StationStart O B-StationDest O 
+O O B-Criterion B-Vehicle O B-StationStart O O O 
+O O O B-Criterion O O B-StationStart I-StationStart O B-StationDest O 
+O O O O O B-StationStart O B-StationDest I-StationDest O 
+O O O O O B-StationStart I-StationStart O B-StationDest O 
+O O O O O B-StationStart I-StationStart O B-StationDest O 
+O O O O O B-StationStart I-StationStart O B-StationDest O 
+O O O O O B-StationDest O B-StationStart O 
+O O O B-Criterion B-Vehicle O O B-StationStart O 
+O O B-Criterion B-Vehicle O B-StationStart I-StationStart O O O 
+O O O O B-Line O O B-StationStart O 
+O O O B-Criterion B-Vehicle O O B-StationStart I-StationStart 
+O O O B-Criterion B-Line O 
+O O O B-Criterion B-Vehicle O O B-StationStart O 
+O O B-Criterion B-Vehicle O B-StationStart O O O 

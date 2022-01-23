@@ -1,0 +1,6 @@
+processed 190 tokens with 32 phrases; found: 18 phrases; correct: 14.
+accuracy:  90.00%; precision:  77.78%; recall:  43.75%; FB1:  56.00
+          Browser: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+  OperatingSystem: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+       WebService: precision:  77.78%; recall:  48.28%; FB1:  59.57  18
+     WebService's: precision:   0.00%; recall:   0.00%; FB1:   0.00  0

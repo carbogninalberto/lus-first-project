@@ -1,0 +1,540 @@
+{
+  "sentences": [
+    {
+      "author": "TechWire",
+      "url": "http://webapps.stackexchange.com/questions/40153/change-subject-line-in-new-gmail-compose-window",
+      "text": "Change subject line in new Gmail compose window",
+      "entities": [
+        {
+          "text": "Gmail",
+          "entity": "WebService",
+          "stop": 32,
+          "start": 27
+        }
+      ],
+      "intent": "None",
+      "answer": {
+        "text": "<p>Click the down arrow next to the reply arrow (upper left corner). That'll give you the option to (additionally) <em>Forward</em>, <em>Reply all</em> (not pictured), or <em>Edit subject</em>.</p>\n\n<p><img src=\"https://i.stack.imgur.com/yCvA5.png\" alt=\"screen shot\"></p>\n",
+        "author": "ale"
+      },
+      "training": true
+    },
+    {
+      "author": "Atlantic",
+      "url": "http://webapps.stackexchange.com/questions/46849/email-google-form-daily",
+      "text": "Email Google Form daily?",
+      "entities": [
+        {
+          "text": "Google",
+          "entity": "WebService",
+          "stop": 12,
+          "start": 6
+        }
+      ],
+      "intent": "None",
+      "answer": {
+        "text": "<p>You can \"embed\" the form in an email, and then use \"boomerang\" to send that email repeatedly... Here's a excerpt from two pages:</p>\n\n<p><a href=\"http://www.maketecheasier.com/embed-google-forms-in-email/\" rel=\"nofollow\">How to Embed A Survey Form in Email And Receive Higher Completion Rate [Google Forms]</a></p>\n\n<blockquote>\n  <p>Creating &amp; Embedding a Google Form in Email</p>\n  \n  <ol>\n  <li>From your Gmail account, navigate to Google Drive and click \u201cCreate -> Form\u201d.</li>\n  <li>Complete the necessary questions for your survey (as shown below) and click Done.</li>\n  <li>When the \u201csend the form to others\u201d dialog box pops up, enter in the relevant email address you want to send the form to and ensure the\n  \u201cInclude form in this email is ticked\u201d. When you\u2019re sure all the\n  details are correct, click \u201cSend\u201d.</li>\n  <li>When the client receives the email, they will see the survey embedded in the email and will be allowed to answer it directly\n  instead of using the link. As shown in the example below, the\n  recipient chooses the appropriate radio buttons and clicks Submit.</li>\n  <li>When the Submit button is clicked, a message box pops up stating that the recipient is submitting the information to an external\n  website. They will need to click OK to continue.</li>\n  <li>A new tab opens (within the relevant browser) indicating the survey has been submitted.</li>\n  <li>To ensure that the response was successfully received, navigate to the form in Google Drive and open up the survey form. The results\n  should be recorded as shown below.</li>\n  </ol>\n  \n  <p>As previously stated, Google forms cannot be filled out within an\n  email unless the recipient is using Gmail or Google Apps. This means\n  that if the form is sent to emails such as Outlook or Yahoo, there is\n  no option available to submit the survey directly within the email.\n  Instead, the user has to click on the external link to access the\n  survey page.</p>\n</blockquote>\n\n<p><strong>I'd suggest you use the above info, and email the form to yourself. Then use the info below to send it repeatedly</strong></p>\n\n<p><a href=\"http://www.boomeranggmail.com/l/how-to-send-recurring-emails.html\" rel=\"nofollow\">How to send recurring emails and reminders</a></p>\n\n<blockquote>\n  <p>Our demo video above shows you how to send recurring emails right from\n  your inbox. Whether you need to remind employees about biweekly\n  events, make sure your roommates pay the utility bills every month, or\n  remind yourself to stick with a new habit every morning, Boomerang\u2019s\n  recurring messages feature will make short work of it. To set up a\n  recurring email, all you have to do is write a message like normal,\n  click \u2018Schedule Recurring Message\u2019 from the bottom of the Send Later\n  menu.</p>\n  \n  <p>From the pop-up menu, you can then choose the start date, frequency,\n  day of the week to send, and end date. You can easily change, edit, or\n  cancel a scheduled message from the manage page. It\u2019s that easy!</p>\n  \n  <p><em>With the Boomerang for Gmail extension, you can schedule easy recurring email reminders right from your inbox.</em></p>\n</blockquote>\n\n<p>Links are already provided in the title of each quoted text above... </p>\n",
+        "author": "user2377276"
+      },
+      "training": true
+    },
+    {
+      "author": "akent",
+      "url": "http://webapps.stackexchange.com/questions/3080/how-can-i-export-track-scrobble-data-from-last-fm",
+      "text": "How can I export track.scrobble data from last.fm?",
+      "entities": [
+        {
+          "text": "last.fm",
+          "entity": "WebService",
+          "stop": 49,
+          "start": 42
+        }
+      ],
+      "intent": "Export Data",
+      "answer": {
+        "text": "<p>As <a href=\"http://www.forceflow.be/2012/07/10/backing-up-last-fm-scrobbles/\">Backing up Last.FM scrobbles</a> explains you should be able to use the script lastexport.py in <a href=\"http://bugs.foocorp.net/projects/librefm/wiki/LastToLibre\">LastToLibre</a>. To use it:</p>\n\n<ol>\n<li>Download <a href=\"http://gitorious.org/fmthings/lasttolibre/blobs/raw/master/lastexport.py\">lastexport.py</a>.</li>\n<li><p>Run it with the following terminal command:</p>\n\n<pre><code>python lastexport.py -u last.fm_user_name\n</code></pre>\n\n<p>Note that this requires you to have <a href=\"http://www.python.org\">Python</a> installed and that you replace <code>last.fm_user_name</code> with your last.fm user name. Also note that if you got real time stats hidden (under privacy settings) you have to enable it for this to work.</p></li>\n<li><p>You can now find the exported tracks in the same directory as the script. By default it will be named exported_tracks.txt</p></li>\n</ol>\n\n<p>The script also allows for exporting loved and banned tracks. By default it exports scrobbles but you can change the behavior by setting the flags <code>-t</code> to either <code>loved</code> or <code>banned</code>.</p>\n\n<hr>\n\n<p>If you want to backup loved songs you can use  <a href=\"https://github.com/Sleft/sync_songs\"><strong>sync_songs</strong></a>. It requires Ruby which can be installed via</p>\n\n<pre><code>sudo apt-get install ruby1.9.1.\n</code></pre>\n\n<p>on Debian-based systems. The simplest way to install sync_songs is via <a href=\"https://rubygems.org/gems/sync_songs\">RubyGems</a> (which can be installed via <code>sudo apt-get install rubygems1.9.1</code> on Debian-based systems):</p>\n\n<pre><code>sudo gem install sync_songs\n</code></pre>\n\n<p>For details and other ways to install see <a href=\"https://github.com/Sleft/sync_songs/blob/master/README.org\">the readme</a>.</p>\n\n<p>To use it with Last.fm you need an API account as described in <a href=\"https://github.com/Sleft/sync_songs/blob/master/services.org\">services.org</a>. It is free and quite easy to get such an account. Once you have an account you can backuo Last.fm loved tracks to a CSV file by first a creating an empty file and then issuing the following</p>\n\n<pre><code>sync_songs sync --color -vs smith:lastfm:loved file_path:csv:library\n</code></pre>\n\n<p>You need to replace <code>smith</code> with your Last.fm user name and <code>file_path</code> with the path to the empty file.</p>\n",
+        "author": "N.N."
+      },
+      "training": true
+    },
+    {
+      "author": "Robert Munteanu",
+      "url": "http://webapps.stackexchange.com/questions/411/how-can-i-backup-my-wordpress-com-hosted-blog",
+      "text": "How can I backup my wordpress.com hosted blog?",
+      "entities": [
+        {
+          "text": "wordpress.com",
+          "entity": "WebService",
+          "stop": 33,
+          "start": 20
+        }
+      ],
+      "intent": "Export Data",
+      "answer": {
+        "text": "<p><a href=\"http://en.support.wordpress.com/export/\" rel=\"nofollow\">There's an option</a> in your blog's admin panel to do this.</p>\n\n<blockquote>\n  <p>It\u2019s your content; you can do with it whatever you like. Go to Tools -> Export in your WordPress.com dashboard to download an XML file of your blog\u2019s content.</p>\n</blockquote>\n\n<p>In addition to any manual backups you make, blogs hosted on Wordpress.com are <a href=\"http://en.support.wordpress.com/export/#backups\" rel=\"nofollow\">regularly backed up by their own processes</a>.</p>\n",
+        "author": "Gelatin"
+      },
+      "training": true
+    },
+    {
+      "author": "Ankur Banerjee",
+      "url": "http://webapps.stackexchange.com/questions/39052/how-can-i-sync-my-yahoo-calendar-with-google-calendar",
+      "text": "How can I sync my Yahoo! Calendar with Google Calendar?",
+      "entities": [
+        {
+          "text": "Yahoo! Calendar",
+          "entity": "WebService",
+          "stop": 33,
+          "start": 18
+        },
+        {
+          "text": "Google Calendar",
+          "entity": "WebService",
+          "stop": 54,
+          "start": 39
+        }
+      ],
+      "intent": "Sync Accounts",
+      "answer": {
+        "text": "<p>You must try the host name as '<strong>caldav</strong>.calendar.yahoo.com', instead of 'calendar.yahoo.com'. This is how I solved it.</p>\n",
+        "author": "In Marsh"
+      },
+      "training": true
+    },
+    {
+      "author": "colithium",
+      "url": "http://webapps.stackexchange.com/questions/6101/google-bookmarks-and-chrome-bookmark-sync-different",
+      "text": "Google Bookmarks and Chrome Bookmark Sync -- Different?",
+      "entities": [
+        {
+          "text": "Google",
+          "entity": "WebService",
+          "stop": 6,
+          "start": 0
+        },
+        {
+          "text": "Chrome",
+          "entity": "Browser",
+          "stop": 27,
+          "start": 21
+        }
+      ],
+      "intent": "Sync Accounts",
+      "answer": {
+        "text": "<p>Chrome Bookmark Sync is stored in Google Docs, under My Folders. Look there.</p>\n",
+        "author": "Dave Jacoby"
+      },
+      "training": true
+    },
+    {
+      "author": "BioGeek",
+      "url": "http://webapps.stackexchange.com/questions/47260/how-do-i-sync-my-runkeeper-workout-schedule-with-google-calender",
+      "text": "How do I sync my RunKeeper workout schedule with Google Calender?",
+      "entities": [
+        {
+          "text": "RunKeeper",
+          "entity": "WebService",
+          "stop": 26,
+          "start": 17
+        },
+        {
+          "text": "Google Calender",
+          "entity": "WebService",
+          "stop": 64,
+          "start": 49
+        }
+      ],
+      "intent": "Sync Accounts",
+      "answer": {
+        "text": "<p>There is a <a href=\"https://ifttt.com/recipes/110721-runkeeper-to-gcal\" rel=\"nofollow noreferrer\">\"If This Then That\" recipe </a>you could utilize.</p>\n\n<blockquote>\n  <p><strong>Notes:</strong> Uses <a href=\"http://iamnerdwin.com/work/runkeeper-activity-feed\" rel=\"nofollow noreferrer\">http://iamnerdwin.com/work/runkeeper-activity-feed</a> to\n  export data from RunKeeper and then <a href=\"http://www.feed43.com\" rel=\"nofollow noreferrer\">http://www.feed43.com</a> to turn the\n  data into RSS. See <a href=\"https://imgur.com/mwLasUY\" rel=\"nofollow noreferrer\">http://imgur.com/mwLasUY</a> for key settings in\n  feed43.</p>\n</blockquote>\n\n<p>It shouldn't require much tweaking at all. Just an IFTTT.com account (they're free!).</p>\n",
+        "author": "randomblink"
+      },
+      "training": true
+    },
+    {
+      "text": "Does using Gmail's \"Never send it to Spam\" filter mean I can't train their spam filter?",
+      "intent": "Filter Spam",
+      "entities": [
+        {
+          "text": "Gmail",
+          "entity": "WebService",
+          "stop": 16,
+          "start": 11
+        }
+      ],
+      "training": true
+    },
+    {
+      "author": "phwd",
+      "url": "http://webapps.stackexchange.com/questions/16145/correctly-identifying-spam-messages",
+      "text": "Correctly Identifying Spam Messages",
+      "entities": [],
+      "intent": "Filter Spam",
+      "answer": {
+        "text": "<p>Reporting as spam emails with \"good\" keywords (the kind that looks like it is actually written by a human being) is difficult because of the concern you are obviously voicing. However, most spam intelligence will not only look at the message itself, but other components like who sent it, where it came from, and who it was sent to.</p>\n\n<ul>\n<li>By reporting as spam you are providing the community a service in that you are reinforcing the identification of those other components as spam-ly behavior</li>\n<li>You can attempt to remove your name from wherever it came from, but in all likelihood that is like feeding trolls.</li>\n</ul>\n",
+        "author": "mfg"
+      },
+      "training": true
+    },
+    {
+      "author": "waanders",
+      "url": "http://webapps.stackexchange.com/questions/24084/twitter-and-echofon-spam",
+      "text": "Twitter and Echofon spam",
+      "entities": [
+        {
+          "text": "Twitter",
+          "entity": "WebService",
+          "stop": 7,
+          "start": 0
+        },
+        {
+          "text": "Echofon",
+          "entity": "WebService",
+          "stop": 19,
+          "start": 12
+        }
+      ],
+      "intent": "Filter Spam",
+      "answer": {
+        "text": "<p>Echofon is notifying you that a Twitter user has mentioned your twitter account in one of their own tweets. In the Twitter web interface, you would see these tweets under the \"<a href=\"https://twitter.com/#!/i/connect\" rel=\"nofollow\">@ Connect</a>\" tab, possibly buried under the option labeled \"<a href=\"https://twitter.com/#!/mentions\" rel=\"nofollow\">Mentions</a>\".</p>\n\n<p>There are numerous spam bots that will tweet \"at\" you, usually in response to one of your public tweets that mentions a keyword. As you stated, \"webcam\" was one that attracted the bots. Mention of various Apple Computer product names is one that I've seen attract the bots in full force.</p>\n\n<p>When your public tweet brings your Twitter account to the attention of the spambots, they will react. One of the ways in which they react is to reply to your tweet or to \"mention\" you.</p>\n\n<p>You post something like:</p>\n\n<blockquote>\n  <p>\"My new remote controlled helicopter arrives tomorrow! Hooray!\"</p>\n</blockquote>\n\n<p>And the spambots respond with:</p>\n\n<blockquote>\n  <p>@your-twitter-account I know, right? i got mine today from (some spam\n  link)</p>\n  \n  <p>@your-twitter-account FREE HELICOPTER FOR THE FIRST TEN PEOPLE (some\n  spam link)</p>\n  \n  <p>Hey, I think @your-twitter-account is loving his new remote from (some\n  spam link)</p>\n  \n  <p>@your-twitter-acocunt @someone-else #trendinghashtag (spam link) i\n  blah bloop bleep</p>\n</blockquote>\n\n<p>When Echofon asks Twitter for a list of your \"mentions\" and/or \"interactions\", the tweets from the spam bots are included in the list. Echofon then notifies you of these tweets.</p>\n\n<p>In a world without spam, this is useful behavior. It facilitates conversations with new people who you might not have otherwise interacted with.</p>\n\n<p>Echofon for iOS recently (<a href=\"http://www.echofon.com/changes/iphone\" rel=\"nofollow\">as of May 8, 2012</a>) gained a new feature: </p>\n\n<blockquote>\n  <ul>\n  <li>Refine push notification settings\n  <ul>\n  <li>Added an option receiving mentions notification only from people you follow</li>\n  </ul></li>\n  </ul>\n</blockquote>\n\n<p>Echofon <a href=\"http://www.echofon.com/changes/windows\" rel=\"nofollow\">for Windows</a> and <a href=\"http://www.echofon.com/changes/firefox\" rel=\"nofollow\">for Firefox</a> do not seem to have such a feature yet.</p>\n\n<p>You could request the feature be added to Echofon, you could tolerate the occasional spam notifications (and report/block the accounts), or you could find another Twitter client that has a feature to suppress notification of mentions from accounts you do not follow.</p>\n\n<p>Best of luck!</p>\n",
+        "author": "jeff"
+      },
+      "training": true
+    },
+    {
+      "author": "OldSteve",
+      "url": "http://webapps.stackexchange.com/questions/102624/totally-blocking-spam-to-gmail-account",
+      "text": "Totally Blocking Spam To Gmail Account",
+      "entities": [
+        {
+          "text": "Gmail",
+          "entity": "WebService",
+          "stop": 30,
+          "start": 25
+        }
+      ],
+      "intent": "Filter Spam",
+      "answer": {
+        "text": "<p>You could create filter that deletes the unwanted emails from specific senders.</p>\n\n<p>Click the cog wheel &rarr; <em>Settings &rarr; Filters and blocked addresses &rarr; Create a new filter</em>. </p>\n\n<p>In the <em>From</em> field, enter <code>from:(offendingsender1@domain1.com OR offendingsender2@domain2.com OR offendingsender3@domain3.com)</code> ... you get the idea, first <code>from:(</code>, then list all offending addresses separated by <code>OR</code>, finish with a <code>)</code>.</p>\n\n<p>Test the search expression by clicking the search button - this will close the settings dialog, and list all matching messages. Make sure the messages shown are those you want to delete, and nothing else. To go back to filter creation, click the <em>More</em> button &rarr; <em>Create filter</em>.</p>\n\n<p>Click <em>Create filter with this search</em>, select <em>When a message arrives that matches this search: <strong>Delete it</strong></em>.</p>\n\n<p>Click <em>Create filter</em>, and you're done - offending incoming messages will now be deleted directly.</p>\n",
+        "author": "Vidar S. Ramdal"
+      },
+      "training": true
+    },
+    {
+      "author": "Enrique Moreno Tent",
+      "url": "http://webapps.stackexchange.com/questions/59403/discarding-spam-mail-faster-in-gmail",
+      "text": "Discarding spam mail faster in Gmail",
+      "entities": [
+        {
+          "text": "Gmail",
+          "entity": "WebService",
+          "stop": 36,
+          "start": 31
+        }
+      ],
+      "intent": "Filter Spam",
+      "answer": {
+        "text": "<p>Not as a one-step process.</p>\n\n<p>It's simple enough to perform a keyword search in your spam label. Just do something like</p>\n\n<pre><code>in:spam viagra\n</code></pre>\n\n<p>Once you've got your results just check all and delete.</p>\n",
+        "author": "ale"
+      },
+      "training": true
+    },
+    {
+      "author": "Abhijith",
+      "url": "http://webapps.stackexchange.com/questions/30909/stopping-spam-emails-in-gmail-by-pattern",
+      "text": "Stopping spam emails in Gmail by pattern",
+      "entities": [
+        {
+          "text": "Gmail",
+          "entity": "WebService",
+          "stop": 29,
+          "start": 24
+        }
+      ],
+      "intent": "Filter Spam",
+      "answer": {
+        "text": "<p>I made a script to print the emails in pattern. \nAdvanced search in Gmail accepts 50emails at a time</p>\n\n<pre><code>for($i=100;$i&lt;=150;$i++)\n{\necho \"jobsnext\".($i).\"@yahoo.in|\";\n}\n</code></pre>\n\n<p>Output will be like\n<code>jobsnext100@yahoo.in|jobsnext101@yahoo.in|jobsnext102@yahoo.in|jobsnext103...</code></p>\n\n<p>Made two filters 50+50. And send them all to trash</p>\n",
+        "author": "Abhijith"
+      },
+      "training": true
+    },
+    {
+      "author": "ale",
+      "url": "http://webapps.stackexchange.com/questions/41591/alternatives-for-google-reader-with-android-synchronizing",
+      "text": "Alternatives for Google Reader (with Android synchronizing)",
+      "entities": [
+        {
+          "text": "Google Reader",
+          "entity": "WebService",
+          "stop": 30,
+          "start": 17
+        },
+        {
+          "text": "Android",
+          "entity": "OperatingSystem",
+          "stop": 44,
+          "start": 37
+        }
+      ],
+      "intent": "Find Alternative",
+      "answer": {
+        "text": "<p><a href=\"http://www.feedly.com/\"><strong>Feedly</strong></a> syncs directly to Google Reader for now, and will migrate your feeds off google reader when the time comes.</p>\n\n<p>They have a <a href=\"http://blog.feedly.com/2013/03/14/tips-for-google-reader-users-migrating-to-feedly/\">post simplifying the transition from Google Reader to feedly</a>.</p>\n\n<p>Feedly runs in the browser and on various mobile devices.\nIt supports categories for feeds like Google Reader. It supports <code>j</code> and <code>k</code> keyboard shortcuts for navigating between posts. A \"tiled\" view can be readily configured.</p>\n",
+        "author": "antony.trupe"
+      },
+      "training": true
+    },
+    {
+      "author": "davr",
+      "url": "http://webapps.stackexchange.com/questions/2884/bugmenot-registration-bypasser-alternative-that-doesn-t-suck",
+      "text": "Bugmenot (registration bypasser) alternative that doesn't suck?",
+      "entities": [
+        {
+          "text": "Bugmenot",
+          "entity": "WebService",
+          "stop": 8,
+          "start": 0
+        }
+      ],
+      "intent": "Find Alternative",
+      "answer": {
+        "text": "<p>Here are some Bugmenot alternatives:</p>\n\n<ul>\n<li><strong><a href=\"http://login2.me/\" rel=\"nofollow\">Login 2</a></strong> - <a href=\"http://login2.me/?page=terms\" rel=\"nofollow\">TOS link</a> - Login 2's TOS doesn't seem to have an option that allows websites to 'opt out'</li>\n<li><strong><a href=\"http://fakeaccount.net/\" rel=\"nofollow\">fakeaccount.net</a></strong> - no TOS page</li>\n</ul>\n\n<p>I made this answer into a Community Wiki so others could easily add other Bugmenot alternatives. Please include the website's TOS, if there is one.</p>\n",
+        "author": "galacticninja"
+      },
+      "training": true
+    },
+    {
+      "author": "Casebash",
+      "url": "http://webapps.stackexchange.com/questions/3722/alternatives-to-twitter",
+      "text": "Alternatives to Twitter",
+      "entities": [
+        {
+          "text": "Twitter",
+          "entity": "WebService",
+          "stop": 23,
+          "start": 16
+        }
+      ],
+      "intent": "Find Alternative",
+      "answer": {
+        "text": "<p>I think you might be trying to bend Twitter into something it isn't.</p>\n\n<p>Twitter is a service where you can push 140 character tidbits of \"what's on your mind/wha'cha doing\" to the rest of the world... and in return, you can follow what others are up to.</p>\n\n<p><strong>Twitter solved a bunch of things...</strong></p>\n\n<ol>\n<li>I want to publish/share something (e.g. a cool link), but I don't want/need to create a blog post for it</li>\n<li>I \"think\" that the rest of the world <em>cares</em> about everything I do, thus I must publicize mindless dribble like: \"I feel like tacos for lunch\"</li>\n<li>I want to promote/syndicate my company/event news/products/info to the masses and my SEO expert tells me this is how I should do it</li>\n<li>I have a mobile device &amp; time to waste - what can I do?</li>\n</ol>\n\n<p>IMHO The reality is, that the Internet will really only support 1 (one) of these types of services because the users that are \"following\" will only want one consolidated view.  </p>\n\n<p>That said, the <a href=\"http://apiwiki.twitter.com/\" rel=\"nofollow\">Twitter API</a> is fairly robust and thus there are a zillion clients out there that can filter, group, sort and manage all the Twitter content you can handle.</p>\n\n<p>Finally you mentioned conversations.  AFAIK, conversations are best done with IM (e.g. MSN, ICQ, Gtalk, AIM, !Y, or IRC (for groups)), Facebook chat, or Google Wave (for collaboration)... and/or SMS on mobile phones.</p>\n\n<p>FYI: If you just want to track a Twitter conversation between 2 parties, bettween.com offers a unique view for this. e.g. here is the current 'conversation' between <a href=\"http://bettween.com/kevinrose/alexalbrecht\" rel=\"nofollow\">@KevinRose/@AlexAlbrecht</a>.</p>\n",
+        "author": "scunliffe"
+      },
+      "training": true
+    },
+    {
+      "author": "Mehper C. Palavuzlar",
+      "url": "http://webapps.stackexchange.com/questions/2792/google-search-engine-alternatives",
+      "text": "Google search engine alternatives",
+      "entities": [
+        {
+          "text": "Google",
+          "entity": "WebService",
+          "stop": 6,
+          "start": 0
+        }
+      ],
+      "intent": "Find Alternative",
+      "answer": {
+        "text": "<p><img src=\"https://duckduckgo.com/nduck.v102.png\" alt=\"alt text\"></p>\n\n<p><strong><a href=\"http://duckduckgo.com\" rel=\"nofollow noreferrer\">DuckDuckGo</a></strong> is <a href=\"https://duckduckgo.com/about.html\" rel=\"nofollow noreferrer\">suggested</a> to be used instead of Google to get:</p>\n\n<ul>\n<li>Zero-click info \u2014 useful info above the links.</li>\n<li>Privacy \u2014 we do not track you. Google does.</li>\n<li>Less spam &amp; ads \u2014 omits 60 million useless sites.</li>\n<li>Official sites \u2014 labeled official and on top.</li>\n<li>Meanings \u2014 for ambiguous terms.</li>\n<li>Keyboard shortcuts \u2014 forget the mouse.</li>\n<li>Customization \u2014 change the fonts and more.</li>\n<li>No clutter \u2014 just results, not other stuff.</li>\n<li>Search other sites \u2014 check out !bang syntax.</li>\n<li>Categories \u2014 explore related topics.</li>\n<li>Favicons \u2014 site icons next to results.</li>\n</ul>\n",
+        "author": "Mehper C. Palavuzlar"
+      },
+      "training": true
+    },
+    {
+      "author": "Casebash",
+      "url": "http://webapps.stackexchange.com/questions/6053/alternatives-to-google-groups-with-more-features",
+      "text": "Alternatives to Google Groups with more features?",
+      "entities": [
+        {
+          "text": "Google Groups",
+          "entity": "WebService",
+          "stop": 29,
+          "start": 16
+        }
+      ],
+      "intent": "Find Alternative",
+      "answer": {
+        "text": "<p>Take a look at <a href=\"http://groupspaces.com\" rel=\"nofollow\">GroupSpaces</a> - I was looking for a Google Groups replacement for managing a mailing list, and it seems to fit the bill really nicely.</p>\n",
+        "author": "Josh Newman"
+      },
+      "training": true
+    },
+    {
+      "author": "Ivo Flipse",
+      "url": "http://webapps.stackexchange.com/questions/1563/are-there-any-good-hulu-veoh-or-youtube-alternatives",
+      "text": "Are there any good Veoh or Youtube alternatives?",
+      "entities": [
+        {
+          "text": "Veoh",
+          "entity": "WebService",
+          "stop": 23,
+          "start": 19
+        },
+        {
+          "text": "Youtube",
+          "entity": "WebService",
+          "stop": 34,
+          "start": 27
+        }
+      ],
+      "intent": "Find Alternative",
+      "answer": {
+        "text": "<p>Are you looking to</p>\n\n<ul>\n<li>Upload HD content</li>\n<li>Just watch music videos</li>\n<li>Looking for lol videos</li>\n<li>Watch movies</li>\n<li>Filter the <em>youtube community</em> that spams the top videos</li>\n</ul>\n\n<p>I used to like <a href=\"http://www.dailymotion.com\" rel=\"nofollow\">Dailymotion</a> but for some reason I would get a lot of videos in french or french subtitles. It was great for watching full movies and music videos (they have not signed up with Vevo so I am sure there are no content blocks ? you will have to update the questions with links from YouTube Vevo to check)</p>\n\n<p><a href=\"http://vimeo.com\" rel=\"nofollow\">Vimeo</a> is my all time favorite for watching high quality content. No Fred, No trolls talking about religion, no Emo guys just plain high quality videos shot on the best cameras money can buy.</p>\n\n<p>They are <a href=\"http://www.metacafe.com/\" rel=\"nofollow\">others</a> which may be good as well but they tend to be filled with lots of pron, low quality content and ads.</p>\n\n<p>If you are surf a lot of videos, you can try <a href=\"http://video.google.com/\" rel=\"nofollow\">Google Videos</a> as well which is a collection of video sites.</p>\n",
+        "author": "phwd"
+      },
+      "training": true
+    },
+    {
+      "author": "Miro A.",
+      "url": "http://webapps.stackexchange.com/questions/2989/mint-alternatives-for-canada",
+      "text": "Mint alternatives for Canada",
+      "entities": [
+        {
+          "text": "Mint",
+          "entity": "WebService",
+          "stop": 4,
+          "start": 0
+        }
+      ],
+      "intent": "Find Alternative",
+      "answer": {
+        "text": "<p>Check out <a href=\"https://www.quickenonline.intuit.com/quickenweb/pages/iam/login_main.jsf\" rel=\"nofollow\">https://www.quickenonline.intuit.com/quickenweb/pages/iam/login_main.jsf</a> and <a href=\"http://yodlee.com/ymc_home.shtml\" rel=\"nofollow\">http://yodlee.com/ymc_home.shtml</a>.</p>\n\n<p>I found most of my into on the forum <a href=\"http://forums.redflagdeals.com/there-mint-com-substitute-canada-745910/\" rel=\"nofollow\">http://forums.redflagdeals.com/there-mint-com-substitute-canada-745910/</a>.</p>\n\n<p>It looks like there could be an issue because Canadian banks don't generally allow outside access to their accounts.  Mint was just purchased by Intiut so they probably haven't had time to get Canada integration since Mint was a smaller company.  I would try the Intuit one first as they are such a large and old org that if they don't support Canada then no one probably does.</p>\n\n<p>Also, Wesabe.com would have been another option but they have closed down as of this month.</p>\n",
+        "author": "Ben Hoffman"
+      },
+      "training": true
+    },
+    {
+      "author": "Jared Harley",
+      "url": "http://webapps.stackexchange.com/questions/57/how-can-i-delete-my-twitter-account",
+      "text": "How can I delete my Twitter account?",
+      "entities": [
+        {
+          "text": "Twitter",
+          "entity": "WebService",
+          "stop": 27,
+          "start": 20
+        }
+      ],
+      "intent": "Delete Account",
+      "answer": {
+        "text": "<p><strong>To deactivate your account:</strong></p>\n\n<ol>\n<li>Log in to Twitter</li>\n<li>Go to <strong>Settings</strong></li>\n<li>Click <strong>Deactivate my account</strong> at the bottom of the page</li>\n<li>Verify that you really want to do it and voila, it's done.</li>\n</ol>\n\n<p>More information in <a href=\"http://help.twitter.com/entries/15358-how-to-deactivate-your-account\" rel=\"nofollow\">Twitter's Help pages</a></p>\n",
+        "author": "Ken Pespisa"
+      },
+      "training": true
+    },
+    {
+      "author": "snakile",
+      "url": "http://webapps.stackexchange.com/questions/15420/how-do-i-delete-my-linkedin-account",
+      "text": "How do I delete my LinkedIn account?",
+      "entities": [
+        {
+          "text": "LinkedIn",
+          "entity": "WebService",
+          "stop": 27,
+          "start": 19
+        }
+      ],
+      "intent": "Delete Account",
+      "answer": {
+        "text": "<p>You need to:</p>\n\n<ol>\n<li>Log in to your LinkedIn account</li>\n<li><p>Select <code>Settings</code> from the arrow drop down in the top right</p>\n\n<p><img src=\"https://i.stack.imgur.com/HVMVD.png\" alt=\"Settings - LinkedIn\"></p></li>\n<li>Then click the <code>Account</code> tab and select <code>Close your Account</code> \n<img src=\"https://i.stack.imgur.com/3Rcab.png\" alt=\"LinkedIn-CloseAccount\"></li>\n</ol>\n",
+        "author": "codingbadger"
+      },
+      "training": true
+    },
+    {
+      "author": "ChrisF",
+      "url": "http://webapps.stackexchange.com/questions/187/how-do-i-delete-my-gmail-account",
+      "text": "How do I delete my Gmail account?",
+      "entities": [
+        {
+          "text": "Gmail",
+          "entity": "WebService",
+          "stop": 24,
+          "start": 19
+        }
+      ],
+      "intent": "Delete Account",
+      "answer": {
+        "text": "<p>Check out <a href=\"http://mail.google.com/support/bin/answer.py?hl=en&amp;answer=8152\" rel=\"nofollow\">this page</a> on mail.google.com</p>\n\n<ol>\n<li>Click Settings at the top of any Gmail page, and open the Accounts and Import tab.</li>\n<li>Click Google Account settings.</li>\n<li>Click Edit next to My products on the right side.</li>\n<li>Click Remove Gmail permanently.</li>\n</ol>\n",
+        "author": "ChrisF"
+      },
+      "training": true
+    },
+    {
+      "author": "Andrew Neely",
+      "url": "http://webapps.stackexchange.com/questions/17881/how-do-i-delete-my-experts-exchange-account",
+      "text": "How do I delete my Experts Exchange account?",
+      "entities": [
+        {
+          "text": "Experts Exchange",
+          "entity": "WebService",
+          "stop": 35,
+          "start": 19
+        }
+      ],
+      "intent": "Delete Account",
+      "answer": {
+        "text": "<p>Some time ago, an Experts Exchange user asked how to delete his account on <a href=\"http://www.experts-exchange.com\" rel=\"nofollow noreferrer\">experts-exchange.com</a>, and the following answers were posted:</p>\n\n<ul>\n<li><p>You need to post your question in the following link:</p>\n\n<p><a href=\"http://support.experts-exchange.com/\" rel=\"nofollow noreferrer\">http://support.experts-exchange.com/</a></p></li>\n<li>You need to post a 0-point note in Community Support board and ask an\nEE Admin to delete the account. Community Support link is in\nthe left menu.</li>\n</ul>\n",
+        "author": "Mehper C. Palavuzlar"
+      },
+      "training": true
+    },
+    {
+      "author": "systemovich",
+      "url": "http://webapps.stackexchange.com/questions/20216/how-do-i-delete-my-ohloh-profile",
+      "text": "How do I delete my Ohloh profile?",
+      "entities": [
+        {
+          "text": "Ohloh",
+          "entity": "WebService",
+          "stop": 24,
+          "start": 19
+        }
+      ],
+      "intent": "Delete Account",
+      "answer": {
+        "text": "<p>You can't really. Or at least it's not available unless you email support. And even then, who knows if they'll oblige.</p>\n\n<p>If you need to swap around what username and email address is used, you can easily change them around.</p>\n\n<p>You'll just need to set up a third username and email pair that will be used in the triage.</p>\n\n<p>Say the account you want to delete/remove/no longer use is using huey@example.com and the one you want to keep is louie@example.com, change the profiles around like this:</p>\n\n<ol>\n<li><p>louie@example.com \u2192 dewey@example.com</p>\n\n<p>Make sure you also change the username to something that doesn't exist. Now the louie@example.com email and its username is available to use since it's no longer tied to an account.</p></li>\n<li><p>huey@example.com \u2192 louie@example.com</p>\n\n<p>Edit the username and the email of the account you want to keep with the email and username you want to use from the account you don't want to use anymore.</p></li>\n</ol>\n",
+        "author": "Eight Days of Malaise"
+      },
+      "training": true
+    },
+    {
+      "author": "tobeannounced",
+      "url": "http://webapps.stackexchange.com/questions/3662/how-can-i-permanently-delete-my-myspace-account",
+      "text": "How can I permanently delete my MySpace account?",
+      "entities": [
+        {
+          "text": "MySpace",
+          "entity": "WebService",
+          "stop": 39,
+          "start": 32
+        }
+      ],
+      "intent": "Delete Account",
+      "answer": {
+        "text": "<p>It is a quick process.</p>\n\n<ol>\n<li>Log in to your myspace.com account</li>\n<li>Click My Account next to sign out</li>\n<li>Click on the Account tab</li>\n<li>Click Cancel Account</li>\n<li>Give them a reason and confirm</li>\n</ol>\n",
+        "author": "mjboggess"
+      },
+      "training": true
+    },
+    {
+      "author": "Alex",
+      "url": "http://webapps.stackexchange.com/questions/16816/how-to-disable-delete-a-harvest-account",
+      "text": "How to disable/delete a Harvest account?",
+      "entities": [
+        {
+          "text": "Harvest",
+          "entity": "WebService",
+          "stop": 31,
+          "start": 24
+        }
+      ],
+      "intent": "Delete Account",
+      "answer": {
+        "text": "<ol>\n<li><p>When logged in, look to the upper right corner, to the icon/avatar, and click the down arrow.</p>\n\n<p><img src=\"https://i.stack.imgur.com/7TayF.png\" alt=\"down from the upper right top corner\"></p></li>\n<li><p>Select <strong>Account Settings</strong></p>\n\n<p>You'll come to a page entitled, <em>Account Settings</em>. The first section will be <em>Billing Information</em>.</p></li>\n<li><p>Click on <strong>Close Account</strong></p></li>\n<li><p>You will see a page entitled, <em>Hold or Remove Account</em>.</p>\n\n<p>There's a short survey/feedback for you to fill out but from there you can suspend if you fill out the <em>Put Account on Hold</em> section.</p>\n\n<p>To delete or close out your account, just use the <em>Permanently Remove Account</em> section and you're done.</p></li>\n</ol>\n\n<p>Download your data before you do as that is toast when you delete your account.</p>\n",
+        "author": "Eight Days of Malaise"
+      },
+      "training": true
+    }
+  ]
+}

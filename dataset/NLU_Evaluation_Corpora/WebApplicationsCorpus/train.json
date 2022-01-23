@@ -1,0 +1,1197 @@
+{
+  "sentences": [
+    {
+      "author": "Evan Plaice",
+      "url": "http://webapps.stackexchange.com/questions/1912/alternative-to-facebook",
+      "text": "Alternative to Facebook",
+      "entities": [
+        {
+          "text": "Facebook",
+          "entity": "WebService",
+          "stop": 23,
+          "start": 15
+        }
+      ],
+      "intent": "Find Alternative",
+      "answer": {
+        "text": "<p><a href=\"https://plus.google.com/\">Google+</a>?</p>\n",
+        "author": "Alex"
+      },
+      "training": false
+    },
+    {
+      "author": "Ivo Flipse",
+      "url": "http://webapps.stackexchange.com/questions/1/how-do-i-delete-my-facebook-account",
+      "text": "How do I delete my Facebook account?",
+      "entities": [
+        {
+          "text": "Facebook",
+          "entity": "WebService",
+          "stop": 27,
+          "start": 19
+        }
+      ],
+      "intent": "Delete Account",
+      "answer": {
+        "text": "<p>from <a href=\"http://www.facebook.com/group.php?gid=16929680703Blockquote\">here</a>:</p>\n\n<blockquote>\n  <p>Go here: \n  <a href=\"http://www.facebook.com/help/delete_account\">http://www.facebook.com/help/delete_account</a></p>\n  \n  <p>Click \"Submit\" and follow the instructions.</p>\n  \n  <p>Your account will be deactivated for two weeks, and if you DO NOT USE FACEBOOK IN ANY WAY during that period, your account is permanently deleted. </p>\n</blockquote>\n",
+        "author": "Victor Stanciu"
+      },
+      "training": false
+    },
+    {
+      "author": "Ivo Flipse",
+      "url": "http://webapps.stackexchange.com/questions/1562/are-there-any-good-pandora-alternatives-with-general-availability-outside-the-us",
+      "text": "Are there any good Pandora alternatives with general availability outside the US?",
+      "entities": [
+        {
+          "text": "Pandora",
+          "entity": "WebService",
+          "stop": 26,
+          "start": 19
+        }
+      ],
+      "intent": "Find Alternative",
+      "answer": {
+        "text": "<p>Have you tried <a href=\"http://grooveshark.com\">Grooveshark</a> ? although you have to have a browser window open, it's still pretty good</p>\n",
+        "author": "jfoucher"
+      },
+      "training": false
+    },
+    {
+      "author": "Clare Macrae",
+      "url": "http://webapps.stackexchange.com/questions/18975/is-it-possible-to-export-my-data-from-trello-to-back-it-up",
+      "text": "Is it possible to export my data from Trello to back it up?",
+      "entities": [
+        {
+          "text": "Trello",
+          "entity": "WebService",
+          "stop": 44,
+          "start": 38
+        }
+      ],
+      "intent": "Export Data",
+      "answer": {
+        "text": "<p>With the release of the <a href=\"https://trello.com/c/RdSTH7no\">Data Export feature</a>, you can now</p>\n\n<ol>\n<li>Go to your board</li>\n<li>Click the \"Board Menu\" button (on the right-hand-side of the screen)</li>\n<li>Select \"Share, Print, and Export\"</li>\n<li>Click \"JSON\"</li>\n</ol>\n\n<p>This will download a copy of your board data.</p>\n\n<p>Pro tips:</p>\n\n<ul>\n<li>You can also just add .json (or /somename.json) to the end of a board or card URL, to get the prompt to save the downloaded file  (e.g. <a href=\"https://trello.com/board/welcome-board/4e6a8095efa69909ba007382/somename.json\">https://trello.com/board/welcome-board/4e6a8095efa69909ba007382/somename.json</a>)</li>\n<li>Alternatively, instead of clicking on the \"JSON\" button, you can right-click on it, and copy the URL</li>\n<li>If you have lots of boards that you want to download regularly, you'll have to save all the JSON links somewhere for all your boards, and download each one individually. </li>\n<li>Changing the names of all these individual files for each set of backups could get a little tedious, so one idea would be to create a new folder each time you backup your boards, and then save a set of exported files into that folder.</li>\n</ul>\n",
+        "author": "Daniel LeCheminant"
+      },
+      "training": false
+    },
+    {
+      "author": "Itamar",
+      "url": "http://webapps.stackexchange.com/questions/28590/is-there-an-online-alternative-to-igoogle",
+      "text": "Is there an online alternative to iGoogle",
+      "entities": [
+        {
+          "text": "iGoogle",
+          "entity": "WebService",
+          "stop": 41,
+          "start": 34
+        }
+      ],
+      "intent": "Find Alternative",
+      "answer": {
+        "text": "<p>There are few you can explore:</p>\n\n<ul>\n<li><a href=\"http://www.netvibes.com/\" rel=\"nofollow\">Netvibes</a> </li>\n<li><a href=\"http://www.ustart.org/\" rel=\"nofollow\">Ustart</a></li>\n<li><a href=\"http://protopage.com/\" rel=\"nofollow\">ProtoPage</a></li>\n<li><a href=\"http://feedly.com/\" rel=\"nofollow\">Feedly</a></li>\n<li><a href=\"http://myfav.es/\" rel=\"nofollow\">MyFav</a></li>\n<li><a href=\"http://www.aboogy.com/\" rel=\"nofollow\">Aboogy</a></li>\n<li><a href=\"http://iguzu.com/\" rel=\"nofollow\">Iguzu</a></li>\n</ul>\n",
+        "author": "Sourabhh"
+      },
+      "training": false
+    },
+    {
+      "author": "Rich Armstrong",
+      "url": "http://webapps.stackexchange.com/questions/18961/how-can-i-remove-myself-from-a-trello-organization",
+      "text": "How can I remove myself from a Trello organization?",
+      "entities": [
+        {
+          "text": "Trello",
+          "entity": "WebService",
+          "stop": 37,
+          "start": 31
+        }
+      ],
+      "intent": "Delete Account",
+      "answer": {
+        "text": "<p>Suppose you'd joined the \"Twilight Fan Club\" organization on Trello ... but later decide that you don't actually like Twilight all that much, and would like to leave the organization.</p>\n\n<ol>\n<li>Go to the organization page (<a href=\"https://trello.com/twilight\">https://trello.com/twilight</a>)</li>\n<li>Find your avatar in the list of members</li>\n<li>Click on your avatar, and bring up this menu:</li>\n</ol>\n\n<p><img src=\"https://i.stack.imgur.com/3idYM.png\" alt=\"Remove someone from an organization\"></p>\n\n<p>... and then click \"Remove from Organization\"</p>\n\n<p><strong>Note:</strong> Roughly the same process can be followed to remove yourself from a board.</p>\n",
+        "author": "Daniel LeCheminant"
+      },
+      "training": false
+    },
+    {
+      "author": "x3ja",
+      "url": "http://webapps.stackexchange.com/questions/79/how-do-i-transfer-my-photos-from-flickr-to-picasa",
+      "text": "How do I transfer my photos from Flickr to Picasa?",
+      "entities": [
+        {
+          "text": "Flickr",
+          "entity": "WebService",
+          "stop": 39,
+          "start": 33
+        },
+        {
+          "text": "Picasa",
+          "entity": "WebService",
+          "stop": 49,
+          "start": 43
+        }
+      ],
+      "intent": "Export Data",
+      "answer": {
+        "text": "<p>There's a tool called <a href=\"http://www.callingshotgun.net/about/migratr/\" rel=\"noreferrer\"><strong>Migratr</strong></a>, which <a href=\"http://www.lostintechnology.com/windows/how-to-transfer-photos-from-flickr-to-picasa\" rel=\"noreferrer\">makes it easy to transfer your pictures</a> from Flickr to Picasa or vice versa.</p>\n\n<p><a href=\"http://www.lostintechnology.com/wp-content/uploads/2008/11/migratrss-thumb.png\" rel=\"noreferrer\">alt text http://www.lostintechnology.com/wp-content/uploads/2008/11/migratrss-thumb.png</a></p>\n",
+        "author": "Ivo Flipse"
+      },
+      "training": false
+    },
+    {
+      "author": "Ivo Flipse",
+      "url": "http://webapps.stackexchange.com/questions/3/how-do-i-sync-google-calendar-with-my-outlook-calendar",
+      "text": "How do I sync Google Calendar with my Outlook Calendar?",
+      "entities": [
+        {
+          "text": "Google Calendar",
+          "entity": "WebService",
+          "stop": 29,
+          "start": 14
+        },
+        {
+          "text": "Outlook Calendar",
+          "entity": "WebService",
+          "stop": 54,
+          "start": 38
+        }
+      ],
+      "intent": "Sync Accounts",
+      "answer": {
+        "text": "<p>You may want to take a look at <a href=\"http://www.google.com/support/calendar/bin/answer.py?answer=89955\" rel=\"nofollow\">Google's Calendar Sync</a>:</p>\n\n<blockquote>\n  <p>Google Calendar Sync allows you to sync events between Google Calendar and Microsoft Outlook Calendar. You'll be able to determine the direction of information flow, as well as the sync frequency. Staying on top of your Google Calendar and Microsoft Outlook Calendar events has never been easier! Here's some good information to know to help you get started with Google Calendar Sync.</p>\n</blockquote>\n\n<p>It lists as only being compatible with Outlook 2003 and 2007, so I'm not sure if it works with Outlook 2010.</p>\n",
+        "author": "Jared Harley"
+      },
+      "training": false
+    },
+    {
+      "author": "InquilineKea",
+      "url": "http://webapps.stackexchange.com/questions/17484/archive-export-all-the-blog-entries-from-a-rss-feed-in-google-reader",
+      "text": "Archive/export all the blog entries from a RSS feed in Google Reader",
+      "entities": [
+        {
+          "text": "Google Reader",
+          "entity": "WebService",
+          "stop": 68,
+          "start": 55
+        }
+      ],
+      "intent": "Export Data",
+      "answer": {
+        "text": "<p>After logging to Google Reader, you can download the last 1000 items of each feed using the url <a href=\"http://www.google.com/reader/atom/feed/%5Bfeed_address%5D?n=1000\">http://www.google.com/reader/atom/feed/[feed_address]?n=1000</a>. If you need to archive more than 1000 items, you have to follow <a href=\"http://www.google.com/support/forum/p/reader/thread?tid=29c0f8a4afeced25&amp;hl=en\">this</a> procedure (the key word is \"continuation parameter\").</p>\n",
+        "author": "tic"
+      },
+      "training": false
+    },
+    {
+      "text": "How can I delete my 160by2 account?",
+      "intent": "Delete Account",
+      "entities": [
+        {
+          "text": "160by2",
+          "entity": "WebService",
+          "stop": 26,
+          "start": 20
+        }
+      ],
+      "training": false
+    },
+    {
+      "author": "tobeannounced",
+      "url": "http://webapps.stackexchange.com/questions/3557/how-can-i-permanently-delete-my-yahoo-mail-account",
+      "text": "How can I permanently delete my Yahoo mail account?",
+      "entities": [
+        {
+          "text": "Yahoo mail",
+          "entity": "WebService",
+          "stop": 42,
+          "start": 32
+        }
+      ],
+      "intent": "Delete Account",
+      "answer": {
+        "text": "<p>I used service <a href=\"http://deleteyouraccount.com\" rel=\"nofollow\">deleteyouraccount</a> (quite useful not only for yahoo :) ). However your account will be removed only after 3 months.</p>\n",
+        "author": "Michael Pakhantsov"
+      },
+      "training": false
+    },
+    {
+      "author": "Joel Dean",
+      "url": "http://webapps.stackexchange.com/questions/31784/deleting-an-accountwebsite-from-google-analytics",
+      "text": "Deleting an account(website) from Google Analytics?",
+      "entities": [
+        {
+          "text": "Google Analytics",
+          "entity": "WebService",
+          "stop": 50,
+          "start": 34
+        }
+      ],
+      "intent": "Delete Account",
+      "answer": {
+        "text": "<ol>\n<li>Go to <code>https://www.google.com/analytics</code></li>\n<li>Click the profile that you want to edit</li>\n<li>Click <code>Admin</code> on the right hand side of the screen</li>\n</ol>\n\n<p><img src=\"https://i.stack.imgur.com/ynCW8.png\" alt=\"enter image description here\"></p>\n\n<ol>\n<li>Click the name of the profile from the <code>profiles</code> tab</li>\n<li>Click the <code>profile settings</code> tab</li>\n</ol>\n\n<p><img src=\"https://i.stack.imgur.com/GyYGa.png\" alt=\"enter image description here\"></p>\n\n<ol>\n<li>On the bottom right of the screen click the <code>Delete this profile</code> link and go through the confirmation steps</li>\n</ol>\n\n<p><img src=\"https://i.stack.imgur.com/Jiagf.png\" alt=\"enter image description here\"></p>\n\n<p><strong>Note</strong> that this will permanently delete that profile and all data associated with it. If this profile is used by others and you just want to remove it from your list of profiles than you should ask another Administrator to remove you from the list of users.</p>\n",
+        "author": "Dez"
+      },
+      "training": false
+    },
+    {
+      "author": "Tshepang",
+      "url": "http://webapps.stackexchange.com/questions/9638/how-to-delete-my-imgur-account",
+      "text": "How to delete my imgur account?",
+      "entities": [
+        {
+          "text": "imgur",
+          "entity": "WebService",
+          "stop": 22,
+          "start": 17
+        }
+      ],
+      "intent": "Delete Account",
+      "answer": {
+        "text": "<p>The <a href=\"https://imgur.com/tos\" rel=\"nofollow noreferrer\">Terms of Service</a> say, \"Don't upload copyrighted material, harassment, spam, gore, pornography, or especially child pornography. If you do, we will ban you, delete all your images, report you to the authorities if necessary, and prevent you from viewing any images hosted on Imgur.com.\"</p>\n\n<p>So, I suppose you could try uploading some gore?</p>\n\n<p><img src=\"https://i.stack.imgur.com/s2HyS.jpg\" alt=\"alt text\"></p>\n\n<p><em>Seriously</em>, though, just use the <a href=\"https://imgur.com/contact\" rel=\"nofollow noreferrer\">contact form</a> and request deletion. I'm sure they get them all the time.</p>\n",
+        "author": "Joel Spolsky"
+      },
+      "training": false
+    },
+    {
+      "author": "Jerry101",
+      "url": "http://webapps.stackexchange.com/questions/103536/how-to-change-my-uber-password-or-delete-the-account",
+      "text": "How to change my Uber password or delete the account?",
+      "entities": [
+        {
+          "text": "Uber",
+          "entity": "WebService",
+          "stop": 21,
+          "start": 17
+        }
+      ],
+      "intent": "Delete Account",
+      "answer": {
+        "text": "<p>As far as I can tell, you can't directly change your password the web site or the Android app (I don't know about iOS). You can, however, request that they reset your password.</p>\n\n<ol>\n<li>Log out of the web site (if you're currently logged in)</li>\n<li>Instead of logging back in, click \"Forgot password\"</li>\n<li>Follow the instructions</li>\n</ol>\n",
+        "author": "aldel"
+      },
+      "training": false
+    },
+    {
+      "author": "Abhijeet",
+      "url": "http://webapps.stackexchange.com/questions/23501/how-to-delete-a-sify-mail-account",
+      "text": "How to delete a Sify Mail account",
+      "entities": [
+        {
+          "text": "Sify Mail",
+          "entity": "WebService",
+          "stop": 25,
+          "start": 16
+        }
+      ],
+      "intent": "Delete Account",
+      "answer": {
+        "text": "<p>Send a request email to <code>customercare@sify.com</code> to de-activate / delete your account</p>\n",
+        "author": "Siva Charan"
+      },
+      "training": false
+    },
+    {
+      "author": "Alex",
+      "url": "http://webapps.stackexchange.com/questions/52015/how-to-permanently-delete-a-37signals-id",
+      "text": "How to permanently delete a 37signals ID",
+      "entities": [
+        {
+          "text": "37signals",
+          "entity": "WebService",
+          "stop": 37,
+          "start": 28
+        }
+      ],
+      "intent": "Delete Account",
+      "answer": {
+        "text": "<p>To my understanding, deleting a global 37Signals user ID requires a special Support request.</p>\n\n<p>There are various ways to contact 37Signals Support ... assuming you're a Basecamp account owner, you can go here: <a href=\"https://help.37signals.com/bcx/tickets/new\" rel=\"nofollow\">https://help.37signals.com/bcx/tickets/new</a>.  Provide them the user's name and email; and let them know you'd like the user's global Launchpad ID to be deleted.</p>\n\n<p>(Alternatively, you could effectively \"disable\" the user by simply removing them from all 37Signals accounts [Basecamp, Highrise, etc.]).</p>\n",
+        "author": "Dave Clausen"
+      },
+      "training": false
+    },
+    {
+      "author": "citadelgrad",
+      "url": "http://webapps.stackexchange.com/questions/5578/how-can-i-delete-my-hunch-account",
+      "text": "How can I delete my Hunch account?",
+      "entities": [
+        {
+          "text": "Hunch",
+          "entity": "WebService",
+          "stop": 25,
+          "start": 20
+        }
+      ],
+      "intent": "Delete Account",
+      "answer": {
+        "text": "<p>Steps:</p>\n\n<ol>\n<li>Log in to Hunch.com using the account you want to delete</li>\n<li>Click <code>Settings</code> in the upper right</li>\n<li>Scroll down and click the \"Delete my account\" link near the bottom of the page</li>\n<li>Fill out and submit the deletion form</li>\n</ol>\n",
+        "author": "dgw"
+      },
+      "training": false
+    },
+    {
+      "author": "Andrew \u0410\u043d\u0434\u0440\u0435\u0439 \u041b\u0438\u0441\u0442\u043e\u0447\u043a\u0438\u043d",
+      "url": "http://webapps.stackexchange.com/questions/2049/any-alternatives-to-google-apps-for-your-domain",
+      "text": "Any alternatives to Google Apps for your domain?",
+      "entities": [
+        {
+          "text": "Google Apps",
+          "entity": "WebService",
+          "stop": 31,
+          "start": 20
+        }
+      ],
+      "intent": "Find Alternative",
+      "answer": {
+        "text": "<p><a href=\"http://www.zoho.com/\">Zoho</a> offer a pretty comprehensive range of products, most of which are free for a limited number of users/projects/whatever...</p>\n\n<ul>\n<li>Calendar</li>\n<li>Challenge</li>\n<li>Chat</li>\n<li>Creator</li>\n<li>CRM</li>\n<li>Discussions</li>\n<li>Docs</li>\n<li>Gadgets</li>\n<li>Invoice</li>\n<li>Mail</li>\n<li>Meeting</li>\n<li>Notebook</li>\n<li>Office for Microsoft Sharepoint</li>\n<li>People</li>\n<li>Planner</li>\n<li>Polls</li>\n<li>Projects</li>\n<li>Recruit</li>\n<li>Reports</li>\n<li>Sheet</li>\n<li>Show</li>\n<li>Viewer</li>\n<li>Wiki</li>\n<li>Writer</li>\n</ul>\n\n<p>Even though the functionality overlaps, they integrate with Google Apps in some places, so you could have a hybrid solution.</p>\n",
+        "author": "x3ja"
+      },
+      "training": false
+    },
+    {
+      "author": "R.K.",
+      "url": "http://webapps.stackexchange.com/questions/5118/evernote-alternative",
+      "text": "Evernote alternative",
+      "entities": [
+        {
+          "text": "Evernote",
+          "entity": "WebService",
+          "stop": 8,
+          "start": 0
+        }
+      ],
+      "intent": "Find Alternative",
+      "answer": {
+        "text": "<ul>\n<li><a href=\"http://www.memonic.com/\" rel=\"nofollow\">Memonic</a></li>\n<li><a href=\"http://www.reqall.com/\" rel=\"nofollow\">reQall</a></li>\n<li><a href=\"http://www.diigo.com/\" rel=\"nofollow\">diigo</a></li>\n</ul>\n\n<p>All have iOS apps; reQall and diigo have Android apps, as well.</p>\n",
+        "author": "Alex"
+      },
+      "training": false
+    },
+    {
+      "author": "Aaron",
+      "url": "http://webapps.stackexchange.com/questions/1899/alternatives-to-librarything",
+      "text": "Alternatives to LibraryThing",
+      "entities": [
+        {
+          "text": "LibraryThing",
+          "entity": "WebService",
+          "stop": 28,
+          "start": 16
+        }
+      ],
+      "intent": "Find Alternative",
+      "answer": {
+        "text": "<p>I like <a href=\"http://www.goodreads.com/\" rel=\"nofollow\">goodreads</a></p>\n",
+        "author": "Philippe Mongeau"
+      },
+      "training": false
+    },
+    {
+      "author": "Evan Plaice",
+      "url": "http://webapps.stackexchange.com/questions/2148/what-are-the-alternatives-to-facebook-meetup-for-event-planning",
+      "text": "What are the alternatives to Facebook/Meetup for Event Planning",
+      "entities": [
+        {
+          "text": "Facebook",
+          "entity": "WebService",
+          "stop": 37,
+          "start": 29
+        }
+      ],
+      "intent": "Find Alternative",
+      "answer": {
+        "text": "<p>We always use <a href=\"http://www.doodle.com\" rel=\"nofollow\">www.doodle.com</a> to manage our meetings. It's specially helpful to find a time/date slot that fits everybody. Give it a try.</p>\n\n<p>I'm in their Outlook Connector Beta Program, with that, my outlook calendar is always in sync with it.</p>\n\n<p>And here the individual points:<br>\nTo be able to propagate invitations to friends through either email and/or social network(s)<br>\n=> via email<br>\nCan export a specific event entry in vCalendar format<br>\n=> yep<br>\nExposes an external API to retrieve a feed of events for a specific user/group<br>\n=> Yes, they have an API, but couldn't find it now.<br>\nDisplays a link to an RSS/Atom feed of events for a specific user/group<br>\n=> no idea, but there is a subscribe link \nDisplays a list of people who are invited and their status (attending/maybe/not)<br>\n=> Absolutely<br>\nHas a description field for the event<br>\n=> Yes<br>\nHas attached comments<br>\n=> Yes </p>\n",
+        "author": "Remy"
+      },
+      "training": false
+    },
+    {
+      "author": "tobeannounced",
+      "url": "http://webapps.stackexchange.com/questions/3391/is-there-a-free-and-privacy-aware-alternative-to-google",
+      "text": "Is there a free and privacy-aware alternative to Google?",
+      "entities": [
+        {
+          "text": "Google",
+          "entity": "WebService",
+          "stop": 55,
+          "start": 49
+        }
+      ],
+      "intent": "Find Alternative",
+      "answer": {
+        "text": "<p>Google now has SSL support, so use <a href=\"https://www.google.com\" rel=\"nofollow\">https://www.google.com</a>. Referrer headers are not sent to the pages you go to from SSL search results, nor are search queries snoopable.</p>\n\n<p>If you want to minimize tracking, block cookies from *.google.com, explicitly enabling cookies for at least mail.google.com, if you use GMail.</p>\n",
+        "author": "maxwellb"
+      },
+      "training": false
+    },
+    {
+      "author": "Steve Brown",
+      "url": "http://webapps.stackexchange.com/questions/33904/what-alternatives-to-google-product-search-exist",
+      "text": "What alternatives to Google Product Search exist?",
+      "entities": [
+        {
+          "text": "Google",
+          "entity": "WebService",
+          "stop": 27,
+          "start": 21
+        }
+      ],
+      "intent": "Find Alternative",
+      "answer": {
+        "text": "<p>Personally I like pricegrabber and nextag.</p>\n\n<p><a href=\"http://www.pricegrabber.com\" rel=\"nofollow\">http://www.pricegrabber.com</a></p>\n\n<p><a href=\"http://www.nextag.com/\" rel=\"nofollow\">http://www.nextag.com/</a></p>\n",
+        "author": "Ram G"
+      },
+      "training": false
+    },
+    {
+      "author": "Mcradle",
+      "url": "http://webapps.stackexchange.com/questions/7655/photo-sharing-site-alternative-to-flickr-supporting-openid-sign-in",
+      "text": "Photo Sharing Site (alternative to flickr) supporting OpenID sign in?",
+      "entities": [
+        {
+          "text": "flickr",
+          "entity": "WebService",
+          "stop": 41,
+          "start": 35
+        },
+        {
+          "text": "OpenID",
+          "entity": "WebService",
+          "stop": 60,
+          "start": 54
+        }
+      ],
+      "intent": "Find Alternative",
+      "answer": {
+        "text": "<p><a href=\"http://www.ipernity.com/\" rel=\"nofollow\">Ipernity</a> uses OpenID.</p>\n\n<p>There are several that allow signing in with Facebook credentials (such as <a href=\"http://photobucket.com/\" rel=\"nofollow\">Photobucket</a>). And, of course, everyone in the world has a Google account, so there is <a href=\"http://picasaweb.google.com\" rel=\"nofollow\">PicasaWeb</a>.</p>\n",
+        "author": "ale"
+      },
+      "training": false
+    },
+    {
+      "author": "grm",
+      "url": "http://webapps.stackexchange.com/questions/1763/any-good-alternative-to-google-alerts",
+      "text": "Any good alternative to Google Alerts?",
+      "entities": [
+        {
+          "text": "Google Alerts",
+          "entity": "WebService",
+          "stop": 37,
+          "start": 24
+        }
+      ],
+      "intent": "Find Alternative",
+      "answer": {
+        "text": "<p>I find <a href=\"http://www.socialmention.com\" rel=\"nofollow\">Social Mention</a> even more complete than Google Alerts.</p>\n",
+        "author": "Olivier Lalonde"
+      },
+      "training": false
+    },
+    {
+      "author": "Wil",
+      "url": "http://webapps.stackexchange.com/questions/3599/good-wireframing-apps",
+      "text": "Good wireframing apps?",
+      "entities": [],
+      "intent": "None",
+      "answer": {
+        "text": "<p>I love balsamiq mockups: <a href=\"http://www.balsamiq.com/products/mockups\" rel=\"nofollow\">http://www.balsamiq.com/products/mockups</a></p>\n\n<p>They've done a lot to speed up the work (shortcuts, smart functions).</p>\n",
+        "author": "Eduard Wirch"
+      },
+      "training": false
+    },
+    {
+      "author": "Nacho",
+      "url": "http://webapps.stackexchange.com/questions/24328/is-there-a-html-alternative-to-prezi",
+      "text": "Is there a HTML alternative to Prezi?",
+      "entities": [
+        {
+          "text": "Prezi",
+          "entity": "WebService",
+          "stop": 36,
+          "start": 31
+        }
+      ],
+      "intent": "Find Alternative",
+      "answer": {
+        "text": "<p>After some time, I'm glad to answer my own question.</p>\n\n<p><a href=\"http://rvl.io\" rel=\"nofollow\">Rvl.io</a> (based on reveal.js) has been launched a few weeks ago and it's great.</p>\n\n<p>[UPDATE] rvl.io is now <a href=\"http://slid.es\" rel=\"nofollow\">slid.es</a></p>\n",
+        "author": "Nacho"
+      },
+      "training": false
+    },
+    {
+      "author": "Julius A",
+      "url": "http://webapps.stackexchange.com/questions/3784/any-alternatives-to-google-streetview",
+      "text": "Any alternatives to Google Streetview?",
+      "entities": [
+        {
+          "text": "Google Streetview",
+          "entity": "WebService",
+          "stop": 37,
+          "start": 20
+        }
+      ],
+      "intent": "Find Alternative",
+      "answer": {
+        "text": "<p><strong>Bing Maps</strong>: <a href=\"http://www.bing.com/maps/\" rel=\"nofollow\">http://www.bing.com/maps/</a></p>\n\n<p><strong>Map Jack</strong>: <a href=\"http://mapjack.com/\" rel=\"nofollow\">http://mapjack.com/</a> is another (as recommended by joyjit below). </p>\n\n<p>See example:\n<a href=\"http://www.bing.com/maps/explore/?FORM=MLOMAP&amp;PUBL=GOOGLE&amp;crea=userid1743go6a1c1270db6e7f374a897e012428c985e#5003/s=w/5872/lat=32.797172&amp;lon=-117.243132&amp;alt=-17.24&amp;z=30&amp;h=70.1&amp;p=2.9&amp;pid=5082\" rel=\"nofollow\">http://www.bing.com/maps/explore/?FORM=MLOMAP&amp;PUBL=GOOGLE&amp;crea=userid1743go6a1c1270db6e7f374a897e012428c985e#5003/s=w/5872/lat=32.797172&amp;lon=-117.243132&amp;alt=-17.24&amp;z=30&amp;h=70.1&amp;p=2.9&amp;pid=5082</a></p>\n\n<p>They also do arial view from planes, so better definition. </p>\n",
+        "author": "mike the mike"
+      },
+      "training": false
+    },
+    {
+      "author": "Ben",
+      "url": "http://webapps.stackexchange.com/questions/5011/zencoder-alternatives",
+      "text": "Zencoder alternatives?",
+      "entities": [
+        {
+          "text": "Zencoder",
+          "entity": "WebService",
+          "stop": 8,
+          "start": 0
+        }
+      ],
+      "intent": "Find Alternative",
+      "answer": {
+        "text": "<ol>\n<li><a href=\"http://encoding.com/\" rel=\"nofollow\">encoding.com</a></li>\n<li><strike><a href=\"http://hdcloud.com/\" rel=\"nofollow\">HD Cloud</a></strike></li>\n<li><a href=\"http://www.ankoder.com/\" rel=\"nofollow\">Ankoder</a></li>\n<li><a href=\"http://www.pandastream.com/\" rel=\"nofollow\">Panda</a></li>\n</ol>\n\n<p><em>HD Cloud is no more, and leads to a parked domain - 10/13</em></p>\n",
+        "author": "Alex"
+      },
+      "training": false
+    },
+    {
+      "author": "thSoft",
+      "url": "http://webapps.stackexchange.com/questions/39518/alternatives-to-discontinued-google-calendar-appointment-slots",
+      "text": "Alternatives to discontinued Google Calendar Appointment Slots",
+      "entities": [
+        {
+          "text": "Google Calendar",
+          "entity": "WebService",
+          "stop": 44,
+          "start": 29
+        }
+      ],
+      "intent": "Find Alternative",
+      "answer": {
+        "text": "<p>Now I use <a href=\"http://youcanbook.me/\" rel=\"nofollow\">YouCanBook.Me</a> with the \"On duty events\" hack described <a href=\"http://commons.trincoll.edu/jackdougherty/2012/12/16/youcanbookme/\" rel=\"nofollow\">here</a>. It uses Google Calendar, one can set up multiple profiles (I do it per appointment places I have), and has a lot of configurable options. Since the booking is public, the booking form contains a captcha field, but that is a minor inconvenience.</p>\n",
+        "author": "thSoft"
+      },
+      "training": false
+    },
+    {
+      "author": "Simon",
+      "url": "http://webapps.stackexchange.com/questions/14417/qa-platform-similar-to-stack-exchange-model",
+      "text": "Q&A Platform similar to Stack Exchange model?",
+      "entities": [
+        {
+          "text": "Stack Exchange",
+          "entity": "WebService",
+          "stop": 38,
+          "start": 24
+        }
+      ],
+      "intent": "Find Alternative",
+      "answer": {
+        "text": "<p>See <a href=\"https://meta.stackexchange.com/q/2267/59303\">this question</a> on Meta Stack Overflow.</p>\n\n<p>It has a comprehensive list of clones with which technologies they use etc.</p>\n",
+        "author": "ChrisF"
+      },
+      "training": false
+    },
+    {
+      "author": "Raleigh Buckner",
+      "url": "http://webapps.stackexchange.com/questions/3670/can-i-share-sync-my-picasa-web-albums-automatically-to-my-facebook-account",
+      "text": "Can I Share/Sync My Picasa Web Albums Automatically to My Facebook Account?",
+      "entities": [
+        {
+          "text": "Picasa",
+          "entity": "WebService",
+          "stop": 26,
+          "start": 20
+        },
+        {
+          "text": "Facebook",
+          "entity": "WebService",
+          "stop": 66,
+          "start": 58
+        }
+      ],
+      "intent": "Sync Accounts",
+      "answer": {
+        "text": "<p>Yes you can.</p>\n\n<p>Click here: <a href=\"http://apps.facebook.com/fotofan/\" rel=\"noreferrer\">http://apps.facebook.com/fotofan/</a></p>\n\n<p>Then follow the directions to sync with your Picasa account. It will give your profile a \"Picasa\" tab. \n<a href=\"http://www.freeimagehosting.net/uploads/1b29f95865.png\" rel=\"noreferrer\">alt text http://www.freeimagehosting.net/uploads/1b29f95865.png</a></p>\n",
+        "author": "mike the mike"
+      },
+      "training": false
+    },
+    {
+      "author": "Daniel Bowden",
+      "url": "http://webapps.stackexchange.com/questions/3337/sync-not-export-facebook-events-with-google-apps-calendar",
+      "text": "Sync not export Facebook events with Google Apps calendar",
+      "entities": [
+        {
+          "text": "Facebook",
+          "entity": "WebService",
+          "stop": 24,
+          "start": 16
+        },
+        {
+          "text": "Google Apps",
+          "entity": "WebService",
+          "stop": 48,
+          "start": 37
+        }
+      ],
+      "intent": "Sync Accounts",
+      "answer": {
+        "text": "<p>There's an article on this <a href=\"http://www.insidefacebook.com/2009/02/15/how-to-sync-facebook-events-with-google-calendar/\" rel=\"nofollow\">here</a>. I've not checked that it works, but it seems pretty straight forward. The essence is that instead of importing the calendar, you add the URL of your event feed as a public calendar - here's a summary of the steps:</p>\n\n<ol>\n<li>In Facebook click on \"Events\"</li>\n<li>Click on \"Export Events\" and copy the URL</li>\n<li>In Google Calendar go to \"Add\" under \"Other calendars\" and choose \"Add by URL\"</li>\n<li>Paste the URL you copied from Facebook and click \"Add\"</li>\n</ol>\n\n<p>[Update: to make answer more complete]<br>\nIf you run into issues with private events not showing properly then check out <a href=\"http://eventbusyfix.info/\" rel=\"nofollow\">eventbusyfix.info</a>. This site acts as an inbetween to clear the private flag and enable Gmail to show them properly (Thanks to prestomation for this tip)<br>\n[/Update] </p>\n\n<p>Hope that helps!</p>\n",
+        "author": "x3ja"
+      },
+      "training": false
+    },
+    {
+      "author": "Nick Gotch",
+      "url": "http://webapps.stackexchange.com/questions/477/how-do-i-sync-facebook-twitter-foursquare",
+      "text": "How do I sync Facebook Twitter & Foursquare?",
+      "entities": [
+        {
+          "text": "Facebook",
+          "entity": "WebService",
+          "stop": 22,
+          "start": 14
+        },
+        {
+          "text": "Twitter",
+          "entity": "WebService",
+          "stop": 30,
+          "start": 23
+        },
+        {
+          "text": "Foursquare",
+          "entity": "WebService",
+          "stop": 43,
+          "start": 33
+        }
+      ],
+      "intent": "Sync Accounts",
+      "answer": {
+        "text": "<p>Having every single Foursquare checkin post to twitter has become quite a faux pas, at least among my followers. Some even consider a single tweet (i.e. took over as mayor) to be an automatic-unfollow catalyst. Depends on your audience though, I guess.</p>\n\n<p>One option would be to use the <a href=\"http://apps.facebook.com/selectivetwitter/\" rel=\"nofollow\">Selective Twitter</a> app for Facebook, which only uses tweets that include the \"#fb\" hashtag to update your facebook status. By using this, you could have Foursquare update both facebook and twitter without the tweet again updating facebook; and then for normal tweets that you want to push into facebook, include \"#fb\". It costs you a few characters, but it accomplishes your goal.</p>\n",
+        "author": "Adam Tuttle"
+      },
+      "training": false
+    },
+    {
+      "author": "enigma",
+      "url": "http://webapps.stackexchange.com/questions/85829/google-calendar-not-syncing-calendars-that-have-been-added-by-url-with-windows-1",
+      "text": "Google Calendar not syncing calendars that have been added by URL with Windows 10 Calendar",
+      "entities": [
+        {
+          "text": "Google Calendar",
+          "entity": "WebService",
+          "stop": 15,
+          "start": 0
+        }
+      ],
+      "intent": "Sync Accounts",
+      "answer": {
+        "text": "<p>The solution to this problem is to go to <a href=\"https://calendar.google.com/calendar/syncselect\" rel=\"nofollow\">https://calendar.google.com/calendar/syncselect</a> and tick the calendars you wish to be synchronized. Then go back to Windows Calendar, and refresh the synced calendars. I found the quickest way to do that was to open the settings panel, go to \"Accounts\", select the appropriate account, select \"Change mailbox sync settings\" and toggle the \"Calendar\" option under \"Sync options\" off and then on again to refresh the new list of calendars available to sync from Google.</p>\n\n<p>This appears to be undocumented for Windows, but the solution is shown in Google support with the title \"<a href=\"https://support.google.com/calendar/answer/99358\" rel=\"nofollow\">See Google Calendar events on Apple Calendar</a>\", under the \"Change which calendars get synced\" heading.</p>\n",
+        "author": "enigma"
+      },
+      "training": false
+    },
+    {
+      "author": "Mark Elliot",
+      "url": "http://webapps.stackexchange.com/questions/6031/google-contact-synchronization-on-the-iphone-3g",
+      "text": "Google Contact Synchronization on the iPhone 3G",
+      "entities": [
+        {
+          "text": "Google",
+          "entity": "WebService",
+          "stop": 6,
+          "start": 0
+        }
+      ],
+      "intent": "Sync Accounts",
+      "answer": {
+        "text": "<p>It sounds like your problem is that you had pre-existing contacts on the iPhone which you want to import into Gmail....</p>\n\n<p>I don't believe there is a way to do this. You will have to use <a href=\"http://mail.google.com/support/bin/answer.py?hl=en&amp;answer=14024\" rel=\"nofollow\">one of the import methods</a> to get the contacts on Gmail initially.</p>\n\n<p>Once that is set up, you will be able to create or edit contacts on your iPhone and they will be synced to Gmail.</p>\n",
+        "author": "Senseful"
+      },
+      "training": false
+    },
+    {
+      "author": "Evans",
+      "url": "http://webapps.stackexchange.com/questions/30236/gmail-user-set-up-through-google-apps-can-t-change-their-password",
+      "text": "Gmail user set up through Google Apps can't change their password",
+      "entities": [
+        {
+          "text": "Gmail",
+          "entity": "WebService",
+          "stop": 5,
+          "start": 0
+        },
+        {
+          "text": "Google",
+          "entity": "WebService",
+          "stop": 32,
+          "start": 26
+        }
+      ],
+      "intent": "Change Password",
+      "answer": {
+        "text": "<p>All users should be able to change their passwords by default. From with in the GMail site as a logged in user (GMail or Google Apps), click the button with your email address in the top right of the screen and then select <strong>Account</strong>. From there, select <strong>Security</strong> > <strong>Password management - Change password</strong>.</p>\n\n<p>Google's documentation is linked <a href=\"http://support.google.com/mail/bin/answer.py?hl=en&amp;answer=6567\" rel=\"nofollow\">here</a>, but it seems a bit outdated for gApps users.</p>\n",
+        "author": "bobmagoo"
+      },
+      "training": false
+    },
+    {
+      "author": "Justin Tanner",
+      "url": "http://webapps.stackexchange.com/questions/4228/how-do-i-change-my-password-on-ebay",
+      "text": "How do I change my password on ebay?",
+      "entities": [
+        {
+          "text": "ebay",
+          "entity": "WebService",
+          "stop": 35,
+          "start": 31
+        }
+      ],
+      "intent": "Change Password",
+      "answer": {
+        "text": "<ol>\n<li>Login to eBay</li>\n<li>Click the personal menu in the top left. (It says something like \"Hi Justin!\")</li>\n<li>Click the \"Account settings\" link</li>\n<li>On the \"Account\" tab, click the \"Personal information\" link on the left side</li>\n<li>In the account information section, click the edit button on the row that is for your password</li>\n</ol>\n",
+        "author": "Phil"
+      },
+      "training": false
+    },
+    {
+      "author": "Pacob",
+      "url": "http://webapps.stackexchange.com/questions/80847/gmail-recover-password-while-logged-in-iphone",
+      "text": "Gmail recover password while logged in Iphone",
+      "entities": [
+        {
+          "text": "Gmail",
+          "entity": "WebService",
+          "stop": 5,
+          "start": 0
+        }
+      ],
+      "intent": "Change Password",
+      "answer": {
+        "text": "<p>[Update] Finally found impossible to use the fact of being logged in the App so I had to go through the painful recovery process that took dozens of tests filling information till I recovered the password.</p>\n",
+        "author": "Pacob"
+      },
+      "training": false
+    },
+    {
+      "author": "phwd",
+      "url": "http://webapps.stackexchange.com/questions/5347/how-to-retrieve-forgotten-wordpress-admin-password",
+      "text": "How to retrieve forgotten Wordpress Admin password",
+      "entities": [
+        {
+          "text": "Wordpress",
+          "entity": "WebService",
+          "stop": 35,
+          "start": 26
+        }
+      ],
+      "intent": "Change Password",
+      "answer": {
+        "text": "<p>Do you remember your FTP account password or your browse filesystem password? If so, FTP into the site, go into the directory you installed WordPress in and look for wp-config.php file. That contains your database's password in clear text. </p>\n\n<p>Not sure what protects phpMyAdmin, but if that's .htaccess or .htpasswd, you can edit or delete that one.</p>\n",
+        "author": "Alexandre Rafalovitch"
+      },
+      "training": false
+    },
+    {
+      "author": "Nam G VU",
+      "url": "http://webapps.stackexchange.com/questions/14560/how-to-retrieve-a-stolen-yahoo-accounts-password",
+      "text": "How to retrieve a stolen Yahoo account's password?",
+      "entities": [
+        {
+          "text": "Yahoo",
+          "entity": "WebService",
+          "stop": 30,
+          "start": 25
+        }
+      ],
+      "intent": "Change Password",
+      "answer": {
+        "text": "<p>From <a href=\"http://pctechnotes.com/how-to-recover-your-hacked-yahoo-account/\" rel=\"nofollow\">here</a>:</p>\n\n<p><strong>How to recover your Hacked Yahoo! Account:</strong></p>\n\n<blockquote>\n  <p>\u201cTo be able to reset your hacked yahoo\n  password just send a mail to Yahoo\n  Security Department \u2013\n  account-security-help@cc.yahoo-inc.com.\n  always remember to be polite in\n  contacting them, tell the whole story,\n  don\u2019t blame them for your hacked\n  account, tell them when is the last\n  time you access your account, supply\n  them the password that you last used\n  to accessed your account, give them\n  all the information you entered when\n  you register your account or just the\n  information when you last update your\n  account.\u201d</p>\n</blockquote>\n",
+        "author": "Mehper C. Palavuzlar"
+      },
+      "training": false
+    },
+    {
+      "author": "Joannes Vermorel",
+      "url": "http://webapps.stackexchange.com/questions/88857/users-cant-reset-their-passwords-anymore-on-google-apps",
+      "text": "Users can't reset their passwords anymore on Google Apps?",
+      "entities": [
+        {
+          "text": "Google",
+          "entity": "WebService",
+          "stop": 51,
+          "start": 45
+        }
+      ],
+      "intent": "Change Password",
+      "answer": {
+        "text": "<p>You'll have to remove the URL's from the SSO Setup section in the Security Page.  This is where your Google Apps account is looking for the Change Password URL.</p>\n\n<p><a href=\"https://i.stack.imgur.com/Tm0HP.png\" rel=\"nofollow noreferrer\"><img src=\"https://i.stack.imgur.com/Tm0HP.png\" alt=\"enter image description here\"></a></p>\n\n<p>If you have removed it, try to re-enable SSO, press save.  Then make sure all the URL's are empty, press save.  Lastly untick the SSO option and press save again.  Hopefully that will tell your Google Apps that the URL is gone.</p>\n",
+        "author": "tyelford"
+      },
+      "training": false
+    },
+    {
+      "author": "The Disintegrator",
+      "url": "http://webapps.stackexchange.com/questions/13878/does-moving-a-mail-to-the-imap-spam-folder-trains-gmails-spam-filter",
+      "text": "Does moving a mail to the IMAP spam folder trains Gmail's spam filter?",
+      "entities": [
+        {
+          "text": "Gmail",
+          "entity": "WebService",
+          "stop": 55,
+          "start": 50
+        }
+      ],
+      "intent": "Filter Spam",
+      "answer": {
+        "text": "<p>I was wondering the same thing myself.  The answer is Yes.</p>\n\n<blockquote>\n  <h3>How is spam handled?</h3>\n  \n  <p>Gmail's spam filters also work in your IMAP* client by automatically\n  diverting messages that are suspected of being unwanted messages into\n  '[Gmail]/Spam' and keeping them out of your inbox.</p>\n  \n  <p>If you find a message that should be marked as spam, just move it to\n  '[Gmail]/Spam.' This is just like clicking 'Report Spam' in the Gmail\n  web interface and helps us to improve our spam filters.</p>\n  \n  <p>If you find a message wrongly classified as spam, you can move the\n  message out of '[Gmail]/Spam' to the appropriate folder in your\n  client.</p>\n  \n  <p>Note that your client may have its own junk mail filtering technology,\n  which is separate from Gmail's spam filtering. We recommend using only\n  Gmail's spam filtering and turning off any additional anti-spam or\n  junk mail filters within your client. If you still decide to enable\n  client side spam filtering, your client will download an extra copy of\n  every message.</p>\n  \n  <p><sub>*IMAP: IMAP (Internet message access protocol) lets you download\n  messages from Gmail so you can access your mail with a program like\n  Outlook Express or Apple Mail. IMAP syncs the actions you take in\n  Outlook Express or Apple Mail with Gmail so if you read a message in\n  your mail client, it'll be marked as read in Gmail.</sub></p>\n</blockquote>\n\n<p>Taken from <a href=\"http://mail.google.com/support/bin/answer.py?hl=en&amp;answer=78759\" rel=\"nofollow\">this Google Help Article</a></p>\n",
+        "author": "Mark G"
+      },
+      "training": false
+    },
+    {
+      "author": "kbyrd",
+      "url": "http://webapps.stackexchange.com/questions/31042/how-can-i-auto-delete-some-spam-from-gmail",
+      "text": "How can I auto-delete some spam from Gmail?",
+      "entities": [
+        {
+          "text": "Gmail",
+          "entity": "WebService",
+          "stop": 42,
+          "start": 37
+        }
+      ],
+      "intent": "Filter Spam",
+      "answer": {
+        "text": "<p>I forward all my mail from one of my Gmail accounts to another Gmail account, including what Gmail would normally filter to the Spam folder. I use the <code>is:spam</code> query with the <code>Never send it to Spam</code> rule in the inbound filter to allow spam to be forwarded. Do note the use of <code>is</code> rather than <code>in</code>.</p>\n\n<p>Therefore, I imagine you could do the same with the following filter:</p>\n\n<p>Contains <code>is:spam (vigara OR cilais)</code>, Action <code>Delete it</code>.</p>\n\n<p>If you wanted to apply the rule universally, you could instead use:</p>\n\n<p>Contains <code>(is:spam OR -is:spam) (vigara OR cilais)</code>, Action <code>Delete it</code>.</p>\n\n<p>Note that <code>Delete it</code> automatically implies <code>Never send it to Spam</code> so you don't need to check the latter check box. In fact, if you check it, Gmail will uncheck it automatically. I am uncertain as to whether this will impact Gmail's internal spam detection heuristics, but I find that improbable.</p>\n\n<p>Caveat: you cannot delete permanently from a filter rule (I imagine Google believes the risk too great and not worth the potential increase in support costs), so those messages would end up in your Trash and get purged after 30 days. This may still be a better situation to find yourself in, depending on your preferences and the volume of spam you get (which could now make it harder for you to recover messages deleted by mistakes).</p>\n\n<p>If cluttering your Trash is not desirable, you could filter those messages to a temporary label instead, then use an Apps Script to periodically delete \"old\" filtered spam from that label. That would ensure that the top of your Trash is clutter-free. If the volume of spam you receive is limited however, deleting might work just fine.</p>\n",
+        "author": "Phong"
+      },
+      "training": false
+    },
+    {
+      "author": "Nick",
+      "url": "http://webapps.stackexchange.com/questions/54811/when-i-move-spam-to-my-inbox-it-goes-back-into-the-spam-again",
+      "text": "When I move spam to my inbox it goes back into the spam again",
+      "entities": [],
+      "intent": "Filter Spam",
+      "answer": {
+        "text": "<p>Okay, this question is still getting a lot of views so I figure it's a good idea to post up the solution for my case at least.</p>\n\n<p>What was happening, is regardless of my Gmail settings, Windows Live Mail was taking over and moving emails back into my spam, even if I used the \"Never send to spam\" filter as recommended by AI E.</p>\n\n<p>To this this, I took the following steps:</p>\n\n<ol>\n<li><p><strong>In Windows Live Mail click the Tools menu, and then click Junk e\u2011mail Options.</strong></p></li>\n<li><p><strong>Select the protection level you want. In my case I did No automatic filtering which just lets Gmail manage the spam folder entirely on it's own.</strong></p></li>\n</ol>\n\n<p>More info here: <a href=\"http://windows.microsoft.com/en-gb/windows-vista/block-spam-and-other-unwanted-e-mail\" rel=\"nofollow\">http://windows.microsoft.com/en-gb/windows-vista/block-spam-and-other-unwanted-e-mail</a></p>\n\n<p>Hopefully other people find this useful too.</p>\n\n<p>It sounds stupid but I just never thought for a second that Windows Live Mail would so aggressively manage my spam folder, particularly not to constantly move any mail back to the spam after I've flagged it as safe.</p>\n",
+        "author": "Nick"
+      },
+      "training": false
+    },
+    {
+      "author": "sashoalm",
+      "url": "http://webapps.stackexchange.com/questions/49493/how-to-send-messages-to-spam-in-gmail-filter",
+      "text": "How to send messages to spam in Gmail filter?",
+      "entities": [
+        {
+          "text": "Gmail",
+          "entity": "WebService",
+          "stop": 37,
+          "start": 32
+        }
+      ],
+      "intent": "Filter Spam",
+      "answer": {
+        "text": "<p>I don't believe gmail offers this exact request. Reason being, email marked as spam is used to identify spam globally (not just your account). </p>\n\n<p>Instead you can just create a label called \"myspam\" or anything really.</p>\n\n<ol>\n<li><strong>Create Filter</strong></li>\n<li>From: <code>libero.it</code></li>\n<li>Check [x] Apply the label <img src=\"https://i.stack.imgur.com/SBvCb.png\" alt=\"enter image description here\"></li>\n<li>Click <strong>Choose label...</strong></li>\n<li>Select <strong>New label</strong></li>\n<li>Input <code>myspam</code> <img src=\"https://i.stack.imgur.com/Uan02.png\" alt=\"new label\"></li>\n<li>Click <strong>Create</strong></li>\n</ol>\n",
+        "author": "justbrowsing"
+      },
+      "training": false
+    },
+    {
+      "author": "Senseful",
+      "url": "http://webapps.stackexchange.com/questions/1307/how-do-i-disable-the-spam-filter-in-gmail",
+      "text": "How do I disable the spam filter in Gmail?",
+      "entities": [
+        {
+          "text": "Gmail",
+          "entity": "WebService",
+          "stop": 41,
+          "start": 36
+        }
+      ],
+      "intent": "Filter Spam",
+      "answer": {
+        "text": "<ol>\n<li>Create a <strong>new filter</strong> in Gmail.</li>\n<li>Enter <code>is:spam</code> in the <strong>Has the words:</strong> field.</li>\n<li>A warning will appear warning you not to use the word <code>is:</code> in the filter, you can safely ignore it by pressing <strong>OK</strong>.</li>\n<li>Check the <strong>Never send it to Spam</strong> checkbox.</li>\n<li>Click <strong>Create Filter</strong>.</li>\n</ol>\n",
+        "author": "Senseful"
+      },
+      "training": false
+    },
+    {
+      "author": "systempuntoout",
+      "url": "http://webapps.stackexchange.com/questions/10464/how-to-check-your-gmail-spam-label-for-good-emails",
+      "text": "How to check your Gmail spam label for good emails",
+      "entities": [
+        {
+          "text": "Gmail",
+          "entity": "WebService",
+          "stop": 23,
+          "start": 18
+        }
+      ],
+      "intent": "Filter Spam",
+      "answer": {
+        "text": "<p>Just browse the spam and check; you'll get the hang of it pretty fast. Normal emails usually don't have many numbers and strange characters like % or UPPER CASE PRIZES etc. in the message preview, so you can actually browse very quickly. </p>\n\n<p>What I guess you're looking for is an automated way to do this, which would actually be a spam filter. </p>\n",
+        "author": "pootzko"
+      },
+      "training": false
+    },
+    {
+      "text": "Mark large numbers of messages as \"not spam\"",
+      "intent": "Filter Spam",
+      "entities": [],
+      "training": false
+    },
+    {
+      "author": "Howiecamp",
+      "url": "http://webapps.stackexchange.com/questions/10130/what-are-alternatives-to-postini-for-spam-filtering",
+      "text": "What are alternatives to Postini for spam filtering?",
+      "entities": [
+        {
+          "text": "Postini",
+          "entity": "WebService",
+          "stop": 32,
+          "start": 25
+        }
+      ],
+      "intent": "Filter Spam",
+      "answer": {
+        "text": "<p>Leo Laporte gushes about <a href=\"http://mailroute.info/\" rel=\"nofollow\">MailRoute</a>.</p>\n",
+        "author": "ale"
+      },
+      "training": false
+    },
+    {
+      "author": "pahnin",
+      "url": "http://webapps.stackexchange.com/questions/25581/how-to-remove-spam-filter-for-google-apps-email",
+      "text": "How to remove spam filter for Google Apps email",
+      "entities": [
+        {
+          "text": "Google",
+          "entity": "WebService",
+          "stop": 36,
+          "start": 30
+        }
+      ],
+      "intent": "Filter Spam",
+      "answer": {
+        "text": "<p>The DNS record that Google had you add \"to prevent spam\" is a type of <code>TXT</code> record called an <code>SPF</code> (for \"Sender Policy Framework\").  However, it has nothing to do with email that you receive, only email that you send.  The SPF basically tells other email servers that only certain locations are authorized to send email on your behalf, in this case, only Google servers.\nWikipedia has a good explanation of <a href=\"http://en.wikipedia.org/wiki/Sender_Policy_Framework\" rel=\"nofollow\">SPF records</a>.</p>\n\n<p>There are several possible reasons that email would not come to your <code>Inbox</code> or <code>Spam</code> folder.</p>\n\n<ul>\n<li>You have forwarding to another address set up.  You may also have it set that after messages are forwarded, they are archived or deleted.  Check your <code>All Mail</code> and <code>Trash</code> folders to see if there are messages there.</li>\n<li>You may have a filter that is deleting or archiving some messages.  To check this, go to the Settings page and open the <code>Filters</code> tab.</li>\n<li>It is possible that mail is not reaching Google's servers.  This could be due to several things, including a typo in any of your DNS records, an old MX record that was not removed when you set up Google Apps, or possibly some other reason.</li>\n</ul>\n\n<p>None of these cases has anything to do with Google's spam filter.  As far as I know, Google does not make decisions about putting mail in your spam folder or throwing it out.  I think that they put it all in the Spam folder and let you handle where ti goes from there (or it gets deleted automatically when it has been there for 30 days).</p>\n",
+        "author": "Moshe Katz"
+      },
+      "training": false
+    },
+    {
+      "author": "Lazer",
+      "url": "http://webapps.stackexchange.com/questions/5988/does-marking-an-email-as-spam-in-gmail-affect-the-filter-for-everyone",
+      "text": "Does marking an email as spam in Gmail affect the filter for everyone?",
+      "entities": [
+        {
+          "text": "Gmail",
+          "entity": "WebService",
+          "stop": 38,
+          "start": 33
+        }
+      ],
+      "intent": "Filter Spam",
+      "answer": {
+        "text": "<blockquote>\n  <p>Gmail users play an important role in keeping spammy messages out of millions of inboxes. When the Gmail community votes with their clicks to report a particular email as spam, our system quickly learns to start blocking similar messages. The more spam the community marks, the smarter our system becomes.</p>\n</blockquote>\n\n<p>From here: <a href=\"http://www.google.com/mail/help/intl/en_GB/fightspam/spamexplained.html\" rel=\"nofollow\">http://www.google.com/mail/help/intl/en_GB/fightspam/spamexplained.html</a></p>\n",
+        "author": "Alex"
+      },
+      "training": false
+    },
+    {
+      "author": "Rupert Madden-Abbott",
+      "url": "http://webapps.stackexchange.com/questions/7095/how-can-i-prevent-lessen-event-spam-on-facebook",
+      "text": "How can I prevent/lessen event spam on Facebook?",
+      "entities": [
+        {
+          "text": "Facebook",
+          "entity": "WebService",
+          "stop": 47,
+          "start": 39
+        }
+      ],
+      "intent": "Filter Spam",
+      "answer": {
+        "text": "<p>This problem is infuriating, and there is no solution to it, other than taking all of the time-consuming steps mentioned above.</p>\n\n<p>I have just created the following page to try and get something done about it. Please Join.</p>\n\n<p><a href=\"http://on.fb.me/eventspam\" rel=\"nofollow\">http://on.fb.me/eventspam</a></p>\n",
+        "author": "time22"
+      },
+      "training": false
+    },
+    {
+      "author": "Sunny88",
+      "url": "http://webapps.stackexchange.com/questions/22078/do-emails-auto-forwarded-from-one-gmail-account-to-another-stop-if-marked-as-spa",
+      "text": "Do emails auto-forwarded from one Gmail account to another stop if marked as spam?",
+      "entities": [
+        {
+          "text": "Gmail",
+          "entity": "WebService",
+          "stop": 39,
+          "start": 34
+        }
+      ],
+      "intent": "Filter Spam",
+      "answer": {
+        "text": "<p>I have a similar setup and never had problems marking messages as spam.</p>\n\n<p>I am sure <strong><code>mark as spam</code></strong> doesn't work that way.<br>\nGoogle can keep a track that you have enabled auto forwarding, and any emails that you mark as spam will be registered against the original sender and not your email ID.<br>\nMark as spam is a one step process and if you ever mark a mail that you specifically sent from <code>B</code> to <code>A</code> you will never see another email from <code>B</code>. So don't worry and keep marking mails as spam if you feel so. </p>\n",
+        "author": "Shekhar"
+      },
+      "training": false
+    },
+    {
+      "author": "trejder",
+      "url": "http://webapps.stackexchange.com/questions/72563/gmails-filter-for-spam-folder-and-or-keywords-in-multiple-fields",
+      "text": "Gmail's filter for SPAM folder and/or keywords in multiple fields",
+      "entities": [
+        {
+          "text": "Gmail",
+          "entity": "WebService",
+          "stop": 5,
+          "start": 0
+        }
+      ],
+      "intent": "Filter Spam",
+      "answer": {
+        "text": "<p>Gmail filters may not be sophisticated enough for that. Further, filtering stuff that has the \"spam\" label may not work reliably. (Filters act when a message arrives; a message marked spam may have been processed before that. You'll even be warned to that effect. Works fine for search, though.)</p>\n\n<p>The best I can come up with based on your question is a filter that looks like this:</p>\n\n<blockquote>\n  <p>Matches: <strong>(from:(one OR two OR three) (one OR two OR three) in:spam)</strong><br>\n  Do this: Never mark it as important</p>\n</blockquote>\n\n<p>When you create the filter you'll essentially put the whole string <code>from:(one OR two OR three) (one OR two OR three) in:spam</code> in the <code>Has the words</code> field.</p>\n\n<p>There are some flaws. The general text <code>(one OR two OR three)</code> could match against the subject (or possibly other places), because there's no way to limit the text search to the body of the message.</p>\n\n<p>More at <a href=\"https://support.google.com/mail/answer/7190\" rel=\"nofollow\">Google Support</a>.</p>\n",
+        "author": "ale"
+      },
+      "training": false
+    },
+    {
+      "author": "trejder",
+      "url": "http://webapps.stackexchange.com/questions/70938/get-rid-of-russian-junk-from-my-gmail",
+      "text": "Get rid of Russian junk from my Gmail",
+      "entities": [
+        {
+          "text": "Gmail",
+          "entity": "WebService",
+          "stop": 37,
+          "start": 32
+        }
+      ],
+      "intent": "Filter Spam",
+      "answer": {
+        "text": "<p>You could create a filter, if you can find a search that will hit only the emails you want, and have all matching messages deleted? Or at least \"never send to spam\" but instead moved to a special folder if you want to review them too.</p>\n\n<p>I thought that maybe some <strong>characters</strong> that never show up in your language like \u0444 peraps? But apparently Gmail doesn't search like that, here's a good overview from <a href=\"http://webapps.stackexchange.com/a/58592\">another answer</a>:</p>\n\n<blockquote>\n  <p>The Gmail search functionality works based on what I would describe as tokens. A token is any sequence of alphanumeric characters separated by a space or by other non-alphanumeric characters such as underscore, full stop (period), \"@\", dash, etc.. So in peter.ford23@example.com there are 4 tokens: \"peter\", \"ford23\", \"example\" and \"com\".</p>\n  \n  <p>Wildcards within tokens do not work.</p>\n</blockquote>\n\n<p>So Gmail only searches by words or parts of emails. Even the <code>.</code> in the examples below may be unnecessary (<code>from:.ru</code> may be the same as <code>from:ru</code>)</p>\n\n<p>Or something like <code>from:.ru</code> should match all messages whose from address contains .ru (I tested <code>from:(.com)</code> that matches anything.com addresses, while <code>from:(.co)</code> matches emails <strong>containing</strong> .co like <code>@yahoo.co.uk</code>.</p>\n\n<p>There may be a combination of \"tokens\"/words in the <code>from:</code>, <code>subject:</code>,<code>body:</code> that might match enough messages...</p>\n\n<hr>\n\n<p>There <em>used to be</em> a good language search, but apparently it doesn't work anymore. <a href=\"http://www.labnol.org/internet/gmail-language-filter-reduces-spam/9000/\" rel=\"nofollow\">This guy said</a> that Gmail could search emails by language using <code>lang:[code]</code>, like <code>lang:ru</code> for Russian. More <a href=\"https://cloud.google.com/translate/v2/using_rest#language-params\" rel=\"nofollow\">language codes should be here</a>. I don't think I have any emails like that so couldn't test, but trying <code>lang:en</code> didn't show any hits, so it looks like it's no longer available.</p>\n\n<hr>\n\n<p>Or, you could try a filter for the \"false positive\" spam you frequently see and keep those out of the spam folder, maybe search for your name or something unique? That would probably result in a lot of spam not in the spam folder though.</p>\n",
+        "author": "Xen2050"
+      },
+      "training": false
+    },
+    {
+      "author": "spinodal",
+      "url": "http://webapps.stackexchange.com/questions/23019/embedding-stop-time-in-a-youtube-video-link",
+      "text": "Embedding stop time in a YouTube video link",
+      "entities": [
+        {
+          "text": "YouTube",
+          "entity": "WebService",
+          "stop": 32,
+          "start": 25
+        }
+      ],
+      "intent": "None",
+      "answer": {
+        "text": "<p>According to the official <a href=\"http://code.google.com/apis/youtube/player_parameters.html\" rel=\"nofollow\">YouTube Embedded Player Parameters</a> page, <a href=\"http://code.google.com/apis/youtube/player_parameters.html#start\" rel=\"nofollow\">start time</a> and <a href=\"http://code.google.com/apis/youtube/player_parameters.html#end\" rel=\"nofollow\">end time</a> are both now possible.</p>\n",
+        "author": "Mehper C. Palavuzlar"
+      },
+      "training": false
+    },
+    {
+      "author": "Ryan",
+      "url": "http://webapps.stackexchange.com/questions/15495/is-there-a-catch-to-paypals-premier-account-type",
+      "text": "Is there a catch to PayPal's Premier account type?",
+      "entities": [
+        {
+          "text": "PayPal",
+          "entity": "WebService",
+          "stop": 26,
+          "start": 20
+        }
+      ],
+      "intent": "None",
+      "answer": {
+        "text": "<p>Here is the different between Personal Accounts and Premier/Business Accounts</p>\n\n<p><a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=p/gen/fees-outside\" rel=\"nofollow\">Comparison of Personal and Premier/Business Paypal accounts</a></p>\n\n<p>And from <a href=\"http://wiki.answers.com/Q/How_do_you_downgrade_a_PayPal_account\" rel=\"nofollow\">Answers.com</a> here's how to downgrade your account (only once allowed):</p>\n\n<ol>\n<li>Log into your PayPal account, select\nContact Us, then Email Us.</li>\n<li>Under Select a Topic, choose \"My\nAccount\" and then \"Downgrade\nAccount\" (if available) or \"Changing\nAccount Type\".</li>\n<li>Summarise you question in box 3 -\ne.g. I would like to downgrade my\naccount - and use the Continue\nbutton.</li>\n</ol>\n\n<p><em>You can only downgrade your account once.</em></p>\n",
+        "author": "l0Ft"
+      },
+      "training": false
+    },
+    {
+      "author": "tealhill",
+      "url": "http://webapps.stackexchange.com/questions/29015/how-can-i-get-okcupid-search-to-show-only-matches-within-5-miles-of-me",
+      "text": "How can I get OkCupid search to show only matches within 5 miles of me?",
+      "entities": [
+        {
+          "text": "OkCupid",
+          "entity": "WebService",
+          "stop": 21,
+          "start": 14
+        }
+      ],
+      "intent": "None",
+      "answer": {
+        "text": "<p>OkCupid have kindly <a href=\"http://www.reddit.com/r/OkCupid/comments/1lt40h/5_and_10_mikm_radius_options_now_available/\" rel=\"nofollow\">finally made this easy to achieve</a>.</p>\n\n<ol>\n<li><p>Visit <a href=\"http://www.okcupid.com/match\" rel=\"nofollow\">http://www.okcupid.com/match</a>.</p></li>\n<li><p>Click on the drop-down list which lets you choose your search radius.</p></li>\n<li><p>Choose \"5 miles\".</p></li>\n<li><p>Click the big blue \"Search\" button.</p></li>\n</ol>\n\n<p>If you want an even finer-grained search, tell OkCupid to <a href=\"http://www.reddit.com/r/OkCupid/comments/1lt40h/5_and_10_mikm_radius_options_now_available/cc2i20v\" rel=\"nofollow\">show only matches within 5 kilometers</a>. Kilometers are smaller than miles; 5 kilometers equal approximately 3.1 miles.</p>\n\n<p><strong>NOTE:</strong> For non-US users, OkCupid's 5-mile and 10-mile proximity filters <a href=\"http://webapps.stackexchange.com/questions/60101/why-is-okcupid-showing-me-matches-who-live-more-than-5-kilometers-away\">usually don't work as expected</a>. Outside the US, these filters can't narrow down search results within cities.</p>\n",
+        "author": "tealhill"
+      },
+      "training": false
+    },
+    {
+      "author": "Alex B",
+      "url": "http://webapps.stackexchange.com/questions/2781/how-do-i-download-a-youtube-video",
+      "text": "How do I download a YouTube video?",
+      "entities": [
+        {
+          "text": "YouTube",
+          "entity": "WebService",
+          "stop": 27,
+          "start": 20
+        }
+      ],
+      "intent": "Download Video",
+      "answer": {
+        "text": "<p>If you're using Firefox as your browser, there are a wealth of addons available for the purpose. Personally I use <a href=\"https://addons.mozilla.org/en-US/firefox/addon/7447/\">NetVideoHunter</a>. It suits the way I work. Other options are;</p>\n\n<ul>\n<li><p><a href=\"https://addons.mozilla.org/en-US/firefox/addon/3006/\">Video DownloadHelper</a></p></li>\n<li><p><a href=\"https://addons.mozilla.org/en-US/firefox/addon/13990/\">1-Click YouTube Video Download</a></p></li>\n</ul>\n\n<p>There are plenty of others..</p>\n\n<hr>\n\n<p>For Google Chrome, you could try:</p>\n\n<ul>\n<li><a href=\"http://www.chromeextensions.org/music-videos-photos/youtube-downloader/\">YouTube Downloader - 1.1</a></li>\n</ul>\n\n<hr>\n\n<p>Opera has a number of widgets available for the same purpose, but I know nothing about them, like wise Internet&nbsp;Explorer, I haven't used that in years...</p>\n\n<p>Alternatively there is a really useful bookmarklet at <a href=\"http://clipnabber.com/\">Clipnabber</a>.</p>\n",
+        "author": "Pulse"
+      },
+      "training": true
+    },
+    {
+      "author": "TRiG",
+      "url": "http://webapps.stackexchange.com/questions/10002/how-do-i-change-my-password-on-tv-tropes",
+      "text": "How do I change my password on TV Tropes?",
+      "entities": [
+        {
+          "text": "TV Tropes",
+          "entity": "WebService",
+          "stop": 40,
+          "start": 31
+        }
+      ],
+      "intent": "Change Password",
+      "answer": {
+        "text": "<p>It can be reset at <a href=\"http://tvtropes.org/pmwiki/password_reset.php\" rel=\"nofollow\">http://tvtropes.org/pmwiki/password_reset.php</a> .  I don't know if this is new, or the thread is just a manual alternative.</p>\n",
+        "author": "Matthew Flaschen"
+      },
+      "training": true
+    },
+    {
+      "author": "John Doe",
+      "url": "http://webapps.stackexchange.com/questions/14209/why-cant-i-change-my-password-and-login-with-skype",
+      "text": "Why can't I change my password and login with Skype?",
+      "entities": [
+        {
+          "text": "Skype",
+          "entity": "WebService",
+          "stop": 51,
+          "start": 46
+        }
+      ],
+      "intent": "Change Password",
+      "answer": {
+        "text": "<p>Not being snarky - have you tried another browser? Perhaps it's not rendering quite right in Chrome but it might work in IE or Firefox.</p>\n",
+        "author": "2rs2ts"
+      },
+      "training": true
+    }
+  ]
+}

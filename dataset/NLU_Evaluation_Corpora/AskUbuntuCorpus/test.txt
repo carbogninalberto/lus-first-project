@@ -1,0 +1,472 @@
+How	O
+to	O
+upgrade	O
+Ubuntu	O
+14.04.1	B-UbuntuVersion
+to	O
+14.04.2	B-UbuntuVersion
+?	O
+
+Upgrading	O
+from	O
+Ubuntu	O
+14.04	B-UbuntuVersion
+to	O
+15.04	B-UbuntuVersion
+
+how	O
+to	O
+upgrade	O
+from	O
+ubuntu	O
+15.04	B-UbuntuVersion
+to	O
+15.10	B-UbuntuVersion
+?	O
+
+Upgrade	O
+12.04	B-UbuntuVersion
+to	O
+12.10	B-UbuntuVersion
+using	O
+startup	O
+disk	O
+
+How	O
+to	O
+Upgrade	O
+from	O
+11.10	B-UbuntuVersion
+to	O
+12.04	B-UbuntuVersion
+when	O
+you've	O
+got	O
+a	O
+problem	O
+?	O
+
+Update	O
+11.04	B-UbuntuVersion
+to	O
+12.04	B-UbuntuVersion
+with	O
+LiveCD	O
+
+How	O
+to	O
+upgrade	O
+Ubuntu	O
+9.10	B-UbuntuVersion
+to	O
+12.10	B-UbuntuVersion
+via	O
+terminal	O
+?	O
+
+How	O
+to	O
+upgrade	O
+from	O
+Ubuntu	O
+10.10	B-UbuntuVersion
+to	O
+11.04	B-UbuntuVersion
+?	O
+
+No	O
+matter	O
+what	O
+I	O
+do	O
+Ubuntu	O
+15.04	B-UbuntuVersion
+does	O
+not	O
+recognize	O
+HP	B-Printer
+LaserJet	I-Printer
+1020	I-Printer
+
+How	O
+to	O
+setup	O
+HP	O
+printer/scanner	O
+on	O
+ubuntu	O
+?	O
+
+How	O
+do	O
+I	O
+setup	O
+my	O
+HP	B-Printer
+C4140	I-Printer
+printer	O
+wirelessly	O
+?	O
+
+How	O
+to	O
+setup	O
+wireless	O
+printing	O
+from	O
+a	O
+printer	O
+connected	O
+via	O
+usb	O
+on	O
+Ubuntu	O
+Server	O
+12.10	B-UbuntuVersion
+?	O
+
+How	O
+can	O
+I	O
+install	O
+a	O
+Pantum	B-Printer
+2502W	I-Printer
+laser	O
+printer	O
+on	O
+Ubuntu	O
+
+Install	O
+Canon	B-Printer
+MP560	I-Printer
+Ubuntu	O
+15.04	B-UbuntuVersion
+
+How	O
+to	O
+install	O
+a	O
+Brother	B-Printer
+MFC-5890CN	I-Printer
+network	O
+printer	O
+?	O
+
+How	O
+do	O
+I	O
+install	O
+drivers	O
+for	O
+a	O
+Konica	B-Printer
+Minolta	I-Printer
+200	I-Printer
+?	O
+
+How	O
+do	O
+I	O
+install	O
+drivers	O
+for	O
+the	O
+Panasonic	B-Printer
+MB1900CX	I-Printer
+All-in-One	O
+Printer/Scanner	O
+?	O
+
+How	O
+To	O
+Install	O
+Canon	B-Printer
+LBP2900B	I-Printer
+printer	O
+in	O
+14.04	B-UbuntuVersion
+LTS	I-UbuntuVersion
+	O
+?	O
+I	O
+tried	O
+the	O
+method	O
+for	O
+LBP2900	O
+but	O
+it	O
+didnt	O
+work	O
+
+Any	O
+command	O
+line	O
+calculator	O
+for	O
+Ubuntu	O
+?	O
+
+Extracting	O
+embedded	O
+images	O
+from	O
+a	O
+PDF	O
+
+What	O
+to	O
+use	O
+to	O
+quickly	O
+cut	O
+Audio/Video	O
+
+Torrent	O
+client	O
+for	O
+the	O
+command-line	O
+?	O
+
+MySQL	B-SoftwareName
+GUI	O
+Tools	O
+
+What	O
+developer	O
+text	O
+editors	O
+are	O
+available	O
+for	O
+Ubuntu	O
+?	O
+
+What	O
+screenshot	O
+tools	O
+are	O
+available	O
+?	O
+
+Which	O
+programs	O
+can	O
+I	O
+use	O
+to	O
+edit	O
+PDF	O
+files	O
+?	O
+
+Is	O
+there	O
+a	O
+lightweight	O
+tool	O
+to	O
+crop	O
+images	O
+quickly	O
+?	O
+
+What	O
+IRC	B-SoftwareName
+clients	O
+are	O
+available	O
+?	O
+
+What	O
+new	O
+games	O
+are	O
+available	O
+for	O
+Ubuntu	O
+in	O
+2011	O
+?	O
+
+UPNP	O
+/	O
+DLNA	O
+(client)	O
+player	O
+recommendations	O
+?	O
+
+What	O
+scientific	O
+plotting	O
+software	O
+is	O
+available	O
+?	O
+
+Can	O
+you	O
+recommend	O
+a	O
+password	O
+generator	O
+?	O
+
+What	O
+tools	O
+do	O
+you	O
+use	O
+to	O
+monitor	O
+a	O
+web	O
+server	O
+?	O
+
+What	O
+is	O
+a	O
+good	O
+MongoDB	B-SoftwareName
+GUI	O
+client	O
+?	O
+
+Password	O
+Management	O
+Applications	O
+?	O
+
+Is	O
+there	O
+an	O
+application	O
+for	O
+reading	O
+mobi	O
+files	O
+?	O
+
+shut	O
+down	O
+without	O
+extra	O
+question	O
+
+How	O
+to	O
+shutdown	O
+computer	O
+when	O
+users	O
+are	O
+logged	O
+on	O
+?	O
+
+What	O
+is	O
+the	O
+proper	O
+terminal-way	O
+to	O
+shutdown	O
+?	O
+
+How	O
+can	O
+I	O
+automatically	O
+shutdown	O
+the	O
+system	O
+after	O
+a	O
+specific	O
+time	O
+?	O
+
+Hotkey	O
+to	O
+shut	O
+down	O
+from	O
+login	O
+screen	O
+?	O
+
+How	O
+to	O
+shutdown	O
+the	O
+computer	O
+after	O
+Xsession	O
+ends	O
+?	O
+
+How	O
+can	O
+one	O
+shutdown	O
+a	O
+PC	O
+using	O
+the	O
+keyboard	O
+?	O
+
+How	O
+can	O
+I	O
+enable	O
+shutdown	O
+verbosity	O
+?	O
+
+Are	O
+there	O
+any	O
+Keyboard	O
+Shortcuts	O
+to	O
+Shutdown	O
+?	O
+
+Shutdown	O
+after	O
+a	O
+certain	O
+time	O
+
+Shutdown	O
+problem	O
+in	O
+Ubuntu	B-UbuntuVersion
+16.04	I-UbuntuVersion
+
+How	O
+do	O
+I	O
+fix	O
+a	O
+shutdown	O
+problem	O
+?	O
+
+What	O
+graphical	O
+utility	O
+can	O
+I	O
+use	O
+for	O
+Ubuntu	O
+auto	O
+shutdown	O
+?	O
+
